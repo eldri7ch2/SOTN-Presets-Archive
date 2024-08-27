@@ -1,0 +1,3758 @@
+{
+  "metadata": {
+    "id": "lostkeys",
+    "name": "Lost Keys",
+    "description": "Red doors require Jewel of Open, will have to find another way to get through the map...",
+    "author": "Forat Negre",
+    "weight": -900
+  },
+  "inherits": "safe",
+  "stats": false,
+  "relicLocationsExtension": "equipment",
+
+  "replaceRelic": [{
+    "relic": "Nosedevil Card",
+    "item": "Orange"
+  }, {
+    "relic": "Ghost Card",
+    "item": "Apple"
+  }, {
+    "relic": "Force of Echo",
+    "item": "Banana"
+  }, {
+    "relic": "Fire of Bat",
+    "item": "Grapes"
+  }, {
+    "relic": "Sprite Card",
+    "item": "Strawberry"
+  }, {
+    "relic": "Faerie Card",
+    "item": "Pineapple"
+  }, {
+    "relic": "Sword Card",
+    "item": "Peanuts"
+  }, {
+    "relic": "Gas Cloud",
+    "item": "Toadstool"
+  }, {
+    "relic": "Power of Mist",
+    "item": "Shiitake"
+  }, {
+    "relic": "Cube of Zoe",
+    "item": "Cheesecake"
+  }, {
+    "relic": "Spirit Orb",
+    "item": "Shortcake"
+  }, {
+    "relic": "Holy Symbol",
+    "item": "Tart"
+  }, {
+    "relic": "Faerie Scroll",
+    "item": "Parfait"
+  }],
+
+  "alias": [{
+    "relic": "Nosedevil Card",
+    "alias": "Entrance"
+  }, {
+    "relic": "Ghost Card",
+    "alias": "Alchemy Lab"
+  }, {
+    "relic": "Force of Echo",
+    "alias": "Marble Gallery"
+  }, {
+    "relic": "Fire of Bat",
+    "alias": "Outer Wall"
+  }, {
+    "relic": "Sprite Card",
+    "alias": "Long Library"
+  }, {
+    "relic": "Faerie Card",
+    "alias": "Royal Chapel"
+  }, {
+    "relic": "Sword Card",
+    "alias": "Castle Keep"
+  }, {
+    "relic": "Gas Cloud",
+    "alias": "Olrox Quarters"
+  }, {
+    "relic": "Power of Mist",
+    "alias": "Colosseum"
+  }, {
+    "relic": "Cube of Zoe",
+    "alias": "Caverns"
+  }, {
+    "relic": "Spirit Orb",
+    "alias": "Mines"
+  }, {
+    "relic": "Holy Symbol",
+    "alias": "Catacombs"
+  }, {
+    "relic": "Faerie Scroll",
+    "alias": "Clock Tower"
+  }],
+
+  "placeRelic": [{
+    "comment": "Force a warper at Cube of Zoe",
+    "location": "Cube of Zoe",
+    "relic": [
+      "Outer Wall",
+      "Long Library",
+      "Royal Chapel",
+      "Caverns",
+      "Mines",
+      "Catacombs"
+    ]
+  }, {
+    "comment": "Remove Clock Puzzle",
+    "location": "Gold plate",
+    "relic": null
+  }, {
+    "comment": "Remove Reverse Clock Puzzle",
+    "location": "Sunstone",
+    "relic": null
+  }],
+
+  "complexityGoal": {
+    "min": 9,
+    "goals": [
+      "Holy glasses + Castle Keep + Jewel of Open + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+ "blockItems": [{
+    "zone": "*",
+    "item": "*",
+    "replacement": [
+      "Meal ticket",
+      "Library card",
+      "Orange",
+      "Apple",
+      "Banana",
+      "Grapes",
+      "Strawberry",
+      "Pineapple",
+      "Peanuts",
+      "Toadstool",
+      "Shiitake",
+      "Cheesecake",
+      "Shortcake",
+      "Tart",
+      "Parfait"
+    ]
+  }],
+
+  "blockDrops": [{
+    "enemy": "*",
+    "items": [
+      "Meal ticket",
+      "Library card",
+      "Orange",
+      "Apple",
+      "Banana",
+      "Grapes",
+      "Strawberry",
+      "Pineapple",
+      "Peanuts",
+      "Toadstool",
+      "Shiitake",
+      "Cheesecake",
+      "Shortcake",
+      "Tart",
+      "Parfait"
+    ]
+  }],
+
+  "enemyDrops": [{
+    "enemy": "Flea Man",
+    "comment": "Make sure the flea men drop Stopwatch since there's no Cube of Zoe",
+    "items": ["Stopwatch", "Holy Water"]
+  }],
+
+  "lockLocation": [{
+    "location": "Cube of Zoe",
+    "locks": [],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Basilard",
+    "locks": [
+      "Alchemy Lab + Gravity Boots + Leap Stone",
+      "Alchemy Lab + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Spirit Orb",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Jewel of Open",
+    "locks": [
+      "Long Library + Form of Mist + Leap Stone",
+      "Long Library + Form of Mist + Gravity Boots",
+      "Long Library + Form of Mist + Soul of Bat",
+      "Jewel of Open"
+    ],
+    "block": [
+      "Jewel of Open",
+      "Entrance",
+      "Alchemy Lab",
+      "Marble Gallery",
+      "Outer Wall",
+      "Long Library",
+      "Royal Chapel",
+      "Castle Keep",
+      "Olrox Quarters",
+      "Colosseum",
+      "Caverns",
+      "Mines",
+      "Catacombs",
+      "Clock Tower"
+    ]
+  }, {
+    "location": "Bronze cuirass",
+    "locks": [
+      "Long Library + Form of Mist + Leap Stone",
+      "Long Library + Form of Mist + Gravity Boots",
+      "Long Library + Form of Mist + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Faerie Scroll",
+    "locks": [
+      "Long Library + Form of Mist + Leap Stone",
+      "Long Library + Form of Mist + Gravity Boots",
+      "Long Library + Form of Mist + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Soul of Wolf",
+    "locks": [
+      "Outer Wall",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Gladius",
+    "locks": [
+      "Outer Wall",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Jewel knuckles",
+    "locks": [
+      "Outer Wall",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Soul of Bat",
+    "locks": [
+      "Long Library",
+      "Jewel of Open + Form of Mist + Leap Stone",
+      "Jewel of Open + Form of Mist + Gravity Boots",
+      "Jewel of Open + Form of Mist + Soul of Bat"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Fire of Bat",
+    "locks": [
+      "Clock Tower + Gravity Boots + Leap Stone",
+      "Clock Tower + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Echo of Bat",
+    "comment": "Requires transformation and flight or wolf jump",
+    "locks": [
+      "Olrox Quarters + Soul of Wolf + Power of Wolf",
+      "Olrox Quarters + Soul of Wolf + Gravity Boots",
+      "Olrox Quarters + Soul of Bat",
+      "Jewel of Open + Soul of Wolf + Leap Stone + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Force of Echo",
+    "comment": "In second castle, requires flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Caverns + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Power of Wolf",
+    "locks": [
+      "Entrance + Gravity Boots + Leap Stone",
+      "Entrance + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Skill of Wolf",
+    "locks": [
+      "Alchemy Lab + Gravity Boots + Leap Stone",
+      "Alchemy Lab + Soul of Bat",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Form of Mist",
+    "comment": "Entire section requires Mist or at least Gravity Boots",
+    "locks": [
+      "Colosseum + Form of Mist",
+      "Colosseum + Gravity Boots",
+      "Colosseum + Soul of Bat",
+      "Jewel of Open + Form of Mist + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Power of Mist",
+    "locks": [
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Gas Cloud",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Castle Keep + Catacombs + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Catacombs + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ],
+    "block": ["Soul of Bat"]
+  }, {
+    "location": "Gravity Boots",
+    "locks": [
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Leap Stone",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Holy Symbol",
+    "locks": [
+      "Caverns + Merman Statue + Gravity Boots + Leap Stone",
+      "Caverns + Merman Statue + Soul of Bat",
+      "Jewel of Open + Merman Statue"
+    ]
+  }, {
+    "location": "Merman Statue",
+    "locks": [
+      "Caverns",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Bat Card",
+    "locks": [
+      "Alchemy Lab + Gravity Boots + Leap Stone",
+      "Alchemy Lab + Soul of Bat",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Ghost Card",
+    "locks": [
+      "Castle Keep + Gravity Boots + Leap Stone",
+      "Castle Keep + Soul of Bat"
+    ]
+  }, {
+    "location": "Faerie Card",
+    "locks": [
+      "Long Library + Form of Mist + Leap Stone",
+      "Long Library + Form of Mist + Gravity Boots",
+      "Long Library + Form of Mist + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Demon Card",
+    "locks": [
+      "Mines + Leap Stone",
+      "Mines + Gravity Boots",
+      "Mines + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Sword Card",
+    "locks": [
+      "Olrox Quarters + Gravity Boots",
+      "Olrox Quarters + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Heart of Vlad",
+    "comment": "In second castle, requires flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Royal Chapel + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Royal Chapel + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Tooth of Vlad",
+    "comment": "In second castle, requires at least gravity boots",
+    "locks": [
+      "Holy glasses + Castle Keep + Outer Wall + Gravity Boots",
+      "Holy glasses + Castle Keep + Outer Wall + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Rib of Vlad",
+    "comment": "In second castle, requires a transformation",
+    "locks": [
+      "Holy glasses + Castle Keep + Olrox Quarters + Soul of Wolf",
+      "Holy glasses + Castle Keep + Olrox Quarters + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Wolf + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Ring of Vlad",
+    "comment": "In second castle, requires flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Soul of Bat"
+    ]
+  }, {
+    "location": "Eye of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Castle Keep + Mines",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Spike Breaker",
+    "locks": [
+      "Catacombs",
+      "Jewel of Open + Soul of Bat + Echo of Bat",
+      "Jewel of Open + Spike Breaker + Leap Stone",
+      "Jewel of Open + Spike Breaker + Gravity Boots"
+    ]
+  }, {
+    "location": "Gold ring",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Silver ring",
+    "locks": [
+      "Jewel of Open + Spike Breaker + Form of Mist"
+    ]
+  }, {
+    "location": "Holy glasses",
+    "locks": [
+      "Jewel of Open + Silver ring + Gold ring"
+    ]
+  }, {
+    "location": "Crystal cloak",
+    "comment": "Scylla",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Mormegil",
+    "comment": "Granfaloon",
+    "locks": [
+      "Catacombs + Soul of Bat",
+      "Catacombs + Spike Breaker + Leap Stone",
+      "Catacombs + Spike Breaker + Gravity Boots",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Dark Blade",
+    "comment": "In second castle, requires flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Caverns + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Ring of Arcana",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Castle Keep + Alchemy Lab + Leap Stone",
+      "Holy glasses + Castle Keep + Alchemy Lab + Gravity Boots",
+      "Holy glasses + Castle Keep + Alchemy Lab + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Trio",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Castle Keep + Colosseum + Gravity Boots",
+      "Holy glasses + Castle Keep + Colosseum + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Holy mail",
+    "locks": [
+      "Entrance + Leap Stone",
+      "Entrance + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Sunglasses",
+    "locks": [
+      "Alchemy Lab + Gravity Boots + Leap Stone",
+      "Alchemy Lab + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Cloth cape",
+    "locks": [
+      "Alchemy Lab + Gravity Boots + Leap Stone",
+      "Alchemy Lab + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Jewel sword",
+    "locks": [
+      "Entrance + Soul of Wolf + Soul of Bat",
+      "Jewel of Open + Soul of Wolf + Soul of Bat"
+    ]
+  }, {
+    "location": "Mystic pendant",
+    "locks": [
+      "Royal Chapel + Leap Stone",
+      "Royal Chapel + Gravity Boots",
+      "Royal Chapel + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Ankh of Life",
+    "locks": [
+      "Royal Chapel + Leap Stone",
+      "Royal Chapel + Gravity Boots",
+      "Royal Chapel + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Morningstar",
+    "locks": [
+      "Royal Chapel + Leap Stone",
+      "Royal Chapel + Gravity Boots",
+      "Royal Chapel + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Goggles",
+    "locks": [
+      "Royal Chapel",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Silver plate",
+    "locks": [
+      "Royal Chapel",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Cutlass",
+    "locks": [
+      "Royal Chapel",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Platinum mail",
+    "locks": [
+      "Castle Keep"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Falchion",
+    "locks": [
+      "Castle Keep + Leap Stone",
+      "Castle Keep + Gravity Boots",
+      "Castle Keep + Soul of Bat"
+    ]
+  }, {
+    "location": "Gold plate",
+    "comment": "Clock puzzle",
+    "locks": [
+      "Clock Tower",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Bekatowa",
+    "locks": [
+      "Clock Tower + Gravity Boots",
+      "Clock Tower + Soul of Bat",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Holy rod",
+    "locks": [
+      "Long Library + Form of Mist + Leap Stone",
+      "Long Library + Form of Mist + Gravity Boots",
+      "Long Library + Form of Mist + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Library Onyx",
+    "locks": [
+      "Long Library + Form of Mist",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Alucart sword",
+    "locks": [
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Broadsword",
+    "locks": [
+      "Olrox Quarters + Gravity Boots",
+      "Olrox Quarters + Soul of Bat",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Estoc",
+    "comment": "Requires flight",
+    "locks": [
+      "Olrox Quarters + Gravity Boots",
+      "Olrox Quarters + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Olrox Garnet",
+    "locks": [
+      "Olrox Quarters + Gravity Boots",
+      "Olrox Quarters + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Blood cloak",
+    "locks": [
+      "Colosseum",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Shield rod",
+    "locks": [
+      "Colosseum + Form of Mist",
+      "Colosseum + Gravity Boots",
+      "Colosseum + Soul of Bat",
+      "Jewel of Open + Form of Mist + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Knight shield",
+    "locks": [
+      "Colosseum + Form of Mist",
+      "Colosseum + Gravity Boots",
+      "Colosseum + Soul of Bat",
+      "Jewel of Open + Form of Mist + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Holy sword",
+    "locks": [
+      "Colosseum + Gravity Boots",
+      "Colosseum + Soul of Bat",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Bandanna",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Secret boots",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open + Gravity Boots + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Nunchaku",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Knuckle duster",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Caverns Onyx",
+    "locks": [
+      "Caverns + Gravity Boots + Leap Stone",
+      "Caverns + Soul of Bat",
+      "Jewel of Open + Merman Statue",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Combat knife",
+    "locks": [
+      "Mines",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Ring of Ares",
+    "locks": [
+      "Demon Card + Mines + Leap Stone",
+      "Demon Card + Mines + Gravity Boots",
+      "Demon Card + Mines + Soul of Bat",
+      "Demon Card + Jewel of Open + Leap Stone",
+      "Demon Card + Jewel of Open + Gravity Boots",
+      "Demon Card + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Bloodstone",
+    "locks": [
+      "Catacombs + Soul of Bat",
+      "Catacombs + Spike Breaker + Leap Stone",
+      "Catacombs + Spike Breaker + Gravity Boots",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Icebrand",
+    "locks": [
+      "Catacombs + Soul of Bat",
+      "Catacombs + Spike Breaker + Leap Stone",
+      "Catacombs + Spike Breaker + Gravity Boots",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Beryl circlet",
+    "locks": [
+      "Holy glasses + Castle Keep + Entrance + Soul of Bat + Soul of Wolf",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat + Soul of Wolf"
+    ]
+  }, {
+    "location": "Walk armor",
+    "locks": [
+      "Catacombs + Soul of Bat",
+      "Catacombs + Spike Breaker + Leap Stone",
+      "Catacombs + Spike Breaker + Gravity Boots",
+      "Jewel of Open + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Talisman",
+    "locks": [
+      "Holy glasses + Castle Keep + Entrance + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Entrance + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Katana",
+    "locks": [
+      "Holy glasses + Castle Keep + Alchemy Lab + Gravity Boots",
+      "Holy glasses + Castle Keep + Alchemy Lab + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Goddess shield",
+    "locks": [
+      "Holy glasses + Castle Keep + Alchemy Lab + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Alchemy Lab + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Twilight cloak",
+    "locks": [
+      "Holy glasses + Castle Keep + Royal Chapel + Form of Mist + Soul of Bat",
+      "Holy glasses + Castle Keep + Royal Chapel + Form of Mist + Spike Breaker",
+      "Holy glasses + Castle Keep + Jewel of Open + Form of Mist + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Form of Mist + Gravity Boots + Leap Stone + Spike Breaker"
+    ]
+  }, {
+    "location": "Talwar",
+    "locks": [
+      "Holy glasses + Castle Keep + Royal Chapel + Gravity Boots",
+      "Holy glasses + Castle Keep + Royal Chapel + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Sword of Dawn",
+    "locks": [
+      "Holy glasses + Castle Keep + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Soul of Bat"
+    ]
+  }, {
+    "location": "Bastard sword",
+    "locks": [
+      "Holy glasses + Castle Keep"
+    ]
+  }, {
+    "location": "Royal cloak",
+    "locks": [
+      "Holy glasses + Castle Keep"
+    ]
+  }, {
+    "location": "Lightning mail",
+    "locks": [
+      "Holy glasses + Castle Keep + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Soul of Bat"
+    ]
+  }, {
+    "location": "Moon rod",
+    "locks": [
+      "Holy glasses + Castle Keep + Clock Tower + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Clock Tower + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Sunstone",
+    "comment": "Reverse Clock Puzzle",
+    "locks": [
+      "Holy glasses + Castle Keep + Clock Tower + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Clock Tower + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Luminus",
+    "locks": [
+      "Holy glasses + Castle Keep + Clock Tower + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Clock Tower + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Dragon helm",
+    "locks": [
+      "Holy glasses + Castle Keep + Clock Tower",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Shotel",
+    "locks": [
+      "Holy glasses + Castle Keep + Outer Wall + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Outer Wall + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Staurolite",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Long Library",
+      "Holy glasses + Castle Keep + Jewel of Open + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Form of Mist + Soul of Bat"
+    ]
+  }, {
+    "location": "Badelaire",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Long Library + Leap Stone",
+      "Holy glasses + Castle Keep + Long Library + Gravity Boots",
+      "Holy glasses + Castle Keep + Long Library + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Forbidden Library Opal",
+    "locks": [
+      "Holy glasses + Castle Keep + Long Library + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Long Library + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Caverns Diamond",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Caverns + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Caverns Opal",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Caverns + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Caverns Garnet",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Osafune katana",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Alucard shield",
+    "locks": [
+      "Holy glasses + Castle Keep + Caverns",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Alucard sword",
+    "locks": [
+      "Holy glasses + Castle Keep + Mines",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Necklace of J",
+    "locks": [
+      "Holy glasses + Castle Keep + Catacombs + Soul of Bat",
+      "Holy glasses + Castle Keep + Catacombs + Spike Breaker + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Floating Catacombs Diamond",
+    "locks": [
+      "Holy glasses + Castle Keep + Catacombs + Soul of Bat",
+      "Holy glasses + Castle Keep + Catacombs + Spike Breaker + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Sword of Hador",
+    "locks": [
+      "Holy glasses + Castle Keep + Olrox Quarters + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Olrox Quarters + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Alucard mail",
+    "locks": [
+      "Holy glasses + Castle Keep + Olrox Quarters + Gravity Boots",
+      "Holy glasses + Castle Keep + Olrox Quarters + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Gram",
+    "locks": [
+      "Holy glasses + Castle Keep + Colosseum + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Colosseum + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Fury plate",
+    "locks": [
+      "Holy glasses + Castle Keep + Colosseum",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Confessional",
+    "locks": [
+      "Royal Chapel",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Colosseum Green tea",
+    "locks": [
+      "Colosseum + Form of Mist",
+      "Colosseum + Gravity Boots",
+      "Colosseum + Soul of Bat",
+      "Jewel of Open + Form of Mist + Leap Stone",
+      "Jewel of Open + Gravity Boots",
+      "Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Clock Tower Cloaked knight",
+    "locks": [
+      "Clock Tower",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Waterfall Cave",
+    "locks": [
+      "Caverns",
+      "Jewel of Open"
+    ],
+    "block": ["Jewel of Open"]
+  }, {
+    "location": "Floating Catacombs Elixir",
+    "locks": [
+      "Holy glasses + Castle Keep + Catacombs",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone + Spike Breaker"
+    ]
+  }, {
+    "location": "Reverse Entrance Antivenom",
+    "locks": [
+      "Holy glasses + Castle Keep + Entrance + Gravity Boots",
+      "Holy glasses + Castle Keep + Entrance + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Forbidden Route",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Cave Life apple",
+    "locks": [
+      "Holy glasses + Castle Keep + Demon Card + Mines",
+      "Holy glasses + Castle Keep + Demon Card + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Demon Card + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Colosseum Zircon",
+    "locks": [
+      "Holy glasses + Castle Keep + Colosseum + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Colosseum + Soul of Bat",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Black Marble Gallery Vat",
+    "locks": [
+      "Holy glasses + Castle Keep + Jewel of Open + Marble Gallery + Gravity Boots",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Black Marble Meal Ticket",
+    "locks": [
+      "Holy glasses + Castle Keep + Marble Gallery",
+      "Holy glasses + Castle Keep + Jewel of Open + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Jewel of Open + Soul of Bat"
+    ]
+  }, {
+    "location": "Reverse Keep High Potion",
+    "locks": [
+      "Holy glasses + Castle Keep + Gravity Boots + Leap Stone",
+      "Holy glasses + Castle Keep + Soul of Bat"
+    ]
+  }],
+
+  "writes": [{
+    "comment": "Jump to injected code",
+    "address": "0x000FA97C",
+    "type": "word",
+    "value": "0x0C04DB00"
+  }, {
+    "address": "0x00158C98",
+    "type": "word",
+    "value": "0x34020001",
+    "comment": "ori v0, 0x0001"
+  }, {
+    "comment": "Write to 8003 RAM addresses,",
+    "type": "word",
+    "value": "0x3C038004",
+    "comment": "lui v1, 0x8004"
+  }, {
+    "comment": "Disable Olrox fight",
+    "type": "word",
+    "value": "0xA062CA2C",
+    "comment": "sb v0, 0xCA2C (v1)"
+  }, {
+    "comment": "Remove Ceiling Entity in Catacombs to prevent softlock",
+    "type": "word",
+    "value": "0xA062BE9F",
+    "comment": "sb v0, 0xBE9F (v1)"
+  }, {
+    "comment": "Save Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x37F70000"
+  }, {
+    "comment": "Call Map Acquisition Function (Map Code)",
+    "type": "word",
+    "value": "0x0C03C8A2"
+  }, {
+    "type": "word",
+    "value": "0x34040000",
+    "comment": "Arg0 w/ 0"
+  }, {
+    "comment": "Recall Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x36FF0000"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Return from injected code",
+    "type": "word",
+    "value": "0x0803924F",
+    "comment": "j 0x800e493c"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Item descriptions",
+    "type": "word",
+    "address": "0x0F341C",
+    "value": "0x74736143"
+  }, {
+    "type": "word",
+    "value": "0x7720656C"
+  }, {
+    "type": "word",
+    "value": "0x65707261"
+  }, {
+    "type": "word",
+    "value": "0x00000072"
+  }, {
+    "comment": "Item names",
+    "type": "word",
+    "address": "0x0F3438",
+    "value": "0x52544E25"
+  }, {
+    "type": "word",
+    "value": "0x45434E41"
+  }, {
+    "type": "word",
+    "value": "0x000000FF"
+  }, {
+    "type": "word",
+    "value": "0x48434C21"
+  }, {
+    "type": "word",
+    "value": "0x00594D45"
+  }, {
+    "type": "word",
+    "value": "0xFF42412C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x4252412D"
+  }, {
+    "type": "word",
+    "value": "0x2700454C"
+  }, {
+    "type": "word",
+    "value": "0x454C4C41"
+  }, {
+    "type": "word",
+    "value": "0x00FF5952"
+  }, {
+    "type": "word",
+    "value": "0x4554552F"
+  }, {
+    "type": "word",
+    "value": "0x41370052"
+  }, {
+    "type": "word",
+    "value": "0x00ff4C4C"
+  }, {
+    "type": "word",
+    "value": "0x474E4F2C"
+  }, {
+    "type": "word",
+    "value": "0x42492C00"
+  }, {
+    "type": "word",
+    "value": "0x59524152"
+  }, {
+    "type": "word",
+    "value": "0x000000FF"
+  }, {
+    "type": "word",
+    "value": "0x41594F32"
+  }, {
+    "type": "word",
+    "value": "0x4823004C"
+  }, {
+    "type": "word",
+    "value": "0x4C455041"
+  }, {
+    "type": "word",
+    "value": "0x000000FF"
+  }, {
+    "type": "word",
+    "value": "0x54534123"
+  }, {
+    "type": "word",
+    "value": "0x2B00454C"
+  }, {
+    "type": "word",
+    "value": "0xFF504545"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x4F524C2F"
+  }, {
+    "type": "word",
+    "value": "0x55310058"
+  }, {
+    "type": "word",
+    "value": "0x45545241"
+  }, {
+    "type": "word",
+    "value": "0x00FF5352"
+  }, {
+    "type": "word",
+    "value": "0x4F4C4F23"
+  }, {
+    "type": "word",
+    "value": "0x55455353"
+  }, {
+    "type": "word",
+    "value": "0x0000FF4D"
+  }, {
+    "type": "word",
+    "value": "0x45564123"
+  }, {
+    "type": "word",
+    "value": "0xFF534E52"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x454E492D"
+  }, {
+    "type": "word",
+    "value": "0x0000FF53"
+  }, {
+    "type": "word",
+    "value": "0x41544123"
+  }, {
+    "type": "word",
+    "value": "0x424D4F43"
+  }, {
+    "type": "word",
+    "value": "0x0000FF53"
+  }, {
+    "type": "word",
+    "value": "0x434F4C23"
+  }, {
+    "type": "word",
+    "value": "0x4F34004B"
+  }, {
+    "type": "word",
+    "value": "0xFF524557"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Item properties - Orange",
+    "type": "word",
+    "address": "0x0B17F0",
+    "value": "0x800DE5D0"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000007"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B181C",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Apple",
+    "type": "word",
+    "address": "0x0B1824",
+    "value": "0x800DE5DC"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x0000000C"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1850",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Banana",
+    "type": "word",
+    "address": "0x0B1858",
+    "value": "0x800DE5EC"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1884",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Grapes",
+    "type": "word",
+    "address": "0x0B188C",
+    "value": "0x800DE5FC"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000001"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B18B8",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Strawberry",
+    "type": "word",
+    "address": "0x0B18C0",
+    "value": "0x800DE608"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000002"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B18EC",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Pineapple",
+    "type": "word",
+    "address": "0x0B18F4",
+    "value": "0x800DE618"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000006"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1920",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Peanuts",
+    "type": "word",
+    "address": "0x0B1928",
+    "value": "0x800DE628"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x0000000B"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1954",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Toadstool",
+    "type": "word",
+    "address": "0x0B195C",
+    "value": "0x800DE638"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000004"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1988",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Shiitake",
+    "type": "word",
+    "address": "0x0B1990",
+    "value": "0x800DE648"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x0000000A"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B19BC",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Cheesecake",
+    "type": "word",
+    "address": "0x0B19C4",
+    "value": "0x800DE654"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000009"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B19F0",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Shortcake",
+    "type": "word",
+    "address": "0x0B19F8",
+    "value": "0x800DE660"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000005"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1A24",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Tart",
+    "type": "word",
+    "address": "0x0B1A2C",
+    "value": "0x800DE668"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x00000003"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1A58",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Item properties - Parfait",
+    "type": "word",
+    "address": "0x0B1A60",
+    "value": "0x800DE674"
+  }, {
+    "type": "word",
+    "value": "0x800DE5B4"
+  }, {
+    "type": "word",
+    "value": "0x0000000D"
+  }, {
+    "type": "word",
+    "value": "0xFF0A0000"
+  }, {
+    "type": "word",
+    "value": "0x37BE8300"
+  }, {
+    "type": "word",
+    "value": "0x00010014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0B1A8C",
+    "value": "0x0049004C"
+  }, {
+    "comment": "Red door requires Jewel of Open 1",
+    "type": "word",
+    "address": "0x04405EEC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 2",
+    "type": "word",
+    "address": "0x044D6EFC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 3",
+    "type": "word",
+    "address": "0x04572874",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 4",
+    "type": "word",
+    "address": "0x0460E26C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 5",
+    "type": "word",
+    "address": "0x046C96A0",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 6",
+    "type": "word",
+    "address": "0x047ED388",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 7",
+    "type": "word",
+    "address": "0x0494A3E0",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 8",
+    "type": "word",
+    "address": "0x04A0E9E4",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "Jewel of Open 9 is not included: Special case - Olrox door"
+  }, {
+    "comment": "Red door requires Jewel of Open 10",
+    "type": "word",
+    "address": "0x04AE434C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 11",
+    "type": "word",
+    "address": "0x04BB4B94",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 12",
+    "type": "word",
+    "address": "0x04C89098",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 13",
+    "type": "word",
+    "address": "0x04D38D58",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 14",
+    "type": "word",
+    "address": "0x04E70904",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 15",
+    "type": "word",
+    "address": "0x04F0D138",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 16",
+    "type": "word",
+    "address": "0x04FC71BC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 17",
+    "type": "word",
+    "address": "0x0507E6D0",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "Jewel of Open 18 is not included: Special case - Akmodan II"
+  }, {
+    "comment": "Red door requires Jewel of Open 19",
+    "type": "word",
+    "address": "0x05139AA8",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 20",
+    "type": "word",
+    "address": "0x051EB358",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 21",
+    "type": "word",
+    "address": "0x052C2BDC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 22",
+    "type": "word",
+    "address": "0x0537AC18",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 23",
+    "type": "word",
+    "address": "0x054390F4",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 24",
+    "type": "word",
+    "address": "0x054F5BBC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 25",
+    "type": "word",
+    "address": "0x055A873C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 26",
+    "type": "word",
+    "address": "0x05645BC8",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 27",
+    "type": "word",
+    "address": "0x056E5D54",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 28",
+    "type": "word",
+    "address": "0x05780268",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 29",
+    "type": "word",
+    "address": "0x0580A24C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 30",
+    "type": "word",
+    "address": "0x0588FAC0",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 31",
+    "type": "word",
+    "address": "0x059F1C28",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 32",
+    "type": "word",
+    "address": "0x05A7CE50",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 33",
+    "type": "word",
+    "address": "0x05B0FC78",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 34",
+    "type": "word",
+    "address": "0x05FF1EF4",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 35",
+    "type": "word",
+    "address": "0x0609BB38",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 36",
+    "type": "word",
+    "address": "0x0612D078",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 37",
+    "type": "word",
+    "address": "0x061D54FC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 38",
+    "type": "word",
+    "address": "0x06288A34",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 39",
+    "type": "word",
+    "address": "0x0633473C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 40",
+    "type": "word",
+    "address": "0x063DD3FC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 41",
+    "type": "word",
+    "address": "0x064915EC",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 42",
+    "type": "word",
+    "address": "0x0651A8C8",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 43",
+    "type": "word",
+    "address": "0x065ABF0C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 44",
+    "type": "word",
+    "address": "0x0664A808",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 45",
+    "type": "word",
+    "address": "0x066D0080",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 46",
+    "type": "word",
+    "address": "0x0675B330",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 47",
+    "type": "word",
+    "address": "0x067EFB34",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 48",
+    "type": "word",
+    "address": "0x068A1E38",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 49",
+    "type": "word",
+    "address": "0x06959604",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 50",
+    "type": "word",
+    "address": "0x069EDA7C",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Red door requires Jewel of Open 51",
+    "type": "word",
+    "address": "0x06A80010",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x80427974"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x104000EB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library card effect - New warps [Caller]",
+    "type": "word",
+    "address": "0x12A49C",
+    "value": "0x0804D98C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library card effect - New warps",
+    "type": "word",
+    "address": "0x158598",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0xA4243406"
+  }, {
+    "type": "word",
+    "value": "0x10800003"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0804390F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C018009"
+  }, {
+    "type": "word",
+    "value": "0x843474A0"
+  }, {
+    "type": "word",
+    "value": "0x86350008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x32940020"
+  }, {
+    "type": "word",
+    "value": "0x12800002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x26B50020"
+  }, {
+    "type": "word",
+    "value": "0x8C367928"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0015B040"
+  }, {
+    "type": "word",
+    "value": "0x02D5B021"
+  }, {
+    "type": "word",
+    "value": "0x0016B080"
+  }, {
+    "type": "word",
+    "value": "0x02D5B023"
+  }, {
+    "type": "word",
+    "value": "0x0016B080"
+  }, {
+    "type": "word",
+    "value": "0x3C01800A"
+  }, {
+    "type": "word",
+    "value": "0x00360821"
+  }, {
+    "type": "word",
+    "value": "0x84363C40"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Marble Gallery",
+    "type": "word",
+    "value": "0x34140000"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100120"
+  }, {
+    "type": "word",
+    "value": "0x341100A4"
+  }, {
+    "type": "word",
+    "value": "0x34130060"
+  }, {
+    "comment": "Outer Wall",
+    "type": "word",
+    "value": "0x34140001"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100120"
+  }, {
+    "type": "word",
+    "value": "0x34110080"
+  }, {
+    "type": "word",
+    "value": "0x34130068"
+  }, {
+    "comment": "Long Library",
+    "type": "word",
+    "value": "0x34140002"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100370"
+  }, {
+    "type": "word",
+    "value": "0x34110370"
+  }, {
+    "type": "word",
+    "value": "0x34130000"
+  }, {
+    "comment": "Catacombs",
+    "type": "word",
+    "value": "0x34140003"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100080"
+  }, {
+    "type": "word",
+    "value": "0x341100A4"
+  }, {
+    "type": "word",
+    "value": "0x341300D8"
+  }, {
+    "comment": "Olrox Quarters",
+    "type": "word",
+    "value": "0x34140004"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100542"
+  }, {
+    "type": "word",
+    "value": "0x341100E6"
+  }, {
+    "type": "word",
+    "value": "0x34130040"
+  }, {
+    "comment": "Mines",
+    "type": "word",
+    "value": "0x34140005"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000C0"
+  }, {
+    "type": "word",
+    "value": "0x34110326"
+  }, {
+    "type": "word",
+    "value": "0x34130040"
+  }, {
+    "comment": "Royal Chapel",
+    "type": "word",
+    "value": "0x34140006"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341001B2"
+  }, {
+    "type": "word",
+    "value": "0x34110386"
+  }, {
+    "type": "word",
+    "value": "0x34130068"
+  }, {
+    "comment": "Entrance",
+    "type": "word",
+    "value": "0x34140007"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100080"
+  }, {
+    "type": "word",
+    "value": "0x34110066"
+  }, {
+    "type": "word",
+    "value": "0x34130028"
+  }, {
+    "comment": "Caverns",
+    "type": "word",
+    "value": "0x34140009"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000D8"
+  }, {
+    "type": "word",
+    "value": "0x34110086"
+  }, {
+    "type": "word",
+    "value": "0x341300A8"
+  }, {
+    "comment": "Colosseum",
+    "type": "word",
+    "value": "0x3414000A"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100468"
+  }, {
+    "type": "word",
+    "value": "0x341100A4"
+  }, {
+    "type": "word",
+    "value": "0x34130030"
+  }, {
+    "comment": "Castle Keep",
+    "type": "word",
+    "value": "0x3414000B"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341007A8"
+  }, {
+    "type": "word",
+    "value": "0x34110488"
+  }, {
+    "type": "word",
+    "value": "0x34130010"
+  }, {
+    "comment": "Alchemy Laboratory",
+    "type": "word",
+    "value": "0x3414000C"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000E8"
+  }, {
+    "type": "word",
+    "value": "0x34110086"
+  }, {
+    "type": "word",
+    "value": "0x34130020"
+  }, {
+    "comment": "Clock Tower",
+    "type": "word",
+    "value": "0x3414000D"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000D8"
+  }, {
+    "type": "word",
+    "value": "0x34110136"
+  }, {
+    "type": "word",
+    "value": "0x34130050"
+  }, {
+    "comment": "Reverse Marble Gallery",
+    "type": "word",
+    "value": "0x34140020"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3410017C"
+  }, {
+    "type": "word",
+    "value": "0x341100B6"
+  }, {
+    "type": "word",
+    "value": "0x34130060"
+  }, {
+    "comment": "Reverse Outer Wall",
+    "type": "word",
+    "value": "0x34140021"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100100"
+  }, {
+    "type": "word",
+    "value": "0x341100A0"
+  }, {
+    "type": "word",
+    "value": "0x34130068"
+  }, {
+    "comment": "Reverse Long Library",
+    "type": "word",
+    "value": "0x34140022"
+  }, {
+    "type": "word",
+    "address": "0x158898",
+    "value": "0x16950004",
+    "comment": "[CD block change]"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100370"
+  }, {
+    "type": "word",
+    "value": "0x34110370"
+  }, {
+    "type": "word",
+    "value": "0x34130000"
+  }, {
+    "comment": "Reverse Catacombs",
+    "type": "word",
+    "value": "0x34140023"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100080"
+  }, {
+    "type": "word",
+    "value": "0x341100A0"
+  }, {
+    "type": "word",
+    "value": "0x341300D8"
+  }, {
+    "comment": "Reverse Olrox Quarters",
+    "type": "word",
+    "value": "0x34140024"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100542"
+  }, {
+    "type": "word",
+    "value": "0x341101E6"
+  }, {
+    "type": "word",
+    "value": "0x34130040"
+  }, {
+    "comment": "Reverse Mines",
+    "type": "word",
+    "value": "0x34140025"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000C0"
+  }, {
+    "type": "word",
+    "value": "0x34110326"
+  }, {
+    "type": "word",
+    "value": "0x34130040"
+  }, {
+    "comment": "Reverse Royal Chapel",
+    "type": "word",
+    "value": "0x34140026"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341001A2"
+  }, {
+    "type": "word",
+    "value": "0x34110386"
+  }, {
+    "type": "word",
+    "value": "0x34130068"
+  }, {
+    "comment": "Reverse Entrance",
+    "type": "word",
+    "value": "0x34140027"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100080"
+  }, {
+    "type": "word",
+    "value": "0x34110066"
+  }, {
+    "type": "word",
+    "value": "0x34130028"
+  }, {
+    "comment": "Reverse Caverns",
+    "type": "word",
+    "value": "0x34140029"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000D8"
+  }, {
+    "type": "word",
+    "value": "0x34110086"
+  }, {
+    "type": "word",
+    "value": "0x341300A8"
+  }, {
+    "comment": "Reverse Colosseum",
+    "type": "word",
+    "value": "0x3414002A"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100080"
+  }, {
+    "type": "word",
+    "value": "0x341100A4"
+  }, {
+    "type": "word",
+    "value": "0x34130018"
+  }, {
+    "comment": "Reverse Castle Keep",
+    "type": "word",
+    "value": "0x3414002B"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100500"
+  }, {
+    "type": "word",
+    "value": "0x34110300"
+  }, {
+    "type": "word",
+    "value": "0x34130010"
+  }, {
+    "comment": "Reverse Alchemy Lab",
+    "type": "word",
+    "value": "0x3414002C"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x341000E8"
+  }, {
+    "type": "word",
+    "value": "0x34110086"
+  }, {
+    "type": "word",
+    "value": "0x34130020"
+  }, {
+    "comment": "Reverse Clock Tower",
+    "type": "word",
+    "value": "0x3414002D"
+  }, {
+    "type": "word",
+    "value": "0x16950004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34100048"
+  }, {
+    "type": "word",
+    "value": "0x34110236"
+  }, {
+    "type": "word",
+    "value": "0x34130050"
+  }, {
+    "comment": "End of Block",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C01800F"
+  }, {
+    "type": "word",
+    "value": "0xA0351724"
+  }, {
+    "type": "word",
+    "value": "0xA03532A4"
+  }, {
+    "type": "word",
+    "value": "0x3C01800A"
+  }, {
+    "type": "word",
+    "value": "0xA03525EA"
+  }, {
+    "type": "word",
+    "value": "0xA43025E2"
+  }, {
+    "type": "word",
+    "value": "0xA43125E4"
+  }, {
+    "type": "word",
+    "value": "0xA43325E6"
+  }, {
+    "type": "word",
+    "value": "0xA4363C98"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0804390F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library Tilemap Bugfix",
+    "type": "word",
+    "address": "0x10AD64",
+    "value": "0x0C04DAD2"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x158BE0",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x8C427C98"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34157C0E"
+  }, {
+    "type": "word",
+    "value": "0x3C08800A"
+  }, {
+    "type": "word",
+    "value": "0xAD153C98"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "Map Reset Bugfix",
+    "type": "word",
+    "address": "0x10B2F8",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove elevator in Alchemy Lab",
+    "type": "word",
+    "address": "0x054EFF5C",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove cannon lever in Alchemy Lab",
+    "type": "word",
+    "address": "0x054EA6FC",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove cannon in Alchemy Lab",
+    "type": "word",
+    "address": "0x054EA90C",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Add Staircase in Castle Keep",
+    "type": "word",
+    "address": "0x5627C1E",
+    "value": "0x00000061"
+  }, {
+    "type": "word",
+    "address": "0x5627D1A",
+    "value": "0x00620043"
+  }, {
+    "type": "word",
+    "value": "0x00640063"
+  }, {
+    "type": "word",
+    "address": "0x5627E1C",
+    "value": "0x00660065"
+  }, {
+    "type": "word",
+    "value": "0x00610067"
+  }, {
+    "type": "word",
+    "address": "0x5627F1C",
+    "value": "0x00690068"
+  }, {
+    "type": "word",
+    "value": "0x0063006A"
+  }, {
+    "type": "word",
+    "value": "0x0000006B"
+  }, {
+    "type": "word",
+    "address": "0x5628018",
+    "value": "0x00560051"
+  }, {
+    "type": "word",
+    "value": "0x006D006C"
+  }, {
+    "type": "word",
+    "value": "0x00660065"
+  }, {
+    "type": "word",
+    "value": "0x006F006E"
+  }, {
+    "type": "word",
+    "address": "0x562811A",
+    "value": "0x0070005C"
+  }, {
+    "type": "word",
+    "value": "0x00720071"
+  }, {
+    "type": "word",
+    "value": "0x00730069"
+  }, {
+    "type": "word",
+    "value": "0x00750074"
+  }, {
+    "type": "word",
+    "address": "0x562821A",
+    "value": "0x00760060"
+  }, {
+    "type": "word",
+    "value": "0x00780077"
+  }, {
+    "type": "word",
+    "value": "0x00650079"
+  }, {
+    "type": "word",
+    "value": "0x007B007A"
+  }, {
+    "type": "word",
+    "value": "0x0000007C"
+  }, {
+    "type": "word",
+    "address": "0x562831C",
+    "value": "0x007E007D"
+  }, {
+    "type": "word",
+    "value": "0x0052007F"
+  }, {
+    "type": "word",
+    "value": "0x00690068"
+  }, {
+    "type": "word",
+    "value": "0x00810080"
+  }, {
+    "type": "word",
+    "address": "0x562854E",
+    "value": "0x005B0082"
+  }, {
+    "type": "word",
+    "value": "0x00830056"
+  }, {
+    "type": "word",
+    "value": "0x00850084"
+  }, {
+    "type": "word",
+    "value": "0x008B0086"
+  }, {
+    "type": "word",
+    "address": "0x562864E",
+    "value": "0x00880087"
+  }, {
+    "type": "word",
+    "value": "0x0070005C"
+  }, {
+    "type": "word",
+    "value": "0x00720071"
+  }, {
+    "type": "word",
+    "value": "0x008C0089"
+  }, {
+    "type": "word",
+    "value": "0x008E008D"
+  }, {
+    "type": "word",
+    "address": "0x5628750",
+    "value": "0x0060005F"
+  }, {
+    "type": "word",
+    "value": "0x00770076"
+  }, {
+    "type": "word",
+    "value": "0x008A0078"
+  }, {
+    "type": "word",
+    "value": "0x0090008F"
+  }, {
+    "type": "word",
+    "value": "0x00920091"
+  }, {
+    "type": "word",
+    "address": "0x5628854",
+    "value": "0x007E007D"
+  }, {
+    "type": "word",
+    "value": "0x0052007F"
+  }, {
+    "type": "word",
+    "value": "0x00690068"
+  }, {
+    "type": "word",
+    "value": "0x00940093"
+  }, {
+    "type": "word",
+    "value": "0x00000095"
+  }, {
+    "type": "word",
+    "address": "0x5628956",
+    "value": "0x005B0082"
+  }, {
+    "type": "word",
+    "value": "0x006C0056"
+  }, {
+    "type": "word",
+    "value": "0x0096006D"
+  }, {
+    "type": "word",
+    "value": "0x0097007A"
+  }, {
+    "type": "word",
+    "value": "0x00000095"
+  }, {
+    "type": "word",
+    "address": "0x5628A56",
+    "value": "0x00880087"
+  }, {
+    "type": "word",
+    "value": "0x0070005C"
+  }, {
+    "type": "word",
+    "value": "0x00720071"
+  }, {
+    "type": "word",
+    "value": "0x00980069"
+  }, {
+    "type": "word",
+    "value": "0x00950097"
+  }, {
+    "type": "word",
+    "address": "0x5628B58",
+    "value": "0x0060005F"
+  }, {
+    "type": "word",
+    "value": "0x00770076"
+  }, {
+    "type": "word",
+    "value": "0x008A0078"
+  }, {
+    "type": "word",
+    "value": "0x007A0065"
+  }, {
+    "type": "word",
+    "value": "0x00990097"
+  }, {
+    "type": "word",
+    "value": "0x0000009A"
+  }, {
+    "type": "word",
+    "address": "0x5628C5C",
+    "value": "0x007E007D"
+  }, {
+    "type": "word",
+    "value": "0x0052007F"
+  }, {
+    "type": "word",
+    "value": "0x00690068"
+  }, {
+    "type": "word",
+    "value": "0x009B0098"
+  }, {
+    "type": "word",
+    "value": "0x03E5009C"
+  }, {
+    "type": "word",
+    "address": "0x5628E8E",
+    "value": "0x005B0082"
+  }, {
+    "type": "word",
+    "value": "0x006C0056"
+  }, {
+    "type": "word",
+    "value": "0x0065006D"
+  }, {
+    "type": "word",
+    "value": "0x009D007A"
+  }, {
+    "type": "word",
+    "address": "0x5628F8E",
+    "value": "0x00880087"
+  }, {
+    "type": "word",
+    "value": "0x0070005C"
+  }, {
+    "type": "word",
+    "value": "0x00720071"
+  }, {
+    "type": "word",
+    "value": "0x009E0069"
+  }, {
+    "type": "word",
+    "value": "0x00A0009F"
+  }, {
+    "type": "word",
+    "address": "0x5629090",
+    "value": "0x0060005F"
+  }, {
+    "comment": "Remove floor hole in Castle Keep",
+    "type": "word",
+    "address": "0x562DF74",
+    "value": "0x05380539"
+  }, {
+    "type": "word",
+    "value": "0x05340535"
+  }, {
+    "type": "word",
+    "value": "0x05330532"
+  }, {
+    "type": "word",
+    "value": "0x05330532"
+  }, {
+    "type": "word",
+    "value": "0x05330532"
+  }, {
+    "type": "word",
+    "address": "0x562DF94",
+    "value": "0x05CC05CC"
+  }, {
+    "comment": "Remove elevator in Castle Keep",
+    "type": "word",
+    "address": "0x563F84C",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove Clock puzzle gears in Clock Tower",
+    "type": "word",
+    "address": "0x55A0DCC",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove Clock puzzle gears in Reverse Clock Tower",
+    "type": "word",
+    "address": "0x59E91A0",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Remove Olrox's Door",
+    "type": "word",
+    "address": "0x4AE0188",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x4AC5760",
+    "value": "0x04670466"
+  }, {
+    "type": "word",
+    "address": "0x4AC57E0",
+    "value": "0x045F045E"
+  }, {
+    "type": "word",
+    "address": "0x4AC5990",
+    "value": "0x04590458"
+  }, {
+    "type": "word",
+    "address": "0x4AC5A10",
+    "value": "0x04540453"
+  }, {
+    "comment": "Remove Akmodan II's Door",
+    "type": "word",
+    "address": "0x51357B4",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x511B750",
+    "value": "0x04530454"
+  }, {
+    "type": "word",
+    "address": "0x511B7D0",
+    "value": "0x04580459"
+  }, {
+    "type": "word",
+    "address": "0x511B850",
+    "value": "0x045E045F"
+  }, {
+    "type": "word",
+    "address": "0x511B8D0",
+    "value": "0x04660467"
+  }, {
+    "comment": "Platform on Olrox room for Wolf Charge",
+    "type": "word",
+    "address": "0x4AC6014",
+    "value": "0x0011004F"
+  }, {
+    "type": "word",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "address": "0x4AC603C",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "value": "0x00110007"
+  }, {
+    "type": "word",
+    "value": "0x00C80007"
+  }, {
+    "type": "word",
+    "address": "0x4AC6054",
+    "value": "0x00E6000C"
+  }, {
+    "type": "word",
+    "address": "0x4AC6094",
+    "value": "0x00EB0012"
+  }, {
+    "type": "word",
+    "address": "0x4AC6088",
+    "value": "0x00430181"
+  }, {
+    "type": "word",
+    "address": "0x4AC60C8",
+    "value": "0x00440186"
+  }, {
+    "comment": "New passage at Holy Sword in Colosseum",
+    "type": "word",
+    "address": "0x43E0230",
+    "value": "0x02F30495"
+  }, {
+    "type": "word",
+    "value": "0x04C402FA"
+  }, {
+    "type": "word",
+    "value": "0x02F904C5"
+  }, {
+    "type": "word",
+    "address": "0x43E0270",
+    "value": "0x02F802FA"
+  }, {
+    "type": "word",
+    "value": "0x004E02F7"
+  }, {
+    "type": "word",
+    "value": "0x02F5004F"
+  }, {
+    "type": "word",
+    "address": "0x43E0594",
+    "value": "0x003702FA"
+  }, {
+    "type": "word",
+    "value": "0x02F90038"
+  }, {
+    "type": "word",
+    "address": "0x43E0744",
+    "value": "0x003902F7"
+  }, {
+    "type": "word",
+    "value": "0x02F5003A"
+  }, {
+    "comment": "Block the broken pillars in Colosseum",
+    "type": "word",
+    "address": "0x43E09CC",
+    "value": "0x04680467"
+  }, {
+    "type": "word",
+    "value": "0x00020469"
+  }, {
+    "type": "word",
+    "address": "0x43E0A4C",
+    "value": "0x04640463"
+  }, {
+    "type": "word",
+    "value": "0x00020465"
+  }, {
+    "type": "word",
+    "address": "0x43E0ACC",
+    "value": "0x04680467"
+  }, {
+    "type": "word",
+    "value": "0x00980469"
+  }, {
+    "type": "word",
+    "address": "0x43E0B4C",
+    "value": "0x04640463"
+  }, {
+    "type": "word",
+    "value": "0x00020465"
+  }, {
+    "type": "word",
+    "address": "0x43E0BCC",
+    "value": "0x04680467"
+  }, {
+    "type": "word",
+    "value": "0x00A60469"
+  }, {
+    "type": "word",
+    "address": "0x43E0C4C",
+    "value": "0x04640463"
+  }, {
+    "type": "word",
+    "value": "0x00020465"
+  }, {
+    "type": "word",
+    "address": "0x43E09DC",
+    "value": "0x04670002"
+  }, {
+    "type": "word",
+    "value": "0x04690468"
+  }, {
+    "type": "word",
+    "address": "0x43E0A5C",
+    "value": "0x04630002"
+  }, {
+    "type": "word",
+    "value": "0x04650464"
+  }, {
+    "type": "word",
+    "address": "0x43E0ADC",
+    "value": "0x046700B8"
+  }, {
+    "type": "word",
+    "value": "0x04690468"
+  }, {
+    "type": "word",
+    "address": "0x43E0B5C",
+    "value": "0x04630002"
+  }, {
+    "type": "word",
+    "value": "0x04650464"
+  }, {
+    "type": "word",
+    "address": "0x43E0BDC",
+    "value": "0x046700A6"
+  }, {
+    "type": "word",
+    "value": "0x04690468"
+  }, {
+    "type": "word",
+    "address": "0x43E0C5C",
+    "value": "0x04630002"
+  }, {
+    "type": "word",
+    "value": "0x04650464"
+  }, {
+    "comment": "Block the bottom part of Colosseum",
+    "type": "word",
+    "address": "0x43E4C86",
+    "value": "0x01A301A3"
+  }, {
+    "type": "word",
+    "address": "0x43E4D02",
+    "value": "0x02480329"
+  }, {
+    "type": "word",
+    "value": "0x01A301A3"
+  }, {
+    "type": "word",
+    "address": "0x43E4D82",
+    "value": "0x02400328"
+  }, {
+    "type": "word",
+    "value": "0x03B801A3"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }, {
+    "type": "word",
+    "address": "0x43E4E02",
+    "value": "0x02480329"
+  }, {
+    "type": "word",
+    "value": "0x03AD01A3"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }, {
+    "type": "word",
+    "address": "0x43E4E82",
+    "value": "0x02400328"
+  }, {
+    "type": "word",
+    "value": "0x01A301A3"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }, {
+    "type": "word",
+    "address": "0x43E4F02",
+    "value": "0x02480329"
+  }, {
+    "type": "word",
+    "value": "0x01A301A3"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }, {
+    "type": "word",
+    "address": "0x43E50B2",
+    "value": "0x02400328"
+  }, {
+    "type": "word",
+    "value": "0x01A301A3"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }, {
+    "type": "word",
+    "address": "0x43E5132",
+    "value": "0x02480329"
+  }, {
+    "type": "word",
+    "value": "0x01BF01BE"
+  }, {
+    "type": "word",
+    "value": "0x03C403C1"
+  }]
+}

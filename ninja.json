@@ -1,0 +1,1308 @@
+{
+  "metadata": {
+    "id": "ninja",
+    "name": "Ninja",
+    "description": "Replace items and drops with shurikens and one-handed katanas",
+    "author": "flsouto, eldri7ch, MottZilla",
+    "weight": 666
+  },
+  "stats": false,
+
+  "alias": [
+    {
+      "relic": "Soul of Bat",
+      "alias": "Dupli"
+    }, {
+      "relic": "Soul of Wolf",
+      "alias": "Katana2"
+    }, {
+      "relic": "Power of Wolf",
+      "alias": "Katana3"
+    }, {
+      "relic": "Skill of Wolf",
+      "alias": "Katana4"
+    }
+  ],
+
+  "itemLocations": [
+    {
+      "zone": "ARE",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "CAT",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "CHI",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "DAI",
+      "item": "*",
+      "replacement": "Shuriken"
+    }, {
+      "zone": "LIB",
+      "item": "*",
+      "replacement": "Shuriken"
+    }, {
+      "zone": "LIB",
+      "item": "Potion",
+      "index": 1,
+      "replacement": "Green tea"
+    }, {
+      "zone": "LIB",
+      "item": "High potion",
+      "index": 1,
+      "replacement": "Red bean bun"
+    }, {
+      "zone": "NO0",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NO1",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NO2",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NO3",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NP3",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NO4",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NZ0",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "NZ1",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "TOP",
+      "item": "*",
+      "replacement": "Shuriken"
+    },  {
+      "zone": "RARE",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RCAT",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RCHI",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RDAI",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RLIB",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNO0",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNO1",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNO2",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNO3",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNO4",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNZ0",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RNZ1",
+      "item": "*",
+      "replacement": "Buffalo star"
+    },  {
+      "zone": "RTOP",
+      "item": "*",
+      "replacement": "Buffalo star"
+    }, {
+      "zone": "ST0",
+      "item": "Heart",
+      "index": 1,
+      "replacement": "Heart"
+    }, {
+      "zone": "ST0",
+      "item": "Heart",
+      "index": 2,
+      "replacement": "Heart"
+    }, {
+      "zone": "ST0",
+      "item": "Heart",
+      "index": 3,
+      "replacement": "Heart"
+    }, {
+      "zone": "ST0",
+      "item": "Heart",
+      "index": 4,
+      "replacement": "Heart"
+    }, {
+      "zone": "ST0",
+      "item": "Heart",
+      "index": 5,
+      "replacement": "Heart"
+    }, {
+      "zone": "ST0",
+      "item": "Big heart",
+      "index": 1,
+      "replacement": "Big heart"
+    }, {
+      "zone": "ST0",
+      "item": "Big heart",
+      "index": 2,
+      "replacement": "Big heart"
+    }, {
+      "zone": "ST0",
+      "item": "Big heart",
+      "index": 3,
+      "replacement": "Big heart"
+    }, {
+      "zone": "ST0",
+      "item": "Cross",
+      "replacement": "Cross"
+    }, {
+      "zone": "ST0",
+      "item": "Holy Water",
+      "replacement": "Holy Water"
+    }, {
+      "zone": "ST0",
+      "item": "Shield rod",
+      "replacement": "Shield rod"
+    }, {
+      "zone": "ST0",
+      "item": "Dark shield",
+      "replacement": "Dark shield"
+    }, {
+      "zone": "ST0",
+      "item": "Power of Sire",
+      "replacement": "Power of Sire"
+    }, {
+      "zone": "ST0",
+      "item": "Firebrand",
+      "replacement": "Firebrand"
+    }, {
+      "zone": "ST0",
+      "item": "Badelaire",
+      "replacement": "Badelaire"
+    }, {
+      "zone": "ST0",
+      "item": "Moon rod",
+      "replacement": "Moon rod"
+    }, {
+      "zone": "ST0",
+      "item": "Heart Refresh",
+      "replacement": "Heart Refresh"
+    }, {
+      "zone": "ST0",
+      "item": "Sunglasses",
+      "replacement": "Sunglasses"
+    }
+  ],
+
+  "complexityGoal": {
+    "min": 6,
+    "goals": [
+      "Holy glasses + Leap Stone + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+  "replaceRelic": [
+    {
+      "relic": "Soul of Bat",
+      "item": "Duplicator"
+    }, {
+      "relic": "Fire of Bat",
+      "item": "Garnet"
+    }, {
+      "relic": "Echo of Bat",
+      "item": "Garnet"
+    }, {
+      "relic": "Force of Echo",
+      "item": "Talisman"
+    }, {
+      "relic": "Soul of Wolf",
+      "item": "Garnet"
+    }, {
+      "relic": "Power of Wolf",
+      "item": "Garnet"
+    }, {
+      "relic": "Skill of Wolf",
+      "item": "Garnet"
+    }, {
+      "relic": "Sword Card",
+      "item": "Garnet"
+    }, {
+      "relic": "Ghost Card",
+      "item": "Garnet"
+    }, {
+      "relic": "Demon Card",
+      "item": "Garnet"
+    }, {
+      "relic": "Bat Card",
+      "item": "Garnet"
+    }, {
+      "relic": "Faerie Card",
+      "item": "Garnet"
+    }, {
+      "relic": "Sprite Card",
+      "item": "Ring of Arcana"
+    }, {
+      "relic": "Nosedevil Card",
+      "item": "Ring of Arcana"
+    }
+  ],
+  
+  "placeRelic": [{
+    "location": "Gas Cloud",
+    "relic": "Dupli"
+  }],
+
+  "lockLocation": [
+    {
+      "location": "Cube of Zoe",
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana2",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Spirit Orb",
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana2",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Soul of Wolf",
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana2",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Jewel of Open",
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana2",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Faerie Scroll",
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana2",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Soul of Bat",
+      "comment": "Requires Mist + at least Leap Stone",
+      "locks": [
+        "Form of Mist + Leap Stone",
+        "Form of Mist + Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Fire of Bat",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Echo of Bat",
+      "comment": "Requires flight + a transformation",
+      "locks": [
+        "Gravity Boots + Leap Stone + Form of Mist",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Force of Echo",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Power of Wolf",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Skill of Wolf",
+      "comment": "Requires at least Gravity Boots",
+      "locks": [
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Form of Mist",
+      "comment": "Requires at least Leap Stone",
+      "locks": [
+        "Leap Stone",
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": [
+        "Leap Stone",
+        "Dupli",
+        "Katana3",
+        "Katana4"
+      ]
+    }, {
+      "location": "Power of Mist",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Gas Cloud",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Gravity Boots",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Leap Stone",
+      "comment": "Requires Jewel of Open or at least Leap Stone",
+      "locks": [
+        "Jewel of Open",
+        "Leap Stone",
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+    }, {
+      "location": "Holy Symbol",
+      "locks": [
+        "Jewel of Open + Merman Statue"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Merman Statue",
+      "comment": "Requires Jewel of Open",
+      "locks": [
+        "Jewel of Open"
+      ],
+      "block": [
+        "Leap Stone", "Dupli"
+      ]
+    }, {
+      "location": "Bat Card",
+      "comment": "Requires at least Gravity Boots",
+      "locks": [
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Ghost Card",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Faerie Card",
+      "comment": "Requires at least Gravity Boots",
+      "locks": [
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Demon Card",
+      "comment": "Access must also give at least Leap Stone",
+      "locks": [
+        "Jewel of Open + Leap Stone",
+        "Jewel of Open + Form of Mist + Power of Mist"
+      ],
+      "escapeRequires": [
+        "Leap Stone",
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Sword Card",
+      "comment": "Requires flight",
+      "locks": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Heart of Vlad",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Tooth of Vlad",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Rib of Vlad",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots + Form of Mist",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Ring of Vlad",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Eye of Vlad",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Spike Breaker",
+      "locks": [
+        "Jewel of Open + Spike Breaker"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Gold ring",
+      "comment": "Requires Jewel of Open + flight",
+      "locks": [
+        "Jewel of Open + Gravity Boots + Leap Stone",
+        "Jewel of Open + Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Silver ring",
+      "locks": [
+        "Jewel of Open + Spike Breaker + Form of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Holy glasses",
+      "locks": [
+        "Silver ring + Gold ring"
+      ],
+      "comment": "Access must also give flight",
+      "escapeRequires": [
+        "Gravity Boots + Leap Stone",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Crystal cloak",
+      "locks": [
+        "Jewel of Open"
+      ],
+      "block": [
+        "Leap Stone","Dupli"
+      ]
+    }, {
+      "location": "Mormegil",
+      "comment": "Access must also give at least Leap Stone",
+      "locks": [
+        "Jewel of Open + Leap Stone",
+        "Jewel of Open + Form of Mist + Power of Mist"
+      ],
+      "escapeRequires": [
+        "Leap Stone",
+        "Gravity Boots",
+        "Form of Mist + Power of Mist"
+      ],
+      "block": ["Dupli"]
+
+    }, {
+      "location": "Dark Blade",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Ring of Arcana",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }, {
+      "location": "Trio",
+      "comment": "In second castle",
+      "locks": [
+        "Holy glasses + Leap Stone + Gravity Boots",
+        "Holy glasses + Leap Stone + Form of Mist + Power of Mist"
+      ]
+    }
+  ],
+  
+  "enemyDrops": [
+    {
+      "enemy": "*",
+      "items": [
+        "Shuriken","Buffalo star"
+      ]
+    }, {
+      "enemy": "Global",
+      "items": [
+        "$1000",
+        "Shuriken",
+        "Green tea",
+        "Shiitake",
+        "Ramen",
+        "$1000",
+        "$1000",
+        "Sushi",
+        "$2000",
+        "Buffalo star",
+        "Str. potion",
+        "Library card",
+        "$2000",
+        "$2000",
+        "$2000",
+        "Cross shuriken",
+        "Diamond",
+        "Heart",
+        "Big heart",
+        "Elixir"
+      ]
+    }, {
+        "enemy" : "Bone Scimitar",
+        "items" : ["Sushi", "Takemitsu"]
+    }
+  ],
+
+  "startingEquipment": [
+    {
+      "slot": "Left hand",
+      "item": null
+    }, {
+      "slot": "Right hand",
+      "item": null
+    }, {
+      "slot": "Head",
+      "item": null
+    }, {
+      "slot": "Body",
+      "item": null
+    }, {
+      "slot": "Cloak",
+      "item": "Cloth cape"
+    }, {
+      "slot": "Other",
+      "item": null
+    }
+  ],
+
+  "prologueRewards": [
+    {
+      "item": "Heart Refresh",
+      "replacement": "TNT"
+    }, {
+      "item": "Neutron bomb",
+      "replacement": "High potion"
+    }, {
+      "item": "Potion",
+      "replacement": "Elixir"
+    }
+  ],
+
+  "writes": [{
+      "comment": "Jump to injected code",
+      "address": "0x000fa97c",
+      "type": "word",
+      "value": "0x0c04db00"
+    }, {
+      "address": "0x00158c98",
+      "type": "word",
+      "value": "0x3c038009",
+      "comment": "lui v1, 0x8009"
+    }, {
+      "type": "word",
+      "value": "0x34020003",
+      "comment": "ori v0, 0x0003"
+    }, {
+      "comment": "sb v0, 0x796E (v1)",
+      "type": "word",
+      "value": "0xa062796E"
+    }, {
+      "comment": "Enable Form of Mist",
+      "type": "word",
+      "value": "0xa062796b",
+      "comment": "sb v0, 0x796b (v1)"
+    }, {
+      "type": "word",
+      "value": "0x34020001",
+      "comment": "ori v0, 0x0001"
+    }, {
+      "comment": "sb v0, 0x7bb8 (v1)",
+      "type": "word",
+      "value": "0xa0627bb8"
+    }, {
+      "comment": "sb v0, 0x7bbc (v1)",
+      "type": "word",
+      "value": "0xa0627bbc"
+    }, {
+      "comment": "sb v0, 0x7bc4 (v1)",
+      "type": "word",
+      "value": "0xa0627bc4"
+    },
+
+
+     {
+      "type": "word",
+      "value": "0x3402004B",
+      "comment": "ori v0, 0x004B -- Define left hand item (shuriken)"
+    },
+   {
+      "comment": "sb v0, 0x7C00 (v1) -- Equip left hand item",
+      "type": "word",
+      "value": "0xa0627C00"
+    },
+
+     {
+      "type": "word",
+      "value": "0x3402004C",
+      "comment": "ori v0, 0x004C -- Define right hand item (cross shuriken)"
+    },
+   {
+      "comment": "sb v0, 0x7C04 (v1) -- Equip right hand item",
+      "type": "word",
+      "value": "0xa0627C04"
+    },
+
+
+     {
+      "type": "word",
+      "value": "0x34020034",
+      "comment": "ori v0, 0x0034 -- Define cape (crystal cloak)"
+    },
+   {
+      "comment": "sb v0, 0x7C10 (v1) -- Equip cape",
+      "type": "word",
+      "value": "0xa0627C10"
+    },
+
+
+
+     {
+      "type": "word",
+      "value": "0x3402000F",
+      "comment": "ori v0, 0x000F -- Defines starting amount"
+    },
+   {
+      "comment": "sb v0, 0x79D5 (v1) -- Sets amount of shurikens",
+      "type": "word",
+      "value": "0xa06279D5"
+    },
+   {
+      "comment": "sb v0, 0x79D6 (v1) -- Sets amount of cross shurikens",
+      "type": "word",
+      "value": "0xa06279D6"
+    },
+
+
+    {
+      "comment": "j 0x800e493c",
+      "type": "word",
+      "value": "0x0803924f"
+    }, {
+      "type": "word",
+      "value": "0x00000000",
+      "comment": "nop"
+    },
+    
+    {
+      "comment": "Make Cloth cloak black colored",
+      "address" : "0x000afb84",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Cloth cloak black colored",
+      "address" : "0x000afb86",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Cloth cloak black colored",
+      "address" : "0x000afb88",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Cloth cloak black colored",
+      "address" : "0x000afb8a",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Crystal cloak black colored",
+      "address" : "0x000afba4",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Crystal cloak black colored",
+      "address" : "0x000afba6",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Crystal cloak black colored",
+      "address" : "0x000afba8",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Make Crystal cloak black colored",
+      "address" : "0x000afbaa",
+      "type" : "short",
+      "value": "0x0000"
+    }, {
+      "comment": "Summon Spirit cost 200 mana",
+      "type": "char",
+      "address": "0x000b5260",
+      "value": "0xc8"
+    }, {
+      "comment": "Dark Metamorphosis cost 200 mana",
+      "type": "char",
+      "address": "0x000b5244",
+      "value": "0xc8"
+    }, {
+      "comment": "Hellfire cost 200 mana",
+      "type": "char",
+      "address": "0x000b527c",
+      "value": "0xc8"
+    }, {
+      "comment": "Tetra spirit cost 200 mana",
+      "type": "char",
+      "address": "0x000b5298",
+      "value": "0xc8"
+    }, {
+      "comment": "Soul Steal cost 200 mana",
+      "type": "char",
+      "address": "0x000b52d0",
+      "value": "0xc8"
+    }, {
+      "address": "0xB279A",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Katana one handed"
+    }, {
+      "address": "0xB30B6",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Osafune one handed"
+    }, {
+      "address": "0xB30EA",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Masamune one handed"
+    }, {
+      "address": "0xB372E",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Yasutsuna one handed"
+    }, {
+      "address": "0xB1762",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Red Rust one handed"
+    }, {
+      "address": "0xB245A",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Namakura one handed"
+    }, {
+      "address": "0xB311E",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Muramasa one handed"
+    }, {
+      "address": "0xB1796",
+      "type": "char",
+      "value": "0x01",
+      "comment": "Make Takemitsu one handed"
+    },
+    
+    {
+      "comment": "Save Room Correction for Speedy Delivery",
+      "type": "word",
+      "address": "0x1213D8",
+      "value": "0x0C04296F"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088013"
+    }, {
+      "type": "word",
+      "value": "0x950F7598"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x11E00032"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088009"
+    }, {
+      "type": "word",
+      "value": "0x950F73F0"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088010"
+    }, {
+      "type": "word",
+      "value": "0x3508675C"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0xAD0F0000"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088007"
+    }, {
+      "type": "word",
+      "value": "0x950F3404"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x34080001"
+    }, {
+      "type": "word",
+      "value": "0x11E80007"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088010"
+    }, {
+      "type": "word",
+      "value": "0x35086758"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0xAD000000"
+    }, {
+      "type": "word",
+      "value": "0x0803CC4F"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C0F8010"
+    }, {
+      "type": "word",
+      "value": "0x8DEF675C"
+    }, {
+      "type": "word",
+      "value": "0x3C088010"
+    }, {
+      "type": "word",
+      "value": "0x8D08675C"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x25EFFF82"
+    }, {
+      "type": "word",
+      "value": "0x05E0000D"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x2508FF7D"
+    }, {
+      "type": "word",
+      "value": "0x0501000A"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088010"
+    }, {
+      "type": "word",
+      "value": "0x8D086758"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x25080001"
+    }, {
+      "type": "word",
+      "value": "0x3C0F8010"
+    }, {
+      "type": "word",
+      "value": "0x35EF6758"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0xADE80000"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088010"
+    }, {
+      "type": "word",
+      "value": "0x8D086758"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x2508FFFE"
+    }, {
+      "type": "word",
+      "value": "0x0500FFE5"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x3C088007"
+    }, {
+      "type": "word",
+      "value": "0x340F0080"
+    }, {
+      "type": "word",
+      "value": "0xA50F33DA"
+    }, {
+      "type": "word",
+      "value": "0x080419B0"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "address": "0x10b17c",
+      "type": "word",
+      "value": "0x0804199C",
+      "comment": "Hook for Save Safety Speedy Delivery"
+    },
+    
+    {
+      "type": "word",
+      "value": "0x00000000"
+    }, {
+      "address": "0x12f694",
+      "type": "char",
+      "value": "0x02",
+      "comment": "Speedy Delivery"
+    }, {
+      "address": "0x12f8a4",
+      "type": "char",
+      "value": "0x02"
+    }, {
+      "address": "0x12f7f4",
+      "type": "char",
+      "value": "0x02"
+    },
+
+    {
+      "comment": "Shop Price: Green tea",
+      "type": "word",
+      "address": "0x047A30A0",
+      "value": "0x0000012C"
+    }, {
+      "comment": "Shop Price: Red bean bun",
+      "type": "word",
+      "address": "0x047A30A8",
+      "value": "0x0000014A"
+    }, {
+      "comment": "Shop Price: Pork bun",
+      "type": "word",
+      "address": "0x047A30B0",
+      "value": "0x00000190"
+    }, {
+      "comment": "Shop Price: Miso soup",
+      "type": "word",
+      "address": "0x047A30B8",
+      "value": "0x000001C2"
+    }, {
+      "comment": "Shop Price: Curry rice",
+      "type": "word",
+      "address": "0x047A30C0",
+      "value": "0x00000226"
+    }, {
+      "comment": "Shop Price: Ramen",
+      "type": "word",
+      "address": "0x047A30C8",
+      "value": "0x00000258"
+    }, {
+      "comment": "Shop Price: Shiitake",
+      "type": "word",
+      "address": "0x047A30D0",
+      "value": "0x00000258"
+    }, {
+      "comment": "Shop Price: Natou",
+      "type": "word",
+      "address": "0x047A30D8",
+      "value": "0x000002BC"
+    }, {
+      "comment": "Shop Price: Sushi",
+      "type": "word",
+      "address": "0x047A30E0",
+      "value": "0x000007D0"
+    }, {
+      "comment": "Shop Price: Str. Potion",
+      "type": "word",
+      "address": "0x047A30E8",
+      "value": "0x000005DC"
+    }, {
+      "comment": "Shop Price: Attack potion",
+      "type": "word",
+      "address": "0x047A30F0",
+      "value": "0x000005DC"
+    }, {
+      "comment": "Shop Price: Shield potion",
+      "type": "word",
+      "address": "0x047A30F8",
+      "value": "0x000007D0"
+    }, {
+      "comment": "Shop Price: Uncurse",
+      "type": "word",
+      "address": "0x047A3100",
+      "value": "0x000009C4"
+    }, {
+      "comment": "Shop Price: Antivenom",
+      "type": "word",
+      "address": "0x047A3108",
+      "value": "0x00000BB8"
+    }, {
+      "comment": "Shop Price: High Potion",
+      "type": "word",
+      "address": "0x047A3110",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Shuriken",
+      "type": "word",
+      "address": "0x047A3118",
+      "value": "0x00000BB8"
+    }, {
+      "comment": "Shop Price: Cross shuriken",
+      "type": "word",
+      "address": "0x047A3120",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Flame star",
+      "type": "word",
+      "address": "0x047A3128",
+      "value": "0x00001B58"
+    }, {
+      "comment": "Shop Price: Buffalo star",
+      "type": "word",
+      "address": "0x047A3130",
+      "value": "0x00002710"
+    }, {
+      "comment": "Shop Price: TNT",
+      "type": "word",
+      "address": "0x047A3138",
+      "value": "0x00001F40"
+    }, {
+      "comment": "Shop Price: Dynamite",
+      "type": "word",
+      "address": "0x047A3140",
+      "value": "0x00003A98"
+    }, {
+      "comment": "Shop Price: Takemitsu",
+      "type": "word",
+      "address": "0x047A3148",
+      "value": "0x00000BB8"
+    }, {
+      "comment": "Shop Price: Nunchaku",
+      "type": "word",
+      "address": "0x047A3150",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Namakura",
+      "type": "word",
+      "address": "0x047A3158",
+      "value": "0x00001770"
+    }, {
+      "comment": "Shop Price: Katana",
+      "type": "word",
+      "address": "0x047A3160",
+      "value": "0x00002328"
+    }, {
+      "comment": "Shop Price: Muramasa",
+      "type": "word",
+      "address": "0x047A3168",
+      "value": "0x00003A98"
+    }, {
+      "comment": "Shop Price: Osafune katana",
+      "type": "word",
+      "address": "0x047A3170",
+      "value": "0x00007530"
+    }, {
+      "comment": "Shop Price: Yasutsuna",
+      "type": "word",
+      "address": "0x047A3178",
+      "value": "0x0000EA60"
+    }, {
+      "comment": "Shop Price: Masamune",
+      "type": "word",
+      "address": "0x047a3180",
+      "value": "0x000186A0"
+    }, {
+      "comment": "Shop Price: Fire mail",
+      "type": "word",
+      "address": "0x047a3188",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Lightning mail",
+      "type": "word",
+      "address": "0x047a3190",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Ice mail",
+      "type": "word",
+      "address": "0x047A3198",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Holy mail",
+      "type": "word",
+      "address": "0x047A31A0",
+      "value": "0x00001388"
+    }, {
+      "comment": "Shop Price: Dark armor",
+      "type": "word",
+      "address": "0x047A31A8",
+      "value": "0x00001D4C"
+    }, {
+      "comment": "Shop Price: Bandanna",
+      "type": "word",
+      "address": "0x047A31B0",
+      "value": "0x000007D0"
+    }, {
+      "comment": "Shop Price: Medal",
+      "type": "word",
+      "address": "0x047A31B8",
+      "value": "0x00000FA0"
+    }, {
+      "comment": "Shop Price: Gauntlet",
+      "type": "word",
+      "address": "0x047A31C0",
+      "value": "0x00001D4C"
+    }, {
+      "comment": "Shop Price: King's stone",
+      "type": "word",
+      "address": "0x047A31C8",
+      "value": "0x00002EE0"
+    }, {
+      "comment": "Shop Price: Covenant stone",
+      "type": "word",
+      "address": "0x047A31D0",
+      "value": "0x0000445C"
+    }, {
+      "comment": "Shop Price: Ring of Ares",
+      "type": "word",
+      "address": "0x047A31D8",
+      "value": "0x00005DC0"
+    }, {
+      "comment": "Shop Price: Library card",
+      "type": "word",
+      "address": "0x047A31E0",
+      "value": "0x00001388"
+    }
+  ]
+}

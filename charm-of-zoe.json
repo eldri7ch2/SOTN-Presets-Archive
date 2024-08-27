@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "id": "charm-of-zoe",
+    "name": "Charm of Zoe",
+    "description": "Makes subweapons more relevant by removing certain items.",
+    "author": "wecoc",
+    "weight": 0
+  },
+
+  "comment": "Build off the Casual preset",
+  "inherits": "casual",
+  "relicLocationsExtension": false,
+  "stats": false,
+  "turkeyMode": false,
+
+  "complexityGoal": {
+    "min": 7,
+    "goals": [
+      "Holy glasses + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+  "prologueRewards": [{
+    "item": "Heart Refresh",
+    "replacement": "Staroulite"
+  }, {
+    "item": "Neutron bomb",
+    "replacement": [
+      "Str. potion",
+      "Luck potion",
+      "Smart potion",
+      "Attack potion",
+      "Shield potion"
+    ]
+  }, {
+    "item": "Potion",
+    "replacement": [
+      "Str. potion",
+      "Luck potion",
+      "Smart potion",
+      "Attack potion",
+      "Shield potion"
+    ]
+  }],
+
+  "startingEquipment": [{
+    "slot": "Right hand",
+    "item": [
+      "Cutlass",
+      "Saber",
+      "Broadsword",
+      "Bekatowa"
+    ]
+  }, {
+    "slot": "Left hand",
+    "item": "Shaman shield"
+  }, {
+    "slot": "Head",
+    "item": null
+  }, {
+    "slot": "Body",
+    "item": null
+  }, {
+    "slot": "Cloak",
+    "item": "Reverse cloak"
+  }, {
+    "slot": "Other",
+    "item": null
+  }],
+
+ "blockItems": [{
+    "zone": "*",
+    "item": "*",
+    "replacement": [
+      "Heart Refresh",
+      "Brilliant mail",
+      "Blood cloak",
+      "Heart broach",
+      "Combat knife",
+      "Jewel sword",
+      "Shotel",
+      "Were Bane",
+      "Sword of Hador",
+      "Luminus",
+      "Harper",
+      "Gram",
+      "Dark Blade",
+      "Alucart sword",
+      "Tyrfing",
+      "Mormegil",
+      "Thunderbrand",
+      "Icebrand",
+      "Firebrand",
+      "Holy sword",
+      "Terminus Est",
+      "Gurthang",
+      "Marsil",
+      "Mourneblade",
+      "Mablung Sword",
+      "Alucard sword",
+      "Badelaire",
+      "Vorpal blade",
+      "Crissaegrim",
+      "Claymore",
+      "Flamberge",
+      "Sword of Dawn",
+      "Estoc",
+      "Zwei hander",
+      "Obsidian sword",
+      "Great Sword",
+      "Katana",
+      "Osafune katana",
+      "Yasutsuna",
+      "Masamune",
+      "Nunchaku",
+      "Star flail",
+      "Moon rod",
+      "Jewel knuckles",
+      "Iron Fist",
+      "Fist of Tulkas",
+      "Alucart shield",
+      "Fire shield",
+      "Alucard shield",
+      "Chakram",
+      "Heaven sword",
+      "Runesword",
+      "Boomerang",
+      "Buffalo star",
+      "Bwaka knife",
+      "Cross shuriken",
+      "Dynamite",
+      "Fire boomerang",
+      "Flame star",
+      "Iron ball",
+      "Javelin",
+      "Magic Missile",
+      "Shuriken",
+      "TNT",
+      "Neutron bomb"
+    ]
+  }],
+
+  "blockDrops": [{
+    "enemy": "*",
+    "items": [
+      "Brilliant mail",
+      "Blood cloak",
+      "Heart broach",
+      "Combat knife",
+      "Jewel sword",
+      "Shotel",
+      "Were Bane",
+      "Sword of Hador",
+      "Luminus",
+      "Harper",
+      "Gram",
+      "Dark Blade",
+      "Alucart sword",
+      "Tyrfing",
+      "Mormegil",
+      "Thunderbrand",
+      "Icebrand",
+      "Firebrand",
+      "Holy sword",
+      "Terminus Est",
+      "Gurthang",
+      "Marsil",
+      "Mourneblade",
+      "Mablung Sword",
+      "Alucard sword",
+      "Badelaire",
+      "Vorpal blade",
+      "Crissaegrim",
+      "Claymore",
+      "Flamberge",
+      "Sword of Dawn",
+      "Estoc",
+      "Zwei hander",
+      "Obsidian sword",
+      "Great Sword",
+      "Katana",
+      "Osafune katana",
+      "Yasutsuna",
+      "Masamune",
+      "Nunchaku",
+      "Star flail",
+      "Moon rod",
+      "Jewel knuckles",
+      "Iron Fist",
+      "Fist of Tulkas",
+      "Alucart shield",
+      "Fire shield",
+      "Alucard shield",
+      "Chakram",
+      "Heaven sword",
+      "Runesword",
+      "Boomerang",
+      "Buffalo star",
+      "Bwaka knife",
+      "Cross shuriken",
+      "Dynamite",
+      "Fire boomerang",
+      "Flame star",
+      "Iron ball",
+      "Javelin",
+      "Magic Missile",
+      "Shuriken",
+      "TNT",
+      "Neutron bomb"
+    ]
+  }],
+
+  "replaceRelic": [{
+    "relic": "Faerie Card",
+    "item": "Heart Refresh"
+  }, {
+    "relic": "Bat Card",
+    "item": "Brilliant mail"
+  }, {
+    "relic": "Demon Card",
+    "item": "Blood cloak"
+  }, {
+    "relic": "Ghost Card",
+    "item": "Heart broach"
+  }, {
+    "relic": "Sword Card",
+    "item": "Silver crown"
+  }, {
+    "relic": "Sprite Card",
+    "item": "Meal ticket"
+  }, {
+    "relic": "Nosedevil Card",
+    "item": "Library card"
+  }],
+
+  "writes": [{
+    "comment": "Jump to injected code",
+    "address": "0x000fa97c",
+    "type": "word",
+    "value": "0x0c04db00"
+  }, {
+    "address": "0x00158c98",
+    "type": "word",
+    "value": "0x34020003",
+    "comment": "ori v0, 0x0003"
+  }, {
+    "type": "word",
+    "value": "0x3c038009",
+    "comment": "lui v1, 0x8009"
+  }, {
+    "comment": "Enable Cube of Zoe",
+    "type": "word",
+    "value": "0xa062796e",
+    "comment": "sb v0, 0x796E (v1)"
+  }, {
+    "comment": "Enable Spirit Orb",
+    "type": "word",
+    "value": "0xa062796f",
+    "comment": "sb v0, 0x796F (v1)"
+  }, {
+    "comment": "Enable Faerie Scroll",
+    "type": "word",
+    "value": "0xa0627973",
+    "comment": "sb v0, 0x7973 (v1)"
+  }, {
+    "comment": "Return from injected code",
+    "type": "word",
+    "value": "0x0803924f",
+    "comment": "j 0x800e493c"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Knife subweapon damage",
+    "type": "char",
+    "address": "0x000b0fec",
+    "value": "0x10"
+  }, {
+    "comment": "Knife subweapon heart cost",
+    "type": "char",
+    "address": "0x000b0fee",
+    "value": "0x02"
+  }, {
+    "comment": "Knife subweapon repeatability",
+    "type": "char",
+    "address": "0x000b0ff2",
+    "value": "0xff"
+  }, {
+    "comment": "Knife subweapon multiple shot",
+    "type": "char",
+    "address": "0x000b0ff7",
+    "value": "0x4c"
+  }, {
+    "comment": "Axe subweapon damage",
+    "type": "char",
+    "address": "0x000b1000",
+    "value": "0x2b"
+  }, {
+    "comment": "Axe subweapon heart cost",
+    "type": "char",
+    "address": "0x000b1002",
+    "value": "0x02"
+  }, {
+    "comment": "Axe subweapon repeatability",
+    "type": "char",
+    "address": "0x000b1006",
+    "value": "0xff"
+  }, {
+    "comment": "Holy water subweapon damage",
+    "type": "char",
+    "address": "0x000b1014",
+    "value": "0x0a"
+  }, {
+    "comment": "Holy water subweapon heart cost",
+    "type": "char",
+    "address": "0x000b1016",
+    "value": "0x02"
+  }, {
+    "comment": "Holy water subweapon stun frames",
+    "type": "char",
+    "address": "0x000b101c",
+    "value": "0x20"
+  }, {
+    "comment": "Cross subweapon damage",
+    "type": "char",
+    "address": "0x000b1028",
+    "value": "0x1e"
+  }, {
+    "comment": "Cross subweapon heart cost",
+    "type": "char",
+    "address": "0x000b102a",
+    "value": "0x1e"
+  }, {
+    "comment": "Cross subweapon full screen",
+    "type": "char",
+    "address": "0x000b1034",
+    "value": "0xff"
+  }, {
+    "comment": "Bible subweapon damage",
+    "type": "char",
+    "address": "0x000b103c",
+    "value": "0x14"
+  }, {
+    "comment": "Bible subweapon heart cost",
+    "type": "char",
+    "address": "0x000b103e",
+    "value": "0x04"
+  }, {
+    "comment": "Bible subweapon radius",
+    "type": "char",
+    "address": "0x0014c1C8",
+    "value": "0x40"
+  }, {
+    "comment": "Stopwatch subweapon invincibility frames",
+    "type": "char",
+    "address": "0x000b1057",
+    "value": "0xff"
+  }, {
+    "comment": "Stopwatch subweapon stun frames",
+    "type": "char",
+    "address": "0x000b1058",
+    "value": "0x40"
+  }, {
+    "comment": "R Stone subweapon damage",
+    "type": "char",
+    "address": "0x000b1064",
+    "value": "0x10"
+  }, {
+    "comment": "R Stone subweapon heart cost",
+    "type": "char",
+    "address": "0x000b1066",
+    "value": "0x04"
+  }, {
+    "comment": "R Stone subweapon damage type (cut)",
+    "type": "char",
+    "address": "0x000b1068",
+    "value": "0x40"
+  }, {
+    "comment": "R Stone subweapon multiple shot",
+    "type": "char",
+    "address": "0x000b106f",
+    "value": "0xb9"
+  }, {
+    "comment": "Vib Hand subweapon damage",
+    "type": "char",
+    "address": "0x000b1078",
+    "value": "0x10"
+  }, {
+    "comment": "Vib Hand subweapon heart cost",
+    "type": "char",
+    "address": "0x000b107a",
+    "value": "0x04"
+  }, {
+    "comment": "Vib Hand subweapon invincibility frames",
+    "type": "char",
+    "address": "0x000b107f",
+    "value": "0x10"
+  }, {
+    "comment": "Vib Hand subweapon stun frames",
+    "type": "char",
+    "address": "0x000b1080",
+    "value": "0x10"
+  }, {
+    "comment": "Vib Hand subweapon particle quantity",
+    "type": "char",
+    "address": "0x0014858c",
+    "value": "0x20"
+  }, {
+    "comment": "Vib Hand subweapon throw distance",
+    "type": "char",
+    "address": "0x00148789",
+    "value": "0x02"
+  }, {
+    "comment": "Agunea subweapon damage",
+    "type": "char",
+    "address": "0x000b108c",
+    "value": "0x19"
+  }, {
+    "comment": "Agunea subweapon conductivity",
+    "type": "char",
+    "address": "0x00148c28",
+    "value": "0x40"
+  }, {
+    "comment": "Agunea subweapon throw distance",
+    "type": "char",
+    "address": "0x001491bc",
+    "value": "0xf0"
+  }, {
+    "comment": "Max Hearts on Level up",
+    "type": "char",
+    "address": "0x001178b4",
+    "value": "0x05"
+  }]
+}

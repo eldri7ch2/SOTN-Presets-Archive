@@ -1,0 +1,1701 @@
+{
+  "metadata": {
+    "id": "sleuth",
+    "name": "Sleuth",
+    "description": "Opens several shortcuts and all teleporters but hides the end of the game ;)",
+    "author": "eldri7ch, Mottzilla, Wecoc",
+    "weight": -900
+  },
+
+  "itemLocations": [{
+    "comment": "Place Library Card instead of Cat-eye Circl. in the Catacombs for folks who become trapped",
+    "zone": "CAT",
+    "item": "Cat-eye circl.",
+    "replacement": "Library card"
+  }],
+
+  "lockLocation": [{
+    "location": "Merman Statue",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Form of Mist",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Leap Stone",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Demon Card",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Soul of Bat",
+    "comment": "Requires Mist + at least Leap Stone",
+    "locks": [
+      "Form of Mist + Leap Stone",
+      "Form of Mist + Gravity Boots",
+      "Form of Mist + Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Fire of Bat",
+    "comment": "Requires flight + a transformation",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone + Form of Mist",
+      "Gravity Boots + Leap Stone + Soul of Wolf",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Echo of Bat",
+    "comment": "Requires flight + a transformation",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone + Form of Mist",
+      "Gravity Boots + Leap Stone + Soul of Wolf",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Force of Echo",
+    "comment": "Second Castle, Requires Holy Symbol + Soul of Wolf",
+    "locks": [
+      "Holy glasses + Soul of Bat + Holy Symbol + Soul of Wolf",
+      "Holy glasses + Gravity Boots + Leap Stone + Holy Symbol + Soul of Wolf",
+      "Holy glasses + Form of Mist + Power of Mist + Holy Symbol + Soul of Wolf"
+    ]
+  }, {
+    "location": "Power of Wolf",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Skill of Wolf",
+    "comment": "Requires at least Gravity Boots + Jewel of Open",
+    "locks": [
+      "Gravity Boots + Jewel of Open",
+      "Soul of Bat + Jewel of Open",
+      "Form of Mist + Power of Mist + Jewel of Open"
+    ]
+  }, {
+    "location": "Power of Mist",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gas Cloud",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gravity Boots",
+    "comment": "Requires flight + Jewel of Open",
+    "locks": [
+      "Soul of Bat + Jewel of Open",
+      "Gravity Boots + Leap Stone + Jewel of Open",
+      "Form of Mist + Power of Mist + Jewel of Open"
+    ]
+  }, {
+    "location": "Holy Symbol",
+    "comment": "Requires Merman Statue + Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open + Merman Statue",
+      "Leap Stone + Merman Statue",
+      "Gravity Boots + Merman Statue",
+      "Soul of Bat + Merman Statue",
+      "Form of Mist + Power of Mist + Merman Statue"
+    ]
+  }, {
+    "location": "Bat Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ghost Card",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Faerie Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Heart of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Tooth of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Rib of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone + Form of Mist",
+      "Holy glasses + Gravity Boots + Leap Stone + Soul of Wolf",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Eye of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Spike Breaker",
+    "locks": [
+      "Soul of Bat + Echo of Bat"
+    ]
+  }, {
+    "location": "Gold ring",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Silver ring",
+    "locks": [
+      "Jewel of Open + Spike Breaker + Form of Mist"
+    ]
+  }, {
+    "location": "Holy glasses",
+    "locks": [
+      "Silver ring + Gold ring"
+    ],
+    "comment": "Access must also give flight",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Crystal cloak",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Mormegil",
+    "comment": "Require's at least Leap Stone",
+    "locks": [
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Dark Blade",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Arcana",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Trio",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy mail",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Jewel sword",
+    "comment": "Requires Wolf + Bat",
+    "locks": [
+      "Soul of Wolf + Soul of Bat"
+    ]
+  }, {
+    "location": "Mystic pendant",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ankh of Life",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Morningstar",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Platinum mail",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Falchion",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gold plate",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bekatowa",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy rod",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Leap Stone",
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Library Onyx",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucart sword",
+    "comment": "Requires at least Cube of Zoe + at least Leap Stone",
+    "locks": [
+      "Cube of Zoe + Soul of Bat",
+      "Cube of Zoe + Leap Stone",
+      "Cube of Zoe + Gravity Boots",
+      "Cube of Zoe + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Estoc",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Olrox Garnet",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy sword",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bandanna",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Secret boots",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Nunchaku",
+    "comment": "Requires Jewel of Open or at least Leap Stone + Holy Symbol",
+    "locks": [
+      "Jewel of Open + Holy Symbol",
+      "Leap Stone + Holy Symbol",
+      "Gravity Boots + Holy Symbol",
+      "Soul of Bat + Holy Symbol",
+      "Form of Mist + Power of Mist + Holy Symbol"
+    ]
+  }, {
+    "location": "Knuckle duster",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Caverns Onyx",
+    "comment": "Requires Jewel of Open + at least Leap Stone",
+    "locks": [
+      "Jewel of Open + Merman Statue",
+      "Leap Stone + Merman Statue",
+      "Jewel of Open + Soul of Bat",
+      "Jewel of Open + Holy Symbol + Leap Stone",
+      "Jewel of Open + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Combat knife",
+    "comments": "Access must also give at least Leap Stone",
+    "locks": [
+      "Spirit Orb"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Ares",
+    "comment": "Requires Demon Card + at least Gravity Boots",
+    "locks": [
+      "Demon Card + Soul of Bat",
+      "Demon Card + Gravity Boots",
+      "Demon Card + Form of Mist + Power of Mist",
+      "Nosedevil Card + Soul of Bat",
+      "Nosedevil Card + Gravity Boots",
+      "Nosedevil Card + Form of Mist + Power of Mist"
+    ],
+    "comment": "Access must also give at least Leap Stone",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bloodstone",
+    "comment": "Access must also give at least Leap Stone",
+    "locks": [
+      "Spirit Orb"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Icebrand",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ],
+    "comment": "Access must also give at least Leap Stone",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Beryl circlet",
+    "comment": "Requires Holy glasses + Bat + Wolf",
+    "locks": [
+      "Holy glasses + Soul of Bat + Soul of Wolf"
+    ]
+  }, {
+    "location": "Talisman",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Katana",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Goddess shield",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Twilight cloak",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Talwar",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword of Dawn",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bastard sword",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Royal cloak",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Lightning mail",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Moon rod",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sunstone",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Luminus",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Dragon helm",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Shotel",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Staurolite",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Badelaire",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Forbidden Library Opal",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Diamond",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Opal",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Garnet",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Osafune katana",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard shield",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard sword",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Necklace of J",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Floating Catacombs Diamond",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword of Hador",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard mail",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gram",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Fury plate",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }],
+
+  "writes": [{
+    "comment": "Jump to injected code",
+    "address": "0x000fa97c",
+    "type": "word",
+    "value": "0x0c04db00"
+  }, {
+    "address": "0x00158c98",
+    "type": "word",
+    "value": "0x34020003",
+    "comment": "ori v0, 0x0003"
+  }, {
+    "comment": "Write to 8003 RAM addresses,",
+    "type": "word",
+    "value": "0x3c038004",
+    "comment": "lui v1, 0x8004"
+  }, {
+    "comment": "Open Entrance to Catacombs",
+    "type": "word",
+    "value": "0xa062BEB3",
+    "comment": "sb v0, 0xBEB3 (v1)"
+  }, {
+    "type": "word",
+    "value": "0x34020001",
+    "comment": "ori v0, 0x0001"
+  }, {
+    "comment": "Open Shortcut: Caverns - Entrance",
+    "type": "word",
+    "value": "0xa062BE1C",
+    "comment": "sb v0, 0xBE1C (v1)"
+  }, {
+    "comment": "Open Shortcut: Marble Gallery - Entrance",
+    "type": "word",
+    "value": "0xa062BE1D",
+    "comment": "sb v0, 0xBE1D (v1)"
+  }, {
+    "comment": "Open Shortcut: Teleporter - Entrance",
+    "type": "word",
+    "value": "0xa062BE1E",
+    "comment": "sb v0, 0xBE1E (v1)"
+  }, {
+    "comment": "Open Shortcut: Alchemy Lab Cannon",
+    "type": "word",
+    "value": "0xa062BE6F",
+    "comment": "sb v0, 0xBE6F (v1)"
+  }, {
+    "comment": "Open Shortcut: Olrox's Quarters - Royal Chapel",
+    "type": "word",
+    "value": "0xa062BE4C",
+    "comment": "sb v0, 0xBE4C (v1)"
+  }, {
+    "comment": "Open Shortcut: Colosseum - Royal Chapel",
+    "type": "word",
+    "value": "0xa062BE9D",
+    "comment": "sb v0, 0xBE9D (v1)"
+  }, {
+    "comment": "Open Keep Attic Stairs",
+    "type": "word",
+    "value": "0xa062BE80",
+    "comment": "sb v0, 0xBE80 (v1)"
+  }, {
+    "comment": "Turn on Outer Wall Elevator",
+    "type": "word",
+    "value": "0xa062BDFC",
+    "comment": "sb v0, 0xBDFC (v1)"
+  }, {
+    "comment": "Mines Ledge Has Fallen",
+    "type": "word",
+    "value": "0xa062BE3E",
+    "comment": "sb v0, 0xBE3E (v1)"
+  }, {
+    "type": "word",
+    "value": "0x3402001F",
+    "comment": "ori v0, 0x001F"
+  }, {
+    "comment": "Unlock Normal Teleport Rooms",
+    "type": "word",
+    "value": "0xa062BEBC",
+    "comment": "sb v0, 0xBEBC (v1)"
+  }, {
+    "comment": "Unlock Reverse Teleport Rooms",
+    "type": "word",
+    "value": "0xa062BEBD",
+    "comment": "sb v0, 0xBEBD (v1)"
+  }, {
+    "comment": "Save Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x37F70000"
+  }, {
+    "comment": "Call Map Acquisition Function (Map Code)",
+    "type": "word",
+    "value": "0x0C03C8A2"
+  }, {
+    "type": "word",
+    "value": "0x34040000",
+    "comment": "Arg0 w/ 0"
+  }, {
+    "comment": "Recall Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x36FF0000"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Return from injected code",
+    "type": "word",
+    "value": "0x0803924f",
+    "comment": "j 0x800e493c"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Death goes home.",
+    "address": "0x4BAEA08",
+    "type": "word",
+    "value": "0x18000006"
+  }, {
+    "type": "word",
+    "address": "0x158C30",
+    "value": "0x3C028004",
+    "comment": "RLBC"
+  }, {
+    "type": "word",
+    "value": "0x9045925D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x38A500FF"
+  }, {
+    "type": "word",
+    "value": "0x30A50040"
+  }, {
+    "type": "word",
+    "value": "0x10A00008"
+  }, {
+    "type": "word",
+    "value": "0x3C028007"
+  }, {
+    "type": "word",
+    "value": "0x9042BBFB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10400004"
+  }, {
+    "type": "word",
+    "value": "0x34180022"
+  }, {
+    "type": "word",
+    "value": "0x341988BE"
+  }, {
+    "type": "word",
+    "value": "0x18000003"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34180002"
+  }, {
+    "type": "word",
+    "value": "0x34197C0E"
+  }, {
+    "type": "word",
+    "value": "0x3C02800F"
+  }, {
+    "type": "word",
+    "value": "0xA0581724"
+  }, {
+    "type": "word",
+    "value": "0x3B180020"
+  }, {
+    "type": "word",
+    "value": "0xA05832A4"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C02800A"
+  }, {
+    "type": "word",
+    "value": "0xA4593C98"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x0804390B"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "Block A End"
+  }, {
+    "type": "word",
+    "address": "0x12B534",
+    "value": "0x0C04DAE6",
+    "comment": "Reverse Library Card"
+  }, {
+    "comment": "Grav Boots Door",
+    "address": "0x48FC9A8",
+    "type": "word",
+    "value": "0x007003F4"
+  }, {
+    "type": "word",
+    "value": "0x00910051"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Grav Boots Blocks 1",
+    "address": "0x492C970",
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "comment": "Grav Boots Blocks 2",
+    "address": "0x492CA10",
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "comment": "Grav Boots Door GFX",
+    "address": "0x48FC8AE",
+    "type": "char",
+    "value": "0x09"
+  }, {
+    "comment": "Skill of Wolf Door",
+    "address": "0x54B404C",
+    "type": "word",
+    "value": "0x006101D0"
+  }, {
+    "type": "word",
+    "value": "0x0108004A"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Skill of Wolf Door GFX",
+    "address": "0x54B38B2",
+    "type": "char",
+    "value": "0x03"
+  }, {
+    "comment": "Skill of Wolf Hide Ugly Vats",
+    "address": "0x54B4027",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B4031",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B403B",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B4045",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "comment": "Pillar in Clock Tower",
+    "address": "0x5590D62",
+    "type": "word",
+    "value": "0x015D015C"
+  }, {
+    "address": "0x5590E22",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5590EE2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5590FA2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591062",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591122",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55911E2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55912A2",
+    "type": "word",
+    "value": "0x015D015C"
+  }, {
+    "address": "0x5591362",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591552",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591612",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55916D2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591792",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591852",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591912",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55919D2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591A92",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591B52",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591C12",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591CD2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591EC2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591F82",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592042",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592102",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55921C2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592282",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592342",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592402",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55924C2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592582",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592772",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592832",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55928F2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55929B2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592A72",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592B32",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592BF2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592CB2",
+    "type": "word",
+    "value": "0x01750174",
+    "comment": "End Pillar in Clock Tower"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 1",
+    "address": "0x5590586",
+    "type": "word",
+    "value": "0x000C000B"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "short",
+    "value": "0x000C"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 2",
+    "address": "0x55907C0",
+    "type": "word",
+    "value": "0x000C000B"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 3",
+    "address": "0x5594EF0",
+    "type": "word",
+    "value": "0x000A000C"
+  }, {
+    "type": "short",
+    "value": "0x0157"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 4",
+    "address": "0x5594E90",
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000A000C"
+  }, {
+    "comment": "Never get Clock Blocked",
+    "type": "word",
+    "address": "0x4951D4C",
+    "value": "0x3C020002"
+  }, {
+    "type": "word",
+    "address": "0x4FCF264",
+    "value": "0x3C020002"
+  }, {
+    "comment": "Open means Free Relics",
+    "type": "word",
+    "address": "0x47A3098",
+    "value": "0x00000000"
+  }, {
+    "comment": "Demon card open door A",
+    "address": "0x4608B84",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Demon card open door B",
+    "address": "0x4608BE4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Force the scroll lock entity in Forbidden Route to appear",
+    "type": "char",
+    "address": "0x435FB77",
+    "value": "0xA0"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 1",
+    "address": "0x5292C1A",
+    "type": "word",
+    "value": "0x03740375"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 2",
+    "address": "0x5292C28",
+    "type": "Short",
+    "value": "0x0393"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 3",
+    "address": "0x5292DB6",
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03700371"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 4",
+    "address": "0x5292DC6",
+    "type": "word",
+    "value": "0x03910392"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 5",
+    "address": "0x5292F34",
+    "type": "word",
+    "value": "0x03740375"
+  }, {
+    "type": "short",
+    "value": "0x0373"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 6",
+    "address": "0x5292F54",
+    "type": "word",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x0180036A"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03790376"
+  }, {
+    "type": "short",
+    "value": "0x0378"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 7",
+    "address": "0x52930D2",
+    "type": "word",
+    "value": "0x0A750372"
+  }, {
+    "type": "word",
+    "value": "0x07E10370"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 8",
+    "address": "0x52930E2",
+    "type": "word",
+    "value": "0x0373"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 9",
+    "address": "0x52930F2",
+    "type": "word",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "type": "short",
+    "value": "0x072E"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 10",
+    "address": "0x529326C",
+    "type": "word",
+    "value": "0x03740375"
+  }, {
+    "type": "word",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "word",
+    "value": "0x037903E3"
+  }, {
+    "type": "word",
+    "value": "0x07E1036C"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 11",
+    "address": "0x529328E",
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "type": "word",
+    "value": "0x0598072B"
+  }, {
+    "type": "short",
+    "value": "0x0597"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 12",
+    "address": "0x529353A",
+    "type": "word",
+    "value": "0x0A750372"
+  }, {
+    "type": "word",
+    "value": "0x036E0370"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x036A0377"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "short",
+    "value": "0x0376"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 13",
+    "address": "0x529355E",
+    "type": "word",
+    "value": "0x036A036B"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0596"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 14",
+    "address": "0x52936DA",
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 15",
+    "address": "0x529387C",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 16",
+    "address": "0x5293A1E",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 17",
+    "address": "0x5293A3E",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 18",
+    "address": "0x5293A56",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 19",
+    "address": "0x5293BBE",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 20",
+    "address": "0x5293BE0",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 21",
+    "address": "0x5293BFC",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 22",
+    "address": "0x5293EB2",
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 23",
+    "address": "0x5293746",
+    "type": "word",
+    "value": "0x05980590"
+  }, {
+    "type": "word",
+    "value": "0x00000597"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 24",
+    "address": "0x52938E4",
+    "type": "word",
+    "value": "0x07320590"
+  }, {
+    "type": "word",
+    "value": "0x05960180"
+  }, {
+    "type": "word",
+    "value": "0x05970598"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 25",
+    "address": "0x5293A8E",
+    "type": "short",
+    "value": "0x0596"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 26 (Trap Prevention)",
+    "address": "0x529315E",
+    "type": "word",
+    "value": "0x018005DD"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x060F"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 27 (Trap Prevention)",
+    "address": "0x52932FE",
+    "type": "word",
+    "value": "0x059E059D"
+  }, {
+    "type": "word",
+    "value": "0x0611060F"
+  }, {
+    "type": "short",
+    "value": "0x060E"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 28 (Trap Prevention)",
+    "address": "0x52935D0",
+    "type": "word",
+    "value": "0x05FB059D"
+  }, {
+    "comment": "Increased Complexity on Force of Echo 29 (Ease of Movement)",
+    "address": "0x529358A",
+    "type": "short",
+    "value": "0x03BA"
+  }],
+
+  "complexityGoal": {
+    "min": 8,
+    "goals": [
+      "Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad + Faerie Scroll"
+    ]
+  }
+}
