@@ -1,0 +1,2615 @@
+{
+  "metadata": {
+    "id": "itsame",
+    "name": "Itsame",
+    "description": "Mario!",
+    "author": "Forat Negre",
+    "weight": -500
+  },
+
+  "inherits": "casual",
+  "stats": false,
+  "turkeyMode": false,
+  "tournamentMode": true,
+
+  "prologueRewards": [{
+    "item": "Heart Refresh",
+    "replacement": "Library card"
+  }, {
+    "item": "Neutron bomb",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Potion",
+    "replacement": "Shiitake"
+  }],
+
+  "startingEquipment": [{
+    "slot": "Right hand",
+    "item": null
+  }, {
+    "slot": "Left hand",
+    "item": null
+  }, {
+    "slot": "Head",
+    "item": null
+  }, {
+    "slot": "Body",
+    "item": null
+  }, {
+    "slot": "Cloak",
+    "item": null
+  }, {
+    "slot": "Other",
+    "item": null
+  }],
+
+  "replaceRelic": [{
+    "relic": "Soul of Bat",
+    "item": "Mace"
+  }, {
+    "relic": "Fire of Bat",
+    "item": "Library card"
+  }, {
+    "relic": "Echo of Bat",
+    "item": "Library card"
+  }, {
+    "relic": "Force of Echo",
+    "item": "Meal ticket"
+  }, {
+    "relic": "Soul of Wolf",
+    "item": "Pizza"
+  }, {
+    "relic": "Power of Wolf",
+    "item": "Pizza"
+  }, {
+    "relic": "Skill of Wolf",
+    "item": "Spaghetti"
+  }, {
+    "relic": "Gas Cloud",
+    "item": "Cheese"
+  }],
+
+  "replaceItem": [{
+    "item": "Monster vial 1",
+    "replacement": "Magic Missile"
+  }, {
+    "item": "Monster vial 2",
+    "replacement": "Magic Missile"
+  }, {
+    "item": "Monster vial 3",
+    "replacement": "Magic Missile"
+  }, {
+    "item": "Shield rod",
+    "replacement": "Strawberry"
+  }, {
+    "item": "Holy rod",
+    "replacement": "Banana"
+  }, {
+    "item": "Leather shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Knight shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Iron shield",
+    "replacement": "Banana"
+  }, {
+    "item": "AxeLord shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Herald shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Dark shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Goddess shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Shaman shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Medusa shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Skull shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Fire shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Alucard shield",
+    "replacement": "Banana"
+  }, {
+    "item": "Sword of Dawn",
+    "replacement": "Pizza"
+  }, {
+    "item": "Basilard",
+    "replacement": "Pizza"
+  }, {
+    "item": "Short sword",
+    "replacement": "Pizza"
+  }, {
+    "item": "Combat knife",
+    "replacement": "Pizza"
+  }, {
+    "item": "Nunchaku",
+    "replacement": "Pizza"
+  }, {
+    "item": "Were Bane",
+    "replacement": "Pizza"
+  }, {
+    "item": "Rapier",
+    "replacement": "Pizza"
+  }, {
+    "item": "Red Rust",
+    "replacement": "Spaghetti"
+  }, {
+    "item": "Takemitsu",
+    "replacement": "Spaghetti"
+  }, {
+    "item": "Shotel",
+    "replacement": "Spaghetti"
+  }, {
+    "item": "Neutron bomb",
+    "replacement": "Cheese"
+  }, {
+    "item": "Power of Sire",
+    "replacement": "Cheese"
+  }, {
+    "item": "Pentagram",
+    "replacement": "Cheese"
+  }, {
+    "item": "Bat Pentagram",
+    "replacement": "Cheese"
+  }, {
+    "item": "Shuriken",
+    "replacement": "Grape juice"
+  }, {
+    "item": "Cross shuriken",
+    "replacement": "Grape juice"
+  }, {
+    "item": "Buffalo star",
+    "replacement": "Grape juice"
+  }, {
+    "item": "Flame star",
+    "replacement": "Grape juice"
+  }, {
+    "item": "TNT",
+    "replacement": "Iron ball"
+  }, {
+    "item": "Bwaka knife",
+    "replacement": "Iron ball"
+  }, {
+    "item": "Boomerang",
+    "replacement": "Iron ball"
+  }, {
+    "item": "Javelin",
+    "replacement": "Iron ball"
+  }, {
+    "item": "Tyrfing",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Namakura",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Knuckle duster",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Gladius",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Scimitar",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Cutlass",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Saber",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Falchion",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Broadsword",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Bekatowa",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Damascus sword",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Hunter sword",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Estoc",
+    "replacement": "Heart Refresh"
+  }, {
+    "item": "Bastard sword",
+    "replacement": "Potion"
+  }, {
+    "item": "Jewel knuckles",
+    "replacement": "Potion"
+  }, {
+    "item": "Claymore",
+    "replacement": "High potion"
+  }, {
+    "item": "Talwar",
+    "replacement": "High potion"
+  }, {
+    "item": "Katana",
+    "replacement": "Elixir"
+  }, {
+    "item": "Flamberge",
+    "replacement": "Elixir"
+  }, {
+    "item": "Iron Fist",
+    "replacement": "Elixir"
+  }, {
+    "item": "Zwei hander",
+    "replacement": "Elixir"
+  }, {
+    "item": "Sword of Hador",
+    "replacement": "Elixir"
+  }, {
+    "item": "Luminus",
+    "replacement": "Elixir"
+  }, {
+    "item": "Harper",
+    "replacement": "Elixir"
+  }, {
+    "item": "Obsidian sword",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Gram",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Jewel sword",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Mormegil",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Stone sword",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Holy sword",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Terminus Est",
+    "replacement": "Manna prism"
+  }, {
+    "item": "Marsil",
+    "replacement": "Library card"
+  }, {
+    "item": "Dark Blade",
+    "replacement": "Library card"
+  }, {
+    "item": "Heaven sword",
+    "replacement": "Library card"
+  }, {
+    "item": "Fist of Tulkas",
+    "replacement": "Library card"
+  }, {
+    "item": "Gurthang",
+    "replacement": "Library card"
+  }, {
+    "item": "Mourneblade",
+    "replacement": "Library card"
+  }, {
+    "item": "Alucard sword",
+    "replacement": "Library card"
+  }, {
+    "item": "Mablung Sword",
+    "replacement": "Ring of Pales"
+  }, {
+    "item": "Badelaire",
+    "replacement": "Lapis lazuli"
+  }, {
+    "item": "Sword Familiar",
+    "replacement": "Ring of Arcana"
+  }, {
+    "item": "Great Sword",
+    "replacement": "Mystic pendant"
+  }, {
+    "item": "Morningstar",
+    "replacement": "Necklace of J"
+  }, {
+    "item": "Star flail",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Moon rod",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Chakram",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Fire boomerang",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Iron ball",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Holbein dagger",
+    "replacement": "Shiitake"
+  }, {
+    "item": "Blue knuckles",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Dynamite",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Osafune katana",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Masamune",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Muramasa",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Vorpal blade",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Crissaegrim",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Yasutsuna",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Alucart shield",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Alucart sword",
+    "replacement": "Toadstool"
+  }, {
+    "item": "Runesword",
+    "replacement": "Medal"
+  }, {
+    "item": "Antivenom",
+    "replacement": "Talisman"
+  }, {
+    "item": "Uncurse",
+    "replacement": "Talisman"
+  }, {
+    "item": "Alucard mail",
+    "replacement": "Duplicator"
+  }, {
+    "item": "Alucart mail",
+    "replacement": "Duplicator"
+  }, {
+    "item": "Dark armor",
+    "replacement": "Duplicator"
+  }, {
+    "item": "Healing mail",
+    "replacement": "Nauglamir"
+  }, {
+    "item": "Dracula tunic",
+    "replacement": "Nauglamir"
+  }, {
+    "item": "Axe Lord armor",
+    "replacement": "Medal"
+  }, {
+    "item": "Life apple",
+    "replacement": "Nauglamir"
+  }],
+
+  "itemLocations": [{
+    "comment": "Mario cloak in Entrance",
+    "zone": "NO3",
+    "item": "Pot roast",
+    "replacement": "Royal cloak"
+  }, {
+    "comment": "Luigi cloak in Olrox Quarters",
+    "zone": "NO2",
+    "item": "Onyx",
+    "replacement": "Elven cloak"
+  }, {
+    "comment": "Wario cloak in Reverse Outer Wall",
+    "zone": "RTOP",
+    "item": "Royal cloak",
+    "replacement": "Blood cloak"
+  }, {
+    "comment": "Waluigi cloak in Anti-Chapel",
+    "zone": "RDAI",
+    "item": "Manna prism",
+    "replacement": "Reverse cloak"
+  }, {
+    "comment": "Place Library Card in the Catacombs to prevent softlock",
+    "zone": "CAT",
+    "item": "Cat-eye circl.",
+    "replacement": "Library card"
+  }, {
+    "comment": "Place Library Card near Gravity boots to prevent softlock",
+    "zone": "NO0",
+    "item": "Hammer",
+    "replacement": "Library card"
+  }],
+
+  "complexityGoal": {
+    "min": 3,
+    "goals": [
+      "Holy glasses + Gravity Boots + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+  "enemyDrops": [{
+    "enemy": "*",
+    "items": [null, null]
+  }, {
+    "enemy": "Global",
+    "items": [
+      "Heart",
+      "Heart",
+      "Heart",
+      "Big heart",
+      "Big heart",
+      "Big heart",
+      "Shiitake",
+      "Toadstool"
+    ]
+  }],
+
+  "lockLocation": [{
+    "location": "Soul of Bat",
+    "comment": "Requires Mist",
+    "locks": [
+      "Form of Mist"
+    ]
+  }, {
+    "location": "Soul of Wolf",
+    "locks": []
+  }, {
+    "location": "Fire of Bat",
+    "locks": []
+  }, {
+    "location": "Echo of Bat",
+    "comment": "Requires transformation",
+    "locks": [
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Force of Echo",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Power of Wolf",
+    "locks": []
+  }, {
+    "location": "Skill of Wolf",
+    "locks": []
+  }, {
+    "location": "Form of Mist",
+    "locks": []
+  }, {
+    "location": "Power of Mist",
+    "locks": []
+  }, {
+    "location": "Gas Cloud",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Gravity Boots",
+    "comment": "Still requires flight to prevent softlock",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ],
+    "escapeRequires": [
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Leap Stone",
+    "locks": []
+  }, {
+    "location": "Holy Symbol",
+    "locks": [
+      "Jewel of Open + Merman Statue"
+    ]
+  }, {
+    "location": "Merman Statue",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Bat Card",
+    "locks": []
+  }, {
+    "location": "Ghost Card",
+    "comment": "Still requires flight to prevent softlock",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ],
+    "escapeRequires": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Faerie Card",
+    "locks": []
+  }, {
+    "location": "Demon Card",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Sword Card",
+    "comment": "Still requires flight to prevent softlock",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Heart of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Tooth of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Rib of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots + Form of Mist",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Eye of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Spike Breaker",
+    "comment": "Requires Mist or Spike Breaker",
+    "locks": [
+      "Jewel of Open + Form of Mist + Power of Mist",
+      "Jewel of Open + Spike Breaker"
+    ]
+  }, {
+    "location": "Gold ring",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Silver ring",
+    "locks": [
+      "Jewel of Open + Spike Breaker + Form of Mist"
+    ]
+  }, {
+    "location": "Holy glasses",
+    "locks": [
+      "Silver ring + Gold ring"
+    ],
+    "escapeRequires": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Crystal cloak",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Mormegil",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Dark Blade",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Ring of Arcana",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Trio",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Holy mail",
+    "locks": []
+  }, {
+    "location": "Jewel sword",
+    "locks": []
+  }, {
+    "location": "Mystic pendant",
+    "locks": []
+  }, {
+    "location": "Ankh of Life",
+    "locks": []
+  }, {
+    "location": "Morningstar",
+    "locks": []
+  }, {
+    "location": "Goggles",
+    "locks": []
+  }, {
+    "location": "Silver plate",
+    "locks": []
+  }, {
+    "location": "Cutlass",
+    "locks": []
+  }, {
+    "location": "Platinum mail",
+    "locks": []
+  }, {
+    "location": "Falchion",
+    "locks": []
+  }, {
+    "location": "Gold plate",
+    "locks": []
+  }, {
+    "location": "Bekatowa",
+    "locks": []
+  }, {
+    "location": "Holy rod",
+    "locks": []
+  }, {
+    "location": "Library Onyx",
+    "locks": []
+  }, {
+    "location": "Alucart sword",
+    "locks": []
+  }, {
+    "location": "Broadsword",
+    "locks": []
+  }, {
+    "location": "Estoc",
+    "comment": "Still requires flight",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Olrox Garnet",
+    "comment": "Still requires flight",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Blood cloak",
+    "locks": []
+  }, {
+    "location": "Shield rod",
+    "locks": []
+  }, {
+    "location": "Knight shield",
+    "locks": []
+  }, {
+    "location": "Holy sword",
+    "comment": "Still requires flight to prevent a softlock",
+    "locks": [
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bandanna",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Secret boots",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Nunchaku",
+    "comment": "Requires Jewel of Open + Holy Symbol",
+    "locks": [
+      "Jewel of Open + Holy Symbol"
+    ]
+  }, {
+    "location": "Knuckle duster",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Caverns Onyx",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Combat knife",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Ring of Ares",
+    "comment": "Requires Jewel of Open + Demon Card",
+    "locks": [
+      "Jewel of Open + Demon Card",
+      "Jewel of Open + Nosedevil Card"
+    ]
+  }, {
+    "location": "Bloodstone",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Icebrand",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Walk armor",
+    "comment": "Requires Jewel of Open",
+    "locks": [
+      "Jewel of Open"
+    ]
+  }, {
+    "location": "Beryl circlet",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Talisman",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Katana",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Goddess shield",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Twilight cloak",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Power of Mist + Gravity Boots"
+    ]
+  }, {
+    "location": "Talwar",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Sword of Dawn",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Bastard sword",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Royal cloak",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Lightning mail",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Moon rod",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Sunstone",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Luminus",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Dragon helm",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Shotel",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Power of Mist + Gravity Boots"
+    ]
+  }, {
+    "location": "Staurolite",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Power of Mist + Gravity Boots"
+    ]
+  }, {
+    "location": "Badelaire",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Forbidden Library Opal",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Reverse Caverns Diamond",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Reverse Caverns Opal",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Reverse Caverns Garnet",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Osafune katana",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Alucard shield",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Alucard sword",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Necklace of J",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Floating Catacombs Diamond",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Sword of Hador",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Alucard mail",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Gram",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }, {
+    "location": "Fury plate",
+    "comment": "Second castle",
+    "locks": [
+      "Holy glasses + Gravity Boots"
+    ]
+  }],
+
+  "placeRelic": [{
+    "location": "Cube of Zoe",
+    "relic": "Soul of Bat"
+  }],
+
+  "writes": [{
+    "comment": "Jump to injected code",
+    "address": "0x000fa97c",
+    "type": "word",
+    "value": "0x0c04db00"
+  }, {
+    "address": "0x00158c98",
+    "type": "word",
+    "value": "0x34020003",
+    "comment": "ori v0, 0x0003"
+  }, {
+    "type": "word",
+    "value": "0x3c038009",
+    "comment": "lui v1, 0x8009"
+  }, {
+    "comment": "Enable Cube of Zoe",
+    "type": "word",
+    "value": "0xa062796e",
+    "comment": "sb v0, 0x796E (v1)"
+  }, {
+    "comment": "Enable Spirit Orb",
+    "type": "word",
+    "value": "0xa062796f",
+    "comment": "sb v0, 0x796F (v1)"
+  }, {
+    "comment": "Enable Faerie Scroll",
+    "type": "word",
+    "value": "0xa0627973",
+    "comment": "sb v0, 0x7973 (v1)"
+  }, {
+    "comment": "Return from injected code",
+    "type": "word",
+    "value": "0x0803924f",
+    "comment": "j 0x800e493c"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Max Hearts on Level up",
+    "type": "char",
+    "address": "0x1178B4",
+    "value": "0x05"
+  }, {
+    "comment": "Dive kick without Leap Stone",
+    "type": "word",
+    "address": "0x12FCC8",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x12FD28",
+    "value": "0x3C030005"
+  }, {
+    "type": "word",
+    "address": "0x12FD40",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Deal more damage on Dive kick",
+    "type": "word",
+    "address": "0x1190C8",
+    "value": "0x0C04DC80"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x1593C8",
+    "value": "0x34050022"
+  }, {
+    "type": "word",
+    "value": "0x3C048007"
+  }, {
+    "type": "word",
+    "value": "0x8C843484"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x14850002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x26730040"
+  }, {
+    "type": "word",
+    "value": "0x00402021"
+  }, {
+    "type": "word",
+    "value": "0x0043102A"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "char",
+    "address": "0x00139380",
+    "value": "0x07",
+    "comment": "Increasing Divekick Hitbox Width (code from Leg Day)"
+  }, {
+    "type": "char",
+    "address": "0x00139378",
+    "value": "0x18",
+    "comment": "Lowering Divekick Hitbox vertical position relative to Alucard (code from Leg Day)"
+  }, {
+    "type": "char",
+    "address": "0x000be25f",
+    "value": "0x12",
+    "comment": "Slightly shrinking Alucard's generic standing hitbox size (code from Leg Day)"
+  }, {
+    "type": "char",
+    "address": "0x000b5260",
+    "value": "0xc8",
+    "comment": "Summon Spirit cost 200 mana (code from Ninja)"
+  }, {
+    "type": "char",
+    "address": "0x000b5244",
+    "value": "0xc8",
+    "comment": "Dark Metamorphosis cost 200 mana (code from Ninja)"
+  }, {
+    "type": "char",
+    "address": "0x000b527c",
+    "value": "0xc8",
+    "comment": "Hellfire/Dark Inferno cost 200 mana (code from Ninja)"
+  }, {
+    "type": "char",
+    "address": "0x000b5298",
+    "value": "0xc8",
+    "comment": "Tetra spirit cost 200 mana (code from Ninja)"
+  }, {
+    "type": "char",
+    "address": "0x000b52d0",
+    "value": "0xc8",
+    "comment": "Soul Steal cost 200 mana (code from Ninja)"
+  }, {
+    "comment": "SM64 Backdash",
+    "type": "word",
+    "address": "0x12C190",
+    "value": "0x0C04DC8B"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x1593F4",
+    "value": "0x3407000E"
+  }, {
+    "type": "word",
+    "value": "0x3C068007"
+  }, {
+    "type": "word",
+    "value": "0x8CC63484"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x14C7000D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C058007"
+  }, {
+    "type": "word",
+    "value": "0x8CA833E0"
+  }, {
+    "type": "word",
+    "value": "0x3C058007"
+  }, {
+    "type": "word",
+    "value": "0x8CA5C3B8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x94A30014"
+  }, {
+    "type": "word",
+    "value": "0x34090001"
+  }, {
+    "type": "word",
+    "value": "0x10690002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00084023"
+  }, {
+    "type": "word",
+    "value": "0x00882023"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0xA4203404"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "Block [Properties]",
+    "type": "word",
+    "address": "0x0F25A4",
+    "value": "0x434F4C22"
+  }, {
+    "type": "word",
+    "value": "0x0000FF4B"
+  }, {
+    "type": "word",
+    "address": "0x0F2598",
+    "value": "0x6E696F42"
+  }, {
+    "type": "word",
+    "value": "0x6F422067"
+  }, {
+    "type": "word",
+    "value": "0x00676E69"
+  }, {
+    "type": "short",
+    "address": "0x0B2E74",
+    "value": "0x0000"
+  }, {
+    "type": "char",
+    "address": "0x0B2E82",
+    "value": "0x40"
+  }, {
+    "type": "word",
+    "address": "0x0B2E98",
+    "value": "0x010A0103"
+  }, {
+    "comment": "Mario cloak color",
+    "type": "word",
+    "address": "0x0AFB8C",
+    "value": "0xA444C884"
+  }, {
+    "type": "word",
+    "value": "0x1112000F"
+  }, {
+    "comment": "Luigi cloak color",
+    "type": "word",
+    "address": "0x0AFB94",
+    "value": "0xA884CCC4"
+  }, {
+    "type": "word",
+    "value": "0x1E0B0A05"
+  }, {
+    "comment": "Wario cloak color",
+    "type": "word",
+    "address": "0x0AFB9C",
+    "value": "0xAA483C8B"
+  }, {
+    "type": "word",
+    "value": "0x0AFF023B"
+  }, {
+    "comment": "Waluigi cloak color",
+    "type": "word",
+    "address": "0x0AFB7C",
+    "value": "0xA4449804"
+  }, {
+    "type": "word",
+    "value": "0x4112E00F"
+  }, {
+    "comment": "Block Placement [Caller]",
+    "type": "word",
+    "address": "0x03A5F830",
+    "value": "0x0C04D1FE"
+  }, {
+    "type": "word",
+    "value": "0x34040674"
+  }, {
+    "type": "word",
+    "value": "0x0C04DC02"
+  }, {
+    "type": "word",
+    "address": "0x03C39D10",
+    "value": "0x0C04D1FE"
+  }, {
+    "type": "word",
+    "value": "0x34040674"
+  }, {
+    "type": "word",
+    "value": "0x0C04DC02"
+  }, {
+    "comment": "Block Placement [Bugfixes]",
+    "type": "word",
+    "address": "0x03A5F7CC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03A5F8A4",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03A5F8C0",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03C39CAC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03C39D84",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03C39DA0",
+    "value": "0x00000000"
+  }, {
+    "comment": "Block Placement [Function]",
+    "type": "word",
+    "address": "0x1591D0",
+    "value": "0x3C0A8007"
+  }, {
+    "type": "word",
+    "value": "0x914330A1"
+  }, {
+    "type": "word",
+    "value": "0x91452F20"
+  }, {
+    "type": "word",
+    "value": "0x30A50001"
+  }, {
+    "type": "word",
+    "value": "0x1460002D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x14A0002B"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C0A8009"
+  }, {
+    "type": "word",
+    "value": "0x914974A0"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x01294821"
+  }, {
+    "type": "word",
+    "value": "0x3C088013"
+  }, {
+    "type": "word",
+    "value": "0x25087100"
+  }, {
+    "type": "word",
+    "value": "0x01094021"
+  }, {
+    "type": "word",
+    "value": "0x95130000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x12600020"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C0A8009"
+  }, {
+    "type": "word",
+    "value": "0x95437BA8"
+  }, {
+    "type": "word",
+    "value": "0x34050003"
+  }, {
+    "type": "word",
+    "value": "0x0065202A"
+  }, {
+    "type": "word",
+    "value": "0x1480001A"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00651823"
+  }, {
+    "type": "word",
+    "value": "0x954B73F0"
+  }, {
+    "type": "word",
+    "value": "0x954C73F4"
+  }, {
+    "type": "word",
+    "value": "0x3C888007"
+  }, {
+    "type": "word",
+    "value": "0x8D043084"
+  }, {
+    "type": "word",
+    "value": "0x910E30C9"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x010E7180"
+  }, {
+    "type": "word",
+    "value": "0x010E7082"
+  }, {
+    "type": "word",
+    "value": "0x01CE7021"
+  }, {
+    "type": "word",
+    "value": "0x010B5882"
+  }, {
+    "type": "word",
+    "value": "0x010B5882"
+  }, {
+    "type": "word",
+    "value": "0x010C6082"
+  }, {
+    "type": "word",
+    "value": "0x010C6082"
+  }, {
+    "type": "word",
+    "value": "0x258C0002"
+  }, {
+    "type": "word",
+    "value": "0x01807821"
+  }, {
+    "type": "word",
+    "value": "0x01CF0FD9"
+  }, {
+    "type": "word",
+    "value": "0x00007812"
+  }, {
+    "type": "word",
+    "value": "0x01EB7821"
+  }, {
+    "type": "word",
+    "value": "0x01EB7821"
+  }, {
+    "type": "word",
+    "value": "0x008F2021"
+  }, {
+    "type": "word",
+    "value": "0xA4930000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA5437BA8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00002821"
+  }, {
+    "type": "word",
+    "value": "0x2442FFFE"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "Block Placement [Tile Data]",
+    "type": "word",
+    "address": "0x1592C8",
+    "value": "0x000B0004"
+  }, {
+    "type": "word",
+    "value": "0x038600A1"
+  }, {
+    "type": "word",
+    "value": "0x00D90011"
+  }, {
+    "type": "word",
+    "value": "0x011A005E"
+  }, {
+    "type": "word",
+    "value": "0x003C00F2"
+  }, {
+    "type": "word",
+    "value": "0x0635006D"
+  }, {
+    "type": "word",
+    "value": "0x000200D6"
+  }, {
+    "type": "word",
+    "value": "0x000B0000"
+  }, {
+    "type": "word",
+    "value": "0x000B0004"
+  }, {
+    "type": "word",
+    "value": "0x00D60050"
+  }, {
+    "type": "word",
+    "value": "0x00A10002"
+  }, {
+    "type": "word",
+    "value": "0x000400D9"
+  }, {
+    "type": "word",
+    "value": "0x005E0635"
+  }, {
+    "type": "word",
+    "value": "0x003C000B"
+  }, {
+    "type": "word",
+    "value": "0x0386006D"
+  }, {
+    "type": "word",
+    "value": "0x00000011"
+  }, {
+    "type": "word",
+    "value": "0x000B0004"
+  }, {
+    "type": "word",
+    "value": "0x038600A1"
+  }, {
+    "type": "word",
+    "value": "0x00D90011"
+  }, {
+    "type": "word",
+    "value": "0x011A005E"
+  }, {
+    "type": "word",
+    "value": "0x003C002F"
+  }, {
+    "type": "word",
+    "value": "0x0635006D"
+  }, {
+    "type": "word",
+    "value": "0x000200D6"
+  }, {
+    "type": "word",
+    "value": "0x0B000000"
+  }, {
+    "type": "word",
+    "value": "0x000B000B"
+  }, {
+    "type": "word",
+    "value": "0x000B000B"
+  }, {
+    "type": "word",
+    "value": "0x0002000B"
+  }, {
+    "type": "word",
+    "value": "0x00110386"
+  }, {
+    "type": "word",
+    "value": "0x003C00F2"
+  }, {
+    "type": "word",
+    "value": "0x005E000B"
+  }, {
+    "type": "word",
+    "value": "0x00D600D9"
+  }, {
+    "type": "word",
+    "value": "0x000B006D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00A1005E"
+  }, {
+    "type": "word",
+    "value": "0x0000000B"
+  }, {
+    "type": "word",
+    "value": "0x00040004"
+  }, {
+    "type": "word",
+    "value": "0x00040004"
+  }, {
+    "type": "word",
+    "value": "0x06350004"
+  }, {
+    "type": "word",
+    "value": "0x00040004"
+  }, {
+    "type": "word",
+    "value": "0x00040004"
+  }, {
+    "comment": "Map changes, Alchemy Lab (NZ0)",
+    "type": "word",
+    "address": "0x054CF130",
+    "value": "0x0150014F"
+  }, {
+    "type": "word",
+    "value": "0x06B50250"
+  }, {
+    "type": "word",
+    "address": "0x054CF150",
+    "value": "0x06A106A9"
+  }, {
+    "type": "word",
+    "value": "0x06B706B6"
+  }, {
+    "type": "word",
+    "address": "0x054CF170",
+    "value": "0x06A306A2"
+  }, {
+    "type": "word",
+    "value": "0x017006B9"
+  }, {
+    "type": "word",
+    "address": "0x054CF190",
+    "value": "0x06A606A5"
+  }, {
+    "type": "word",
+    "value": "0x016E016C"
+  }, {
+    "type": "word",
+    "address": "0x054CF1B0",
+    "value": "0x06B306B2"
+  }, {
+    "type": "word",
+    "value": "0x0171016F"
+  }, {
+    "type": "word",
+    "address": "0x054CF0FC",
+    "value": "0x02830282"
+  }, {
+    "type": "word",
+    "address": "0x054CF1E8",
+    "value": "0x02740273"
+  }, {
+    "type": "word",
+    "address": "0x054CED30",
+    "value": "0x0150014F"
+  }, {
+    "type": "word",
+    "value": "0x06B50250"
+  }, {
+    "type": "word",
+    "address": "0x054CED50",
+    "value": "0x06A106A9"
+  }, {
+    "type": "word",
+    "value": "0x06B706B6"
+  }, {
+    "type": "word",
+    "address": "0x054CED70",
+    "value": "0x06A306A2"
+  }, {
+    "type": "word",
+    "value": "0x017006B9"
+  }, {
+    "type": "word",
+    "address": "0x054CED90",
+    "value": "0x06A606A5"
+  }, {
+    "type": "word",
+    "value": "0x016E016C"
+  }, {
+    "type": "word",
+    "address": "0x054CEDB0",
+    "value": "0x06B306B2"
+  }, {
+    "type": "word",
+    "value": "0x0171016F"
+  }, {
+    "type": "word",
+    "address": "0x054CECE8",
+    "value": "0x02740273"
+  }, {
+    "type": "word",
+    "address": "0x054CE74C",
+    "value": "0x02830282"
+  }, {
+    "type": "word",
+    "address": "0x054CE7C4",
+    "value": "0x02810029"
+  }, {
+    "type": "word",
+    "value": "0x024B024A"
+  }, {
+    "type": "word",
+    "address": "0x054CE84C",
+    "value": "0x02830282"
+  }, {
+    "type": "word",
+    "address": "0x054CE8C4",
+    "value": "0x025C0027"
+  }, {
+    "type": "word",
+    "value": "0x025E025D"
+  }, {
+    "type": "word",
+    "address": "0x054CF84C",
+    "value": "0x02830282"
+  }, {
+    "type": "word",
+    "address": "0x054D2E20",
+    "value": "0x0150014F"
+  }, {
+    "type": "word",
+    "value": "0x06B50250"
+  }, {
+    "type": "word",
+    "address": "0x054D2E60",
+    "value": "0x06A106A9"
+  }, {
+    "type": "word",
+    "value": "0x06B706B6"
+  }, {
+    "type": "word",
+    "address": "0x054D2EA0",
+    "value": "0x06A306A2"
+  }, {
+    "type": "word",
+    "value": "0x017006B9"
+  }, {
+    "type": "word",
+    "address": "0x054D2EE0",
+    "value": "0x06A606A5"
+  }, {
+    "type": "word",
+    "value": "0x016E016C"
+  }, {
+    "type": "word",
+    "address": "0x054D2F20",
+    "value": "0x06B306B2"
+  }, {
+    "type": "word",
+    "value": "0x0171016F"
+  }, {
+    "type": "word",
+    "address": "0x054D2DAC",
+    "value": "0x02830282"
+  }, {
+    "type": "word",
+    "address": "0x054D2F98",
+    "value": "0x02740273"
+  }, {
+    "type": "word",
+    "address": "0x054D31AC",
+    "value": "0x02830282"
+  }, {
+    "comment": "Map changes, Marble Gallery (NO0)",
+    "type": "word",
+    "address": "0x0491BEB4",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0127014C"
+  }, {
+    "type": "word",
+    "address": "0x0491BEF8",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0168014C"
+  }, {
+    "type": "word",
+    "address": "0x0491BE78",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0491BE38",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0491D644",
+    "value": "0x01EF01EF"
+  }, {
+    "type": "word",
+    "value": "0x013E01EF"
+  }, {
+    "type": "word",
+    "value": "0x0126017A"
+  }, {
+    "type": "word",
+    "address": "0x0491D680",
+    "value": "0x01CC01CC"
+  }, {
+    "type": "word",
+    "value": "0x01CC01CC"
+  }, {
+    "type": "word",
+    "value": "0x013E01CC"
+  }, {
+    "type": "word",
+    "value": "0x0126017A"
+  }, {
+    "type": "word",
+    "address": "0x0491D6C0",
+    "value": "0x02090209"
+  }, {
+    "type": "word",
+    "value": "0x02090209"
+  }, {
+    "type": "word",
+    "value": "0x013E0209"
+  }, {
+    "type": "word",
+    "value": "0x0126017A"
+  }, {
+    "comment": "Map changes, Outer Wall (NO1)",
+    "type": "word",
+    "address": "0x049EE7D8",
+    "value": "0x0080005B"
+  }, {
+    "type": "word",
+    "value": "0x00650097"
+  }, {
+    "type": "word",
+    "value": "0x036F0066"
+  }, {
+    "type": "word",
+    "value": "0x025E036F"
+  }, {
+    "type": "word",
+    "address": "0x049EE6E0",
+    "value": "0x009A0099"
+  }, {
+    "type": "word",
+    "value": "0x009C009B"
+  }, {
+    "type": "word",
+    "address": "0x049EEA08",
+    "value": "0x02A5002F"
+  }, {
+    "type": "word",
+    "value": "0x02A5002F"
+  }, {
+    "type": "word",
+    "value": "0x02A5002F"
+  }, {
+    "type": "word",
+    "address": "0x049EEA68",
+    "value": "0x00340033"
+  }, {
+    "type": "word",
+    "value": "0x00330032"
+  }, {
+    "type": "word",
+    "value": "0x00500035"
+  }, {
+    "type": "word",
+    "value": "0x0014036A"
+  }, {
+    "type": "word",
+    "address": "0x049EEAC8",
+    "value": "0x02130215"
+  }, {
+    "type": "word",
+    "value": "0x02140214"
+  }, {
+    "type": "word",
+    "value": "0x02130215"
+  }, {
+    "type": "word",
+    "value": "0x02A90214"
+  }, {
+    "type": "word",
+    "address": "0x049F4008",
+    "value": "0x0030002F"
+  }, {
+    "type": "word",
+    "value": "0x002E002E"
+  }, {
+    "type": "word",
+    "value": "0x0030002F"
+  }, {
+    "type": "word",
+    "address": "0x049F4068",
+    "value": "0x00340033"
+  }, {
+    "type": "word",
+    "value": "0x00310032"
+  }, {
+    "type": "word",
+    "value": "0x00350033"
+  }, {
+    "type": "word",
+    "address": "0x049F40C8",
+    "value": "0x0003000B"
+  }, {
+    "type": "word",
+    "value": "0x0003000B"
+  }, {
+    "type": "word",
+    "value": "0x0003000B"
+  }, {
+    "comment": "Map changes, Outer Wall - Cont (NO1)",
+    "type": "word",
+    "address": "0x049F2A64",
+    "value": "0x002000A3"
+  }, {
+    "type": "word",
+    "address": "0x049F2AC4",
+    "value": "0x002800A8"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "address": "0x049F2B24",
+    "value": "0x002000AD"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "address": "0x049F2B84",
+    "value": "0x0028051A"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "value": "0x00410040"
+  }, {
+    "type": "word",
+    "address": "0x049F2BE4",
+    "value": "0x002001C3"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "address": "0x049F2C40",
+    "value": "0x002601C5"
+  }, {
+    "type": "word",
+    "value": "0x00280027"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "address": "0x049F2DD0",
+    "value": "0x001E01CA"
+  }, {
+    "type": "word",
+    "value": "0x0020001F"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "address": "0x049F2E30",
+    "value": "0x002601CE"
+  }, {
+    "type": "word",
+    "value": "0x00280027"
+  }, {
+    "type": "word",
+    "address": "0x049F2E90",
+    "value": "0x001E01D3"
+  }, {
+    "type": "word",
+    "value": "0x0020001F"
+  }, {
+    "type": "word",
+    "address": "0x049F2EF0",
+    "value": "0x002601BD"
+  }, {
+    "type": "word",
+    "address": "0x049F2774",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F27D4",
+    "value": "0x005A0059"
+  }, {
+    "type": "word",
+    "address": "0x049F2830",
+    "value": "0x0049003A"
+  }, {
+    "type": "word",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F2890",
+    "value": "0x00580042"
+  }, {
+    "type": "word",
+    "value": "0x005A0059"
+  }, {
+    "type": "word",
+    "value": "0x0080005B"
+  }, {
+    "type": "word",
+    "address": "0x049F28E8",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F2334",
+    "value": "0x002000A3"
+  }, {
+    "type": "word",
+    "address": "0x049F24C4",
+    "value": "0x002800A8"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "address": "0x049F2524",
+    "value": "0x00200542"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "address": "0x049F2584",
+    "value": "0x00280027"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "value": "0x00410040"
+  }, {
+    "type": "word",
+    "address": "0x049F25E4",
+    "value": "0x0020001F"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "address": "0x049F2044",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F20A4",
+    "value": "0x005A0059"
+  }, {
+    "type": "word",
+    "address": "0x049F2100",
+    "value": "0x0049003A"
+  }, {
+    "type": "word",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F2160",
+    "value": "0x00580042"
+  }, {
+    "type": "word",
+    "value": "0x005A0059"
+  }, {
+    "type": "word",
+    "value": "0x0080005B"
+  }, {
+    "type": "word",
+    "address": "0x049F21B8",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "value": "0x004B004A"
+  }, {
+    "type": "word",
+    "address": "0x049F1D34",
+    "value": "0x002000A3"
+  }, {
+    "type": "word",
+    "address": "0x049F1D94",
+    "value": "0x002800A8"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "address": "0x049F1DF4",
+    "value": "0x00200542"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "address": "0x049F1E54",
+    "value": "0x00280027"
+  }, {
+    "type": "word",
+    "value": "0x003F003E"
+  }, {
+    "type": "word",
+    "value": "0x00410040"
+  }, {
+    "type": "word",
+    "address": "0x049F1EB4",
+    "value": "0x0020001F"
+  }, {
+    "type": "word",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "address": "0x049F1914",
+    "value": "0x003C003C"
+  }, {
+    "type": "word",
+    "address": "0x049F1974",
+    "value": "0x003C0049"
+  }, {
+    "type": "word",
+    "address": "0x049F19D0",
+    "value": "0x006500BF"
+  }, {
+    "type": "word",
+    "value": "0x00670066"
+  }, {
+    "type": "word",
+    "value": "0x00E900A1"
+  }, {
+    "type": "word",
+    "address": "0x049F1B60",
+    "value": "0x00580042"
+  }, {
+    "type": "word",
+    "value": "0x005A0059"
+  }, {
+    "type": "word",
+    "value": "0x0080005B"
+  }, {
+    "type": "word",
+    "address": "0x049F1BB8",
+    "value": "0x00370036"
+  }, {
+    "type": "word",
+    "value": "0x00390038"
+  }, {
+    "type": "word",
+    "value": "0x003B003A"
+  }, {
+    "type": "word",
+    "value": "0x004B004A"
+  }, {
+    "comment": "Map changes, Long Library (LIB)",
+    "type": "word",
+    "address": "0x047BFE5C",
+    "value": "0x0000028B"
+  }, {
+    "type": "word",
+    "address": "0x047BFE70",
+    "value": "0x028A0000"
+  }, {
+    "type": "word",
+    "address": "0x047BFE7C",
+    "value": "0x00000286"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x02870000"
+  }, {
+    "type": "word",
+    "address": "0x047BFE9C",
+    "value": "0x0000029B"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x029A0000"
+  }, {
+    "type": "word",
+    "address": "0x047BFC24",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x047BFC44",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x047BFC64",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x047BFC80",
+    "value": "0x028B0284"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0285028A"
+  }, {
+    "type": "word",
+    "address": "0x047BFCA0",
+    "value": "0x029B029F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x029E029A"
+  }, {
+    "comment": "Map changes, Clock Tower (NZ1)",
+    "type": "word",
+    "address": "0x0558EECC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558F01C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558F03C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x04990000"
+  }, {
+    "type": "word",
+    "address": "0x0558F05C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558F07C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558F09C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558F0BC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EDAC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EDCC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EDEC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EE08",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EE2C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EE4C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558EC0C",
+    "value": "0x0000053D"
+  }, {
+    "type": "word",
+    "address": "0x0558EC2C",
+    "value": "0x000004EA"
+  }, {
+    "type": "word",
+    "address": "0x0558EC4C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ECAC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ECCC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ECEC",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ED0C",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ED28",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ED48",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x0558ED68",
+    "value": "0x00000000"
+  }, {
+    "comment": "Map changes, Royal Chapel (DAI)",
+    "type": "word",
+    "address": "0x046A72D8",
+    "value": "0x01C001BF"
+  }, {
+    "type": "word",
+    "address": "0x046A7358",
+    "value": "0x01C701C6"
+  }, {
+    "type": "word",
+    "address": "0x046A73D8",
+    "value": "0x01C001BF"
+  }, {
+    "type": "word",
+    "address": "0x046A7588",
+    "value": "0x01C701C6"
+  }, {
+    "type": "word",
+    "value": "0x01C901C8"
+  }, {
+    "type": "word",
+    "address": "0x046A7608",
+    "value": "0x01C001BF"
+  }, {
+    "type": "word",
+    "address": "0x046A7688",
+    "value": "0x01C701C6"
+  }, {
+    "type": "word",
+    "address": "0x046A7708",
+    "value": "0x01C001BF"
+  }, {
+    "type": "word",
+    "address": "0x046A7784",
+    "value": "0x01C5018A"
+  }, {
+    "type": "word",
+    "value": "0x01C701C6"
+  }, {
+    "type": "word",
+    "address": "0x046A7808",
+    "value": "0x01C001BF"
+  }, {
+    "type": "word",
+    "address": "0x046A7888",
+    "value": "0x01C701C6"
+  }, {
+    "type": "word",
+    "address": "0x046A7908",
+    "value": "0x01C001BF"
+  }, {
+    "comment": "Map changes, Abandoned Mine (CHI)",
+    "type": "word",
+    "address": "0x045F4F64",
+    "value": "0x004D004C"
+  }, {
+    "type": "word",
+    "value": "0x004F004E"
+  }, {
+    "type": "word",
+    "address": "0x045F4F84",
+    "value": "0x00520051"
+  }, {
+    "type": "word",
+    "value": "0x00540053"
+  }, {
+    "type": "word",
+    "address": "0x045F5064",
+    "value": "0x004D004C"
+  }, {
+    "type": "word",
+    "value": "0x004F004E"
+  }, {
+    "type": "word",
+    "address": "0x045F5084",
+    "value": "0x00520051"
+  }, {
+    "type": "word",
+    "value": "0x00540053"
+  }, {
+    "comment": "Toadstool [Effect]",
+    "type": "short",
+    "address": "0x0B1964",
+    "value": "0x0001"
+  }, {
+    "type": "word",
+    "address": "0x03AF8914",
+    "value": "0x34020003"
+  }, {
+    "type": "word",
+    "address": "0x03CD2DF4",
+    "value": "0x34020003"
+  }, {
+    "type": "word",
+    "address": "0x03AF8668",
+    "value": "0x34020003"
+  }, {
+    "type": "word",
+    "address": "0x03CD2B48",
+    "value": "0x34020003"
+  }, {
+    "type": "word",
+    "address": "0x03AF891C",
+    "value": "0x34020011"
+  }, {
+    "type": "word",
+    "address": "0x03CD2DFC",
+    "value": "0x34020011"
+  }, {
+    "type": "word",
+    "address": "0x03AF8680",
+    "value": "0x34020011"
+  }, {
+    "type": "word",
+    "address": "0x03CD2B60",
+    "value": "0x34020011"
+  }, {
+    "type": "word",
+    "address": "0x03AF8930",
+    "value": "0xAC223404"
+  }, {
+    "type": "word",
+    "address": "0x03CD2E10",
+    "value": "0xAC223404"
+  }, {
+    "type": "word",
+    "address": "0x03AF8688",
+    "value": "0xAC223404"
+  }, {
+    "type": "word",
+    "address": "0x03CD2B68",
+    "value": "0xAC223404"
+  }, {
+    "type": "word",
+    "address": "0x03AF8924",
+    "value": "0x0C04DA80"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03CD2E04",
+    "value": "0x0C04DA80"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03AF8678",
+    "value": "0x0C04DA80"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "address": "0x03CD2B58",
+    "value": "0x0C04DA80"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Toadstool [Function]",
+    "type": "word",
+    "address": "0x158A98",
+    "value": "0x3C018013"
+  }, {
+    "type": "word",
+    "value": "0x8C3269F8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x26520001"
+  }, {
+    "type": "word",
+    "value": "0xAC3269F8"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "Toadstool [HandleDamage]",
+    "type": "word",
+    "address": "0x118598",
+    "value": "0x0C04DA88"
+  }, {
+    "type": "word",
+    "address": "0x158AB8",
+    "value": "0x3C018013"
+  }, {
+    "type": "word",
+    "value": "0x8C2F69F8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x11E00009"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xAC2069F8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0x340F0011"
+  }, {
+    "type": "word",
+    "value": "0xAC2F3404"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0803FA99"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }]
+}
