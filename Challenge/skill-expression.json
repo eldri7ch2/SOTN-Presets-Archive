@@ -1,0 +1,530 @@
+{
+  "metadata": {
+  "id": "skill-expression",
+  "name": "Skill Expression",
+  "description": "Only for the most skilled players of SOTN.",
+  "author": [
+    "MottZilla",
+    "JupiterClimb",
+    "eldri7ch",
+    "Dr4gonBlitz"
+  ],
+  "weight": -5003
+  },
+
+  "inherits": "casual",
+  "colorrandoMode": true,
+  "stats": false,
+  "turkeyMode": true,
+  "music": false,
+  "fastwarpMode": true,
+  "magicmaxMode": true,
+  "surpriseMode": true,
+  "antiFreezeMode": true,
+  "noprologueMode": true,
+  "enemyStatRandoMode": true,
+  "shopPriceRandoMode": true,
+  "startRoomRandoMode": true,
+
+  "complexityGoal": {
+    "min": 9,
+    "comment": "Get all Vlads + Glasses",
+    "goals": [
+        "Holy glasses + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+  "blockDrops": [{
+    "enemy": "*",
+    "items": [
+      "Crissaegrim",
+      "Vorpal blade",
+      "Gurthang",
+      "Masamune",
+      "Osafune katana",
+      "Mablung Sword",
+      "Duplicator",
+      "Alucart sword",
+      "Yasutsuna",
+      "Mourneblade",
+      "Icebrand",
+      "Firebrand",
+      "Thunderbrand",
+      "Alucard sword",
+      "Gram",
+      "Dark Blade",
+      "Sword of Hador",
+      "Luminus",
+      "Muramasa",
+      "Fist of Tulkas",
+      "Ring of Varda",
+      "Runesword",
+      "Heaven sword",
+      "Mormegil",
+      "Holy sword",
+      "Life apple",
+      "Badelaire",
+      "Shield rod",
+      "Marsil",
+      "Terminus Est",
+      "Harper"
+    ]
+  }],
+
+  "blockItems": [{
+    "zone": "*",
+    "item": "*",
+    "replacement": [
+        "Crissaegrim",
+        "Vorpal blade",
+        "Gurthang",
+        "Masamune",
+        "Osafune katana",
+        "Mablung Sword",
+        "Duplicator",
+        "Alucart sword",
+        "Yasutsuna",
+        "Mourneblade",
+        "Icebrand",
+        "Firebrand",
+        "Thunderbrand",
+        "Alucard sword",
+        "Gram",
+        "Dark Blade",
+        "Sword of Hador",
+        "Luminus",
+        "Muramasa",
+        "Fist of Tulkas",
+        "Ring of Varda",
+        "Runesword",
+        "Heaven sword",
+        "Mormegil",
+        "Holy sword",
+        "Life apple",
+        "Badelaire",
+        "Shield rod",
+        "Marsil",
+        "Terminus Est",
+        "Harper"
+      ]
+  }],
+
+  "blockEquipment": [{
+    "slot": "Right hand",
+    "item": [
+        "Crissaegrim",
+        "Vorpal blade",
+        "Gurthang",
+        "Osafune katana",
+        "Mablung Sword",
+        "Alucart sword",
+        "Mourneblade",
+        "Icebrand",
+        "Firebrand",
+        "Thunderbrand",
+        "Alucard sword",
+        "Gram",
+        "Dark Blade",
+        "Sword of Hador",
+        "Luminus",
+        "Fist of Tulkas",
+        "Runesword",
+        "Heaven sword",
+        "Mormegil",
+        "Holy sword",
+        "Badelaire",
+        "Shield rod",
+        "Marsil",
+        "Terminus Est",
+        "Harper"
+      ]
+  }, {
+    "slot": "Other",
+    "item": [
+        "Duplicator",
+        "Ring of Varda"
+    ]
+  }],
+
+  "writes": [{
+    "comment": "EX0",
+    "type": "word",
+    "address": "0x370F5A8",
+    "value": "0x0800300C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x27BDFFE0"
+  }, {
+    "type": "word",
+    "value": "0xAFBF0018"
+  }, {
+    "type": "word",
+    "value": "0x3C068009"
+  }, {
+    "type": "word",
+    "value": "0x34C67964"
+  }, {
+    "type": "word",
+    "value": "0x90C40012"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E77FF4"
+  }, {
+    "type": "word",
+    "value": "0x14800002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x90C50018"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E78FFC"
+  }, {
+    "type": "word",
+    "value": "0x14A00002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x90C40013"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E78FF8"
+  }, {
+    "type": "word",
+    "value": "0x14800002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x90C50015"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E78FCC"
+  }, {
+    "type": "word",
+    "value": "0x14A00002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x90C40016"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E78FD0"
+  }, {
+    "type": "word",
+    "value": "0x14800002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x90C50014"
+  }, {
+    "type": "word",
+    "value": "0x3C078013"
+  }, {
+    "type": "word",
+    "value": "0x34E78FD8"
+  }, {
+    "type": "word",
+    "value": "0x14A00002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA4E00000"
+  }, {
+    "type": "word",
+    "value": "0x8FBF0018"
+  }, {
+    "type": "word",
+    "value": "0x27BD0020"
+  }, {
+    "type": "word",
+    "value": "0x3C028004"
+  }, {
+    "type": "word",
+    "value": "0x8C42C9A0"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "End of EX0",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "EX1",
+    "type": "word",
+    "address": "0x370FED8",
+    "value": "0x00000000"
+  }, {
+    "comment": "EX2",
+    "type": "word",
+    "address": "0x3710808",
+    "value": "0x00000000"
+  }, {
+    "comment": "EX3",
+    "type": "word",
+    "address": "0x3711138",
+    "value": "0x00000000"
+  }, {
+    "comment": "SectLd",
+    "type": "word",
+    "address": "0xFE824",
+    "value": "0x27BDFFE0"
+  }, {
+    "type": "word",
+    "value": "0x3C020022"
+  }, {
+    "type": "word",
+    "value": "0x34422905"
+  }, {
+    "type": "word",
+    "value": "0x34040002"
+  }, {
+    "type": "word",
+    "value": "0x27A50010"
+  }, {
+    "type": "word",
+    "value": "0x34060000"
+  }, {
+    "type": "word",
+    "value": "0xAFBF0018"
+  }, {
+    "type": "word",
+    "value": "0x0C006578"
+  }, {
+    "type": "word",
+    "value": "0xAFA20010"
+  }, {
+    "type": "word",
+    "value": "0x34040004"
+  }, {
+    "type": "word",
+    "value": "0x3C058000"
+  }, {
+    "type": "word",
+    "value": "0x34A5C000"
+  }, {
+    "type": "word",
+    "value": "0x3C018001"
+  }, {
+    "type": "word",
+    "value": "0x3421C080"
+  }, {
+    "type": "word",
+    "value": "0x0020F809"
+  }, {
+    "type": "word",
+    "value": "0x34060080"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x3C018001"
+  }, {
+    "type": "word",
+    "value": "0x3421C188"
+  }, {
+    "type": "word",
+    "value": "0x0020F809"
+  }, {
+    "type": "word",
+    "value": "0x34050000"
+  }, {
+    "type": "word",
+    "value": "0x34020000"
+  }, {
+    "type": "word",
+    "value": "0x8FBF0018"
+  }, {
+    "type": "word",
+    "value": "0x27BD0020"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "End of SectLd",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "FrameHook",
+    "type": "word",
+    "address": "0x10B138",
+    "value": "0x0C003000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "SectHK",
+    "type": "word",
+    "address": "0xFA244",
+    "value": "0x0C03A07F"
+  }, {
+    "comment": "Card Names Ptr. Bat Card",
+    "type": "word",
+    "address": "0xB5798",
+    "value": "0x800DFFA8"
+  }, {
+    "type": "word",
+    "value": "0x800E030C"
+  }, {
+    "comment": "Card Names Ptr. Ghost Card",
+    "type": "word",
+    "address": "0xB57A8",
+    "value": "0x800E00a0"
+  }, {
+    "type": "word",
+    "value": "0x800E02E0"
+  }, {
+    "comment": "Card Names Ptr. Faerie Card",
+    "type": "word",
+    "address": "0xB57B8",
+    "value": "0x800DFFE0"
+  }, {
+    "type": "word",
+    "value": "0x800E02B0"
+  }, {
+    "comment": "Card Names Ptr. Demon Card",
+    "type": "word",
+    "address": "0xB57C8",
+    "value": "0x800E0074"
+  }, {
+    "type": "word",
+    "value": "0x800E0284"
+  }, {
+    "comment": "Card Names Ptr. Sword Card",
+    "type": "word",
+    "address": "0xB57D8",
+    "value": "0x800E003C"
+  }, {
+    "type": "word",
+    "value": "0x800E0258"
+  }, {
+    "comment": "Card Names Ptr. Nosedevil Card",
+    "type": "word",
+    "address": "0xB57F8",
+    "value": "0x800E00D4"
+  }, {
+    "type": "word",
+    "value": "0x800E01FC"
+  }, {
+    "comment": "Shorten Dark Metamorphosis",
+    "type": "char",
+    "address": "0xF540A",
+    "value": "0x00"
+  },{
+    "comment": "Increase experience to reach Lvl2 to max (999,999)",
+    "address": "0xB9F30",
+    "type": "word",
+    "value": "0xF423F"
+  }, {
+    "address": "0x436812C",
+    "type": "word",
+    "value": "0xF423F"
+  },{
+    "comment": "Hook to set HP to 0",
+    "address": "0x10B17C",
+    "type": "word",
+    "value": "0x080288B1"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Set HP to 0",
+    "type": "word",
+    "address": "0xAE2AC",
+    "value": "0x0C04296F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C088009"
+  }, {
+    "type": "word",
+    "value": "0xA5007BA0"
+  }, {
+    "type": "word",
+    "value": "0x0803CC4F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }
+]
+}
