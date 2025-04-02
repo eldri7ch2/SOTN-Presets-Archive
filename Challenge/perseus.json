@@ -1,0 +1,3674 @@
+{
+  "metadata": {
+    "id": "perseus",
+    "name": "Perseus",
+    "description": "Focused on new items, some of which may be... stupid.",
+    "author": ["Wecoc"],
+    "weight": 1400
+  },
+
+  "inherits": "safe",
+  "stats": false,
+  "relicLocationsExtension": false,
+  "turkeyMode": true,
+  "tournamentMode": true,
+  "noprologueMode": true,
+  "mypurseMode": false,
+  "magicmaxMode": false,
+  "colorrandoMode": false,
+  "fastwarpMode": true,
+  "antiFreezeMode": false,
+
+  "complexityGoal": {
+    "min": 7,
+    "goals": [
+      "Holy glasses + Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad"
+    ]
+  },
+
+  "prologueRewards": [{
+    "item": "Heart Refresh",
+    "replacement": null
+  }, {
+    "item": "Neutron bomb",
+    "replacement": null
+  }, {
+    "item": "Potion",
+    "replacement": null
+  }],
+
+  "blockItems": [{
+    "zone": "*",
+    "item": "*",
+    "replacement": [
+      "Sunglasses",
+      "Axe Lord armor",
+      "Goggles",
+      "Cloth cape",
+      "Crystal cloak",
+      "Joseph's cloak",
+      "Twilight cloak",
+      "Morningstar",
+      "Combat knife",
+      "Neutron bomb",
+      "Shuriken",
+      "Cross shuriken",
+      "Buffalo star",
+      "Flame star",
+      "Claymore",
+      "Flamberge",
+      "Zwei hander",
+      "Obsidian sword",
+      "Mormegil",
+      "Firebrand",
+      "Thunderbrand",
+      "Icebrand",
+      "Crissaegrim",
+      "Vorpal blade",
+      "Gurthang",
+      "Masamune",
+      "Osafune katana",
+      "Mablung Sword",
+      "Alucart sword",
+      "Yasutsuna",
+      "Mourneblade",
+      "Alucard sword",
+      "Gram",
+      "Dark Blade",
+      "Sword of Hador",
+      "Luminus",
+      "Muramasa",
+      "Fist of Tulkas",
+      "Shield rod",
+      "Runesword",
+      "Heaven sword",
+      "Holy sword",
+      "Life apple",
+      "Marsil",
+      "Terminus Est",
+      "Harper"
+    ]
+  }],
+
+ "blockDrops": [{
+    "enemy": "*",
+    "items": [
+      "Sunglasses",
+      "Library card",
+      "Axe Lord armor",
+      "Goggles",
+      "Cloth cape",
+      "Crystal cloak",
+      "Joseph's cloak",
+      "Twilight cloak",
+      "Vibhuti",
+      "Morningstar",
+      "Combat knife",
+      "Neutron bomb",
+      "Shuriken",
+      "Cross shuriken",
+      "Buffalo star",
+      "Flame star",
+      "Claymore",
+      "Flamberge",
+      "Zwei hander",
+      "Obsidian sword",
+      "Mormegil",
+      "Firebrand",
+      "Thunderbrand",
+      "Icebrand",
+      "Crissaegrim",
+      "Vorpal blade",
+      "Gurthang",
+      "Masamune",
+      "Osafune katana",
+      "Mablung Sword",
+      "Alucart sword",
+      "Yasutsuna",
+      "Mourneblade",
+      "Alucard sword",
+      "Gram",
+      "Dark Blade",
+      "Sword of Hador",
+      "Luminus",
+      "Muramasa",
+      "Fist of Tulkas",
+      "Shield rod",
+      "Runesword",
+      "Heaven sword",
+      "Holy sword",
+      "Life apple",
+      "Marsil",
+      "Terminus Est",
+      "Harper"
+    ]
+  }],
+
+  "startingEquipment": [{
+    "slot": "Right hand",
+    "item": "Combat knife"
+  }, {
+    "slot": "Left hand",
+    "item": "Combat knife"
+  }, {
+    "slot": "Head",
+    "item": "Sunglasses"
+  }, {
+    "slot": "Body",
+    "item": "Dark armor"
+  }, {
+    "slot": "Cloak",
+    "item": "Royal cloak"
+  }, {
+    "slot": "Other",
+    "item": "Medal"
+  }],
+
+  "writes": [{
+    "comment": "Set initial HP to 69 (nice)",
+    "address": "0x119CC4",
+    "type": "char",
+    "value": "0x3B"
+  }, {
+    "comment": "Bone Scimitar drop: Elixir",
+    "address": "0x4BC9324",
+    "type": "short",
+    "value": "0x00A1"
+  }, {
+    "comment": "Bone Scimitar drop: Mana prism",
+    "address": "0x4BC9328",
+    "type": "short",
+    "value": "0x00A2"
+  }, {
+    "comment": "Entrance 1 - Merman A (Remove)",
+    "address": "0x4BC5824",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 1 - Merman B (Remove)",
+    "address": "0x4BC79B8",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 1 - Bone Scimitar",
+    "address": "0x4B67296",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Entrance 1 - Death cutscene (Caller)",
+    "address": "0x4BAFE58",
+    "type": "word",
+    "value": "0x0804D9A8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 1 - Death cutscene (Function)",
+    "address": "0x158608",
+    "type": "word",
+    "value": "0x3C028004"
+  }, {
+    "type": "word",
+    "value": "0x8C42C854"
+  }, {
+    "type": "word",
+    "value": "0x3C888018"
+  }, {
+    "type": "word",
+    "value": "0x3415FFFF"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA5150BA2"
+  }, {
+    "type": "word",
+    "value": "0xA5150B96"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3415F0FF"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA5150BAE"
+  }, {
+    "type": "word",
+    "value": "0x0807001E"
+  }, {
+    "comment": "Entrance 2 - Bloody Zombie",
+    "address": "0x53F5376",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Bloody Zombie (Blood drips)",
+    "address": "0x544A604",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 2 - Slogra",
+    "address": "0x53F5382",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Gaibon",
+    "address": "0x53F53A6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Zombie",
+    "address": "0x53F5346",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Entrance 2 - Bat",
+    "address": "0x53F533A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Merman A",
+    "address": "0x53F52F2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x5447554",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x5447940",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x54479BC",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x5447EC0",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x54480A4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x54480B4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x5448100",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 2 - Merman B (Remove)",
+    "address": "0x54452AC",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Entrance 2 - Owl Knight",
+    "address": "0x53F5352",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Owl",
+    "address": "0x53F536A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Gurka",
+    "address": "0x53F53E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Entrance 2 - Dagger",
+    "address": "0x53F53FA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Skeleton",
+    "address": "0x54B1A46",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Skeleton (Bone)",
+    "address": "0x54B1A5E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Bone Scimitar",
+    "address": "0x54B1A0A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Blood Skeleton",
+    "address": "0x54B19FE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Spittle Bone",
+    "address": "0x54B1A6A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Axe Knight",
+    "address": "0x54B1A22",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Axe Knight (Axe)",
+    "address": "0x54B1A2E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Slogra",
+    "address": "0x54B1ACA",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Alchemy Lab - Gaibon",
+    "address": "0x54B1AEE",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Alchemy Lab - Bloody Zombie",
+    "address": "0x54B1A3A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Alchemy Lab - Bloody Zombie (Blood drips)",
+    "address": "0x5500EB8",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Marble Gallery - Axe Knight",
+    "address": "0x48FA76A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Axe Knight (Axe)",
+    "address": "0x48FA776",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Ouija Table",
+    "address": "0x48FA782",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Ouija Table (Top)",
+    "address": "0x48FA78E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Slinger",
+    "address": "0x48FA722",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Slinger (Bone)",
+    "address": "0x48FA73A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Marionette",
+    "address": "0x48FA716",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Plate Lord",
+    "address": "0x48FA6F2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Skelerang A",
+    "address": "0x48FA6DA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Skelerang B",
+    "address": "0x48FA6E6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Ghost",
+    "address": "0x48FA70A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Cthulu",
+    "address": "0x48FA746",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Flea",
+    "address": "0x48FA79A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Skeleton",
+    "address": "0x48FA7A6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Skeleton (Bone)",
+    "address": "0x48FA7BE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Diplocephalus A",
+    "address": "0x48FA692",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Diplocephalus B",
+    "address": "0x48FA69E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Diplocephalus C",
+    "address": "0x48FA6AA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Diplocephalus D",
+    "address": "0x48FA6B6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Stone Rose",
+    "address": "0x48FA65C",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Marble Gallery - Peeping Eye",
+    "address": "0x495199C",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Outer Wall - Medusa Head",
+    "address": "0x49D2536",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Armor Lord",
+    "address": "0x49D24CA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Axe Knight",
+    "address": "0x49D23CE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Axe Knight (Axe)",
+    "address": "0x49D23DA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Skeleton",
+    "address": "0x49D2446",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Skeleton (Bone)",
+    "address": "0x49D245E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Skeleton Ape",
+    "address": "0x49D2512",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Skeleton Ape (Barrel)",
+    "address": "0x49D251E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Spear Guard",
+    "address": "0x49D24EE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Bone Archer",
+    "address": "0x49D24B2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Bone Archer (Arrow)",
+    "address": "0x49D24BE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Bone Musket",
+    "address": "0x49D2482",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Outer Wall - Bone Musket (Bullet)",
+    "address": "0x49D248E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Outer Wall - Sword Lord",
+    "address": "0x49D249A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Doppelganger10 [Caller]",
+    "address": "0x62943E8",
+    "type": "word",
+    "value": "0x0804D960"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Doppelganger10 [Function]",
+    "address": "0x1584E8",
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0x942262EE"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3414FFF0"
+  }, {
+    "type": "word",
+    "value": "0x1282000A"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA43462EE"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3405002C"
+  }, {
+    "type": "word",
+    "value": "0x3C048007"
+  }, {
+    "type": "word",
+    "value": "0x8C84C3B8"
+  }, {
+    "type": "word",
+    "value": "0x0C072882"
+  }, {
+    "type": "word",
+    "value": "0x00003021"
+  }, {
+    "type": "word",
+    "value": "0x0C04D1FE"
+  }, {
+    "type": "word",
+    "value": "0x34040692"
+  }, {
+    "type": "word",
+    "value": "0x3C01801D"
+  }, {
+    "type": "word",
+    "value": "0xAC203D24"
+  }, {
+    "type": "word",
+    "value": "0x08070DE6"
+  }, {
+    "comment": "Doppelganger10 [Prevent palette changes]",
+    "address": "0x6299CF4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x629A824",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x6292DF8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x6293658",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library - Dhuron",
+    "address": "0x47A24BA",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Library - Dhuron (Thunder attack)",
+    "address": "0x47F9590",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library - Flea man",
+    "address": "0x47A25F2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Ectoplasm",
+    "address": "0x47A24DE",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Library - Thornweed A",
+    "address": "0x47A24EA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Thornweed B",
+    "address": "0x47A2502",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Thornweed C",
+    "address": "0x47FB2D4",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Spellbook",
+    "address": "0x480011C",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Magic Tome",
+    "address": "0x4800D80",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Flea Armor",
+    "address": "0x47A2586",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Library - Lesser Demon",
+    "address": "0x47A25DA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Library - Lesser Demon [Prevent palette changes]",
+    "address": "0x47E978C",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x47E97B0",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Library - Lesser Demon [Prevent Mudman spawn]",
+    "address": "0x47FDFD4",
+    "type": "word",
+    "value": "0x0807449D"
+  }, {
+    "comment": "Library - Lesser Demon [Prevent Skeleton spawn]",
+    "address": "0x47FC860",
+    "type": "word",
+    "value": "0x08073D98"
+  }, {
+    "comment": "Library - Lesser Demon [Prevent Ectoplasm spawn]",
+    "address": "0x47FA604",
+    "type": "word",
+    "value": "0x08073635"
+  }, {
+    "comment": "Caverns - Spear Guard",
+    "address": "0x4C315A6",
+    "type": "short",
+    "value": "0xFFF0"
+  }, {
+    "comment": "Caverns - Bone Archer",
+    "address": "0x4C315BE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Bone Archer (Arrow)",
+    "address": "0x4C315CA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Toad",
+    "address": "0x4C31522",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Frog",
+    "address": "0x4C3152E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Fishhead",
+    "address": "0x4C3153A",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Caverns - Fishhead (Base)",
+    "address": "0x4C31546",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Caverns - Skeleton Ape",
+    "address": "0x4C315E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Skeleton Ape (Barrel)",
+    "address": "0x4C315EE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Frozen Shade",
+    "address": "0x4C31582",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Bat",
+    "address": "0x4C31576",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Caverns - Killer Fish",
+    "address": "0x4C31606",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Succubus [Caller]",
+    "address": "0x5B0734C",
+    "type": "word",
+    "value": "0x0804D97C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Succubus [Function]",
+    "address": "0x158558",
+    "type": "word",
+    "value": "0x3C02801A"
+  }, {
+    "type": "word",
+    "value": "0x8C423ED4"
+  }, {
+    "type": "word",
+    "value": "0x3414FFF0"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0xA4346EAE"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0C04D1FE"
+  }, {
+    "type": "word",
+    "value": "0x34040692"
+  }, {
+    "type": "word",
+    "value": "0x08064907"
+  }, {
+    "comment": "Succubus clone",
+    "address": "0x5AF2972",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Scylla - Lady",
+    "address": "0x61A665E",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Scylla - Wolves",
+    "address": "0x61A666A",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Scylla - Tentacles",
+    "address": "0x61A6676",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Scylla - Wyrm head",
+    "address": "0x61A66BE",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Scylla - Wyrm body",
+    "address": "0x61D0EB0",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x61D0EDC",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Mines - Salem Witch",
+    "address": "0x45E9176",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Mines - Thornweed",
+    "address": "0x45E91BE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Mines - Venus Weed (Base)",
+    "address": "0x45E91EE",
+    "type": "short",
+    "value": "0x0FFF"
+  }, {
+    "comment": "Mines - Venus Weed (Flower)",
+    "address": "0x45E91FA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Mines - Venus Weed (Weeds)",
+    "address": "0x45E9206",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Mines - Venus Weed (Leaf)",
+    "address": "0x461AD38",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "comment": "Mines - Venus Weed (Leaf)",
+    "address": "0x461AE00",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "comment": "Mines - Gremlin",
+    "address": "0x45E919A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Cerberos",
+    "address": "0x66B375E",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Catacombs - Wereskeleton",
+    "address": "0x4490E6A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Bone Ark (Wood)",
+    "address": "0x4490D26",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Bone Ark (Head base)",
+    "address": "0x4490D3E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Bone Ark (Head)",
+    "address": "0x4490D4A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Bone Ark (Carrier)",
+    "address": "0x4490D32",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Gremlin",
+    "address": "0x4490E2E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Slime",
+    "address": "0x4490E5E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Large Slime",
+    "address": "0x4490E52",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Blood Skeleton",
+    "address": "0x4490EB2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Blood Skeleton [Special A]",
+    "address": "0x4518918",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Catacombs - Blood Skeleton [Special B]",
+    "address": "0x4534258",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Catacombs - Blood Skeleton [Special C]",
+    "address": "0x4534278",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Catacombs - Blood Skeleton [Special D]",
+    "address": "0x4536718",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Catacombs - Blood Skeleton [Special E]",
+    "address": "0x4536738",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Catacombs - Hellfire Beast",
+    "address": "0x4490DB6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Grave Keeper",
+    "address": "0x4490E0A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Lossoth",
+    "address": "0x4490DE6",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Catacombs - Lossoth (Lamp)",
+    "address": "0x4490DF2",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Catacombs - Discus Lord",
+    "address": "0x4490D9E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Catacombs - Thornweed",
+    "address": "0x4490E82",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Granfaloon A",
+    "address": "0x606E72E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Granfaloon B",
+    "address": "0x606E73A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Granfaloon Corpse",
+    "address": "0x606E746",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Blade soldier",
+    "address": "0x43C2C76",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Blade master",
+    "address": "0x43C2C5E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Armor Lord",
+    "address": "0x43C2D12",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Bone Musket",
+    "address": "0x43C2C8E",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Colosseum - Bone Musket (Bullet)",
+    "address": "0x43C2C9A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Owl Knight",
+    "address": "0x43C2CA6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Owl",
+    "address": "0x43C2CBE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Plate Lord",
+    "address": "0x43C2DA2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Grave Keeper",
+    "address": "0x43C2DBA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Axe Knight",
+    "address": "0x43C2CFA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Axe Knight (Axe)",
+    "address": "0x43C2D06",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Valhalla Knight",
+    "address": "0x43C2CCA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Hunting Girl (Sword)",
+    "address": "0x43C2D36",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Hunting Girl A",
+    "address": "0x441A918",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Colosseum - Hunting Girl B",
+    "address": "0x441AC34",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Colosseum - Bone Scimitar",
+    "address": "0x43C2D8A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Paranthropus",
+    "address": "0x43C2D42",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Paranthropus (Bone)",
+    "address": "0x43C2D5A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Colosseum - Behemoth",
+    "address": "0x43E57D4",
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "address": "0x43E5854",
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "address": "0x43E5A04",
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "address": "0x43E5A84",
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "comment": "Minotaur",
+    "address": "0x60FCF9E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Werewolf",
+    "address": "0x60FCFCE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Skelerang A",
+    "address": "0x4AA0DFA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Skelerang B",
+    "address": "0x4AA0E06",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Spectral Sword A",
+    "address": "0x4AA0EDE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Spectral Sword B",
+    "address": "0x4AA0EF6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Spectral Sword C",
+    "address": "0x4AA0EEA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Spectral Sword D",
+    "address": "0x4AFA9B0",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Olrox Quarters - Spectral Sword E",
+    "address": "0x4AFA938",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Olrox Quarters - Hammer",
+    "address": "0x4AA0E96",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Blade",
+    "address": "0x4AA0EC6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Bloody Zombie",
+    "address": "0x4AA0E4E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox Quarters - Bloody Zombie (Drips)",
+    "address": "0x4AEE9C0",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Olrox Quarters - Valhalla Knight",
+    "address": "0x4AA0E66",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox A",
+    "address": "0x5FAA49A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox B",
+    "address": "0x5FAA4D6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox C",
+    "address": "0x5FE1538",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Olrox D",
+    "address": "0x5FAA4E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Bone Pillar",
+    "address": "0x4676A36",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "Chapel - Corner Guard",
+    "address": "0x4676A1E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Spectral Sword A",
+    "address": "0x4676ADE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Spectral Sword B",
+    "address": "0x4676AF6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Spectral Sword C",
+    "address": "0x4676AEA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Spectral Sword D",
+    "address": "0x46D9C40",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Chapel - Spectral Sword E",
+    "address": "0x46D9E78",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x46D9BC8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Chapel - Skelerang A",
+    "address": "0x4676ABA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Skelerang B",
+    "address": "0x4676AC6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Winged Guards",
+    "address": "0x4676A7E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Black Crow",
+    "address": "0x4676AAE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Blue Raven",
+    "address": "0x4676AA2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Hunter Girl A",
+    "address": "0x4676AD2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Hunter Girl B",
+    "address": "0x46D83AC",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x46D86C8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Chapel - Bat",
+    "address": "0x4676A96",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Chapel - Bone Halbert",
+    "address": "0x4676A66",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Hyppogryph",
+    "address": "0x6305326",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Karasuman",
+    "address": "0x557328A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Sword Lord",
+    "address": "0x5573206",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Vandal Sword A",
+    "address": "0x557321E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Vandal Sword B",
+    "address": "0x55BA154",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Clock Tower - Harpy",
+    "address": "0x55731A6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Medusa Head A",
+    "address": "0x55732C6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Medusa Head B",
+    "address": "0x55732D2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Flea Armor",
+    "address": "0x5573266",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Flea Man",
+    "address": "0x557327E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Cloaked Knight A",
+    "address": "0x55731E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Cloaked Knight B",
+    "address": "0x55731FA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Flail Guard",
+    "address": "0x557324E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Skull Lord A",
+    "address": "0x557318E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Skull Lord B",
+    "address": "0x557319A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Skull Lord C",
+    "address": "0x55B53A4",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Clock Tower - Phantom Skull A",
+    "address": "0x5573236",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Clock Tower - Phantom Skull B",
+    "address": "0x5573242",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Castle Keep - Axe Knight",
+    "address": "0x560F306",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Castle Keep - Axe Knight (Axe)",
+    "address": "0x560F312",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Castle Keep - Flea Rider",
+    "address": "0x560F2FA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Castle Keep - Yorick",
+    "address": "0x57DFF76",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Castle Keep - Skull Lord A",
+    "address": "0x57DFF8E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Castle Keep - Skull Lord B",
+    "address": "0x57DFF9A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Castle Keep - Skull Lord C",
+    "address": "0x5815430",
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Castle Keep - Tombstone",
+    "address": "0x57DFF6A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Medusa A",
+    "address": "0x674272E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Medusa B",
+    "address": "0x6742776",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Balloon pod",
+    "address": "0x4E31E96",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Black panther",
+    "address": "0x4E31EAE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Sniper of God A",
+    "address": "0x4E31E5A",
+    "type": "short",
+    "value": "0xD0FF"
+  }, {
+    "comment": "R. Chapel - Sniper of God B",
+    "address": "0x4E7D568",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Chapel - Imp",
+    "address": "0x4E31E7E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Imp [Remove stunlock]",
+    "address": "0x4E7F704",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Chapel - Spectral Sword A",
+    "address": "0x4E31E2A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Spectral Sword B",
+    "address": "0x4E31E42",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Spectral Sword C",
+    "address": "0x4E31E4E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Spectral Sword D",
+    "address": "0x4E31E36",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Chapel - Spectral Sword E",
+    "address": "0x4E7C540",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Chapel - Archer A",
+    "address": "0x4E31E06",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Archer B",
+    "address": "0x4E31E12",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Chapel - Archer C",
+    "address": "0x4E31DFA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Salem Witch",
+    "address": "0x5902E9A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Gremlin",
+    "address": "0x5902E76",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Imp",
+    "address": "0x5902E5E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Imp [Remove stunlock]",
+    "address": "0x594CEF4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Alchemy Lab - Lesser Demon A",
+    "address": "0x5902DE6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Lesser Demon B",
+    "address": "0x594ABC8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x594ABEC",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Alchemy Lab - Fire Demon A",
+    "address": "0x5902DCE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Alchemy Lab - Fire Demon B",
+    "address": "0x594757C",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Alchemy Lab - Malachi",
+    "address": "0x5902DAA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Beezelbub A",
+    "address": "0x6590EBE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Beezelbub B",
+    "address": "0x6590EB2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Beezelbub - Worms",
+    "address": "0x6590ED6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Beezelbub - Flies",
+    "address": "0x6590ECA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Jack O Bones",
+    "address": "0x51AD202",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Entrance - Nova Skeleton",
+    "address": "0x51AD226",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Dodo Bird",
+    "address": "0x51AD2DA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Dragon Rider A",
+    "address": "0x51AD26E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Dragon Rider B",
+    "address": "0x51AD37A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Blue Venus Weed (Base)",
+    "address": "0x51AD292",
+    "type": "short",
+    "value": "0x0FFF"
+  }, {
+    "comment": "R. Entrance - Blue Venus Weed (Flower)",
+    "address": "0x51AD29E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Blue Venus Weed (Weeds)",
+    "address": "0x51AD2AA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Blue Venus Weed (Leaf)",
+    "address": "0x51FBE08",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "comment": "R. Entrance - Blue Venus Weed (Leaf)",
+    "address": "0x51FBED0",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "comment": "R. Entrance - Fire Warg",
+    "address": "0x51AD1EA",
+    "type": "short",
+    "value": "0xFF1F"
+  }, {
+    "comment": "R. Entrance - Warg Rider",
+    "address": "0x51AD1DE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Ourobouros A",
+    "address": "0x51AD23E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Ourobouros B",
+    "address": "0x51AD24A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Ourobouros C",
+    "address": "0x51AD262",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Entrance - Ourobouros D",
+    "address": "0x51AD27A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - Minotaur",
+    "address": "0x575117E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - Stone skull",
+    "address": "0x575131A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - White Dragon",
+    "address": "0x578DFC4",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - Werewolf",
+    "address": "0x57511AE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - Azaghal",
+    "address": "0x578C158",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Colosseum - Behemoth",
+    "address": "0x576B128",
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "address": "0x576B1A8",
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "address": "0x576B228",
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "type": "word",
+    "value": "0x040E040D"
+  }, {
+    "address": "0x576B2A8",
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "type": "word",
+    "value": "0x040D040E"
+  }, {
+    "comment": "Trio - Grant",
+    "address": "0x6470AC2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Trio - Sypha",
+    "address": "0x6470AB6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Trio - Trevor",
+    "address": "0x6470AAA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Trio - Trevor Zombie",
+    "address": "0x6470B52",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Azaghal",
+    "address": "0x514C184",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Chtulu",
+    "address": "0x50F8376",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Ghost dancer",
+    "address": "0x50F8406",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Olrox Quarters - Medusa Head A",
+    "address": "0x50F8412",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Medusa Head B",
+    "address": "0x50F841E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Karasuman",
+    "address": "0x50F839A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Fyling Zombie A",
+    "address": "0x50F83D6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Fyling Zombie B",
+    "address": "0x50F83E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Olrox Quarters - Malachi",
+    "address": "0x50F8352",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Akmodan II",
+    "address": "0x69D19D6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Gorgon A",
+    "address": "0x4F8572E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Gorgon B",
+    "address": "0x4F8573A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Gorgon C",
+    "address": "0x4FE1E78",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Jack O Bones",
+    "address": "0x4F85692",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Marble Gallery - Stone Skull",
+    "address": "0x4F85686",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Medusa Head A",
+    "address": "0x4F8575E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Medusa Head B",
+    "address": "0x4F8576A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Nova Skeleton",
+    "address": "0x4F856B6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Guardian",
+    "address": "0x4F85626",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Gurka",
+    "address": "0x4F856E6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Blade",
+    "address": "0x4F856FE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Thornweed A",
+    "address": "0x4F85656",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Thornweed B",
+    "address": "0x4F8566E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Marble Gallery - Thornweed C",
+    "address": "0x4FD6004",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Jack O Bones",
+    "address": "0x526B58E",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Caverns - Nova Skeleton",
+    "address": "0x526B5B2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Balloon pod",
+    "address": "0x526B5E2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Imp",
+    "address": "0x526B5CA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Dark octopus",
+    "address": "0x526B4E6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Blue Venus Weed (Base)",
+    "address": "0x526B522",
+    "type": "short",
+    "value": "0x0FFF"
+  }, {
+    "comment": "R. Caverns - Blue Venus Weed (Flower)",
+    "address": "0x526B52E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Blue Venus Weed (Weeds)",
+    "address": "0x526B53A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Blue Venus Weed (Leaf)",
+    "address": "0x52CEAC8",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "address": "0x52CEB90",
+    "type": "word",
+    "value": "0x34038000"
+  }, {
+    "comment": "R. Caverns - Cave Troll",
+    "address": "0x526B4FE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Killer Fish",
+    "address": "0x526B5FA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Caverns - Rock Knight",
+    "address": "0x526B55E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Doppelganger40 [Caller]",
+    "address": "0x68ADFE8",
+    "type": "word",
+    "value": "0x0804D990"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Doppelganger40 [Function]",
+    "address": "0x1585A8",
+    "type": "word",
+    "value": "0x3416FFF0"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0x94226316"
+  }, {
+    "type": "word",
+    "value": "0xA43662EE"
+  }, {
+    "type": "word",
+    "value": "0x08070B66"
+  }, {
+    "comment": "Doppelganger40 [Prevent palette changes]",
+    "address": "0x68B23F4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B2A2C",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B3904",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B4434",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B4C24",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B4D18",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68B5224",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68AB7B0",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68AC218",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "address": "0x68ACADC",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Mines - Gaibon",
+    "address": "0x4DA4F86",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Mines - Slogra",
+    "address": "0x4DA4F62",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Mines - Bat",
+    "address": "0x4DA4FF2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Mines - Thornweed",
+    "address": "0x4DA4FC2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Death A",
+    "address": "0x66210B6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Death B",
+    "address": "0x66210C2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Death C",
+    "address": "0x66210FE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Death D",
+    "address": "0x6621116",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Salome A",
+    "address": "0x4CFB38A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Salome B",
+    "address": "0x4CFB396",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Bat",
+    "address": "0x4CFB3C6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Frozen half A",
+    "address": "0x4CFB34E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Frozen half B",
+    "address": "0x4D4266C",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton",
+    "address": "0x4CFB3D2",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Catacombs - Skeleton",
+    "address": "0x4CFB3DE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton [Special A]",
+    "address": "0x4CA5F68",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton [Special B]",
+    "address": "0x4CC18A8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton [Special C]",
+    "address": "0x4CC18C8",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton [Special D]",
+    "address": "0x4CC3D68",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "R. Catacombs - Blood Skeleton [Special E]",
+    "address": "0x4CC3D88",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Galamoth A",
+    "address": "0x6A5FE92",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Galamoth B",
+    "address": "0x6A5FE9E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Outer Wall - Stone Skull",
+    "address": "0x504FC52",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Outer Wall - Jack O Bones",
+    "address": "0x504FC5E",
+    "type": "short",
+    "value": "0xF0FF"
+  }, {
+    "comment": "R. Outer Wall - Nova Skeleton",
+    "address": "0x504FC82",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Outer Wall - Paranthropus A",
+    "address": "0x504FC2E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Outer Wall - Paranthropus B",
+    "address": "0x504FC46",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Creature",
+    "address": "0x67D04CA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Library - Schmoo",
+    "address": "0x4EE28CA",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Library - Lion",
+    "address": "0x4EE285E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Library - Scarecrow",
+    "address": "0x4EE28B2",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Library - Tinman A",
+    "address": "0x4EE2882",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Library - Tinman B",
+    "address": "0x4EE288E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Valhalla Knight",
+    "address": "0x59BBE1A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Medusa head",
+    "address": "0x59BBE0E",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Cloaked Knight A",
+    "address": "0x59BBDDE",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Cloaked Knight B",
+    "address": "0x59BBDF6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Bomb Knight",
+    "address": "0x59BBE4A",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Darkwing bat A",
+    "address": "0x59BBDC6",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "R. Clock Tower - Darkwing bat B",
+    "address": "0x59ED790",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x59ED95C",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "address": "0x59EDA1C",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Shaft",
+    "address": "0x56BDF52",
+    "type": "short",
+    "value": "0xFFFF"
+  }, {
+    "comment": "Dracula [Caller]",
+    "address": "0x694D830",
+    "type": "word",
+    "value": "0x0C04D998"
+  }, {
+    "comment": "Dracula [Function]",
+    "address": "0x1585C8",
+    "type": "word",
+    "value": "0x3414FFFF"
+  }, {
+    "type": "word",
+    "value": "0x92420048"
+  }, {
+    "type": "word",
+    "value": "0xA6540016"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "comment": "Dracula cloak (Reverse cloak) palette",
+    "address": "0x0AFB7C",
+    "type": "word",
+    "value": "0x902C8808"
+  }, {
+    "type": "word",
+    "value": "0x94638821"
+  }, {
+    "address": "0x0AFBB8",
+    "type": "word",
+    "value": "0x94638821"
+  }, {
+    "type": "word",
+    "value": "0x902C8808"
+  }, {
+    "comment": "Drip cloak (Royal cloak) palette",
+    "address": "0x0AFB8C",
+    "type": "word",
+    "value": "0xA082ACE2"
+  }, {
+    "type": "word",
+    "value": "0x90638421"
+  }, {
+    "comment": "Spell cape (Elven cloak) palette",
+    "address": "0x0AFB94",
+    "type": "word",
+    "value": "0x90609CA0"
+  }, {
+    "type": "word",
+    "value": "0xA1C49102"
+  }, {
+    "comment": "Poopy cape (Blood cloak) palette",
+    "address": "0x0AFB9C",
+    "type": "word",
+    "value": "0x88A88467"
+  }, {
+    "type": "word",
+    "value": "0x8D2F88CC"
+  }, {
+    "comment": "Dracula cloak Name",
+    "address": "0x0F433C",
+    "type": "word",
+    "value": "0x43415224"
+  }, {
+    "type": "word",
+    "value": "0x00414C55"
+  }, {
+    "comment": "Dracula cloak Atk",
+    "address": "0xB4A58",
+    "type": "short",
+    "value": "0x0004"
+  }, {
+    "comment": "Dracula cloak Con",
+    "address": "0xB4A5D",
+    "type": "char",
+    "value": "0x10"
+  }, {
+    "comment": "Dracula cloak Icon",
+    "address": "0xB4A68",
+    "type": "char",
+    "value": "0xDC"
+  }, {
+    "comment": "Drip cloak Name",
+    "address": "0x0F42AC",
+    "type": "word",
+    "value": "0x50495224"
+  }, {
+    "type": "word",
+    "value": "0x4F4C4300"
+  }, {
+    "type": "word",
+    "value": "0x00FF4B41"
+  }, {
+    "comment": "Spell cape Name",
+    "address": "0x0F430C",
+    "type": "word",
+    "value": "0x4C455033"
+  }, {
+    "type": "word",
+    "value": "0x4143004C"
+  }, {
+    "type": "word",
+    "value": "0x00FF4550"
+  }, {
+    "comment": "Spell cape Description",
+    "address": "0x0B4A74",
+    "type": "word",
+    "value": "0x800DF214"
+  }, {
+    "address": "0x0F42DC",
+    "type": "word",
+    "value": "0x7374654C"
+  }, {
+    "type": "word",
+    "value": "0x756F7920"
+  }, {
+    "type": "word",
+    "value": "0x6E695720"
+  }, {
+    "type": "word",
+    "value": "0x616D7367"
+  }, {
+    "type": "word",
+    "value": "0x81206873"
+  }, {
+    "type": "word",
+    "value": "0x756F596B"
+  }, {
+    "type": "word",
+    "value": "0x726C6120"
+  }, {
+    "type": "word",
+    "value": "0x79646165"
+  }, {
+    "type": "word",
+    "value": "0x756F6320"
+  }, {
+    "type": "word",
+    "value": "0x6C81646C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Poopy cape Name",
+    "address": "0x0F4288",
+    "type": "word",
+    "value": "0x504F4F30"
+  }, {
+    "type": "word",
+    "value": "0x41430059"
+  }, {
+    "type": "word",
+    "value": "0x00FF4550"
+  }, {
+    "comment": "Poopy cape Description",
+    "address": "0x0B4AD4",
+    "type": "word",
+    "value": "0x800DF194"
+  }, {
+    "address": "0x0F425C",
+    "type": "word",
+    "value": "0x20657355"
+  }, {
+    "type": "word",
+    "value": "0x74207469"
+  }, {
+    "type": "word",
+    "value": "0x6E69206F"
+  }, {
+    "type": "word",
+    "value": "0x61636964"
+  }, {
+    "type": "word",
+    "value": "0x79206574"
+  }, {
+    "type": "word",
+    "value": "0x6581756F"
+  }, {
+    "type": "word",
+    "value": "0x73206572"
+  }, {
+    "type": "word",
+    "value": "0x65726163"
+  }, {
+    "type": "word",
+    "value": "0x00000064"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Poopy cape Def",
+    "address": "0x0B4ADA",
+    "type": "short",
+    "value": "0x0009"
+  }, {
+    "comment": "Poopy cape Con",
+    "address": "0x0B4ADD",
+    "type": "char",
+    "value": "0xF3"
+  }, {
+    "comment": "Cape Data Bugfixes",
+    "address": "0x0B4A90",
+    "type": "word",
+    "value": "0x800DF244"
+  }, {
+    "address": "0x0B4AF0",
+    "type": "word",
+    "value": "0x800DF164"
+  }, {
+    "comment": "Dracula cloak icon palette",
+    "address": "0x0EE8DC",
+    "type": "word",
+    "value": "0xEFFF0000"
+  }, {
+    "type": "word",
+    "value": "0xC5F05653"
+  }, {
+    "type": "word",
+    "value": "0x8C429063"
+  }, {
+    "type": "word",
+    "value": "0x84218C42"
+  }, {
+    "type": "word",
+    "value": "0x94418421"
+  }, {
+    "type": "word",
+    "value": "0x8808B506"
+  }, {
+    "type": "word",
+    "value": "0x9A3A902C"
+  }, {
+    "type": "word",
+    "value": "0xC75DB6BD"
+  }, {
+    "comment": "Drip cloak icon palette",
+    "address": "0x0EE93C",
+    "type": "word",
+    "value": "0xEFFF0000"
+  }, {
+    "type": "word",
+    "value": "0xC5F05653"
+  }, {
+    "type": "word",
+    "value": "0x8C429063"
+  }, {
+    "type": "word",
+    "value": "0x84218C42"
+  }, {
+    "type": "word",
+    "value": "0x94418421"
+  }, {
+    "type": "word",
+    "value": "0xA082B506"
+  }, {
+    "type": "word",
+    "value": "0xC5F0ACE2"
+  }, {
+    "type": "word",
+    "value": "0xC75DB6BD"
+  }, {
+    "comment": "Spell cape icon palette",
+    "address": "0x0EE8FC",
+    "type": "word",
+    "value": "0xEFFF0000"
+  }, {
+    "type": "word",
+    "value": "0xA6CCCBCC"
+  }, {
+    "type": "word",
+    "value": "0xA484A1C4"
+  }, {
+    "type": "word",
+    "value": "0xAC849102"
+  }, {
+    "type": "word",
+    "value": "0x83E1AC84"
+  }, {
+    "type": "word",
+    "value": "0xA8A683C0"
+  }, {
+    "type": "word",
+    "value": "0x9A3A3102"
+  }, {
+    "type": "word",
+    "value": "0xC75DB6BD"
+  }, {
+    "comment": "Poopy cape icon palette",
+    "address": "0x0EE95C",
+    "type": "word",
+    "value": "0xEFFF0000"
+  }, {
+    "type": "word",
+    "value": "0xCEF7DF7B"
+  }, {
+    "type": "word",
+    "value": "0xA9EFBE73"
+  }, {
+    "type": "word",
+    "value": "0x8CE8954A"
+  }, {
+    "type": "word",
+    "value": "0x88CC8484"
+  }, {
+    "type": "word",
+    "value": "0x88A88D2F"
+  }, {
+    "type": "word",
+    "value": "0x9B5888CC"
+  }, {
+    "type": "word",
+    "value": "0xC75DB6BD"
+  }, {
+    "comment": "Cool glasses Name",
+    "address": "0x0F46AC",
+    "type": "word",
+    "value": "0x4C4F4F23"
+  }, {
+    "type": "word",
+    "value": "0x414C4700"
+  }, {
+    "type": "word",
+    "value": "0x53455353"
+  }, {
+    "type": "word",
+    "value": "0x000000FF"
+  }, {
+    "comment": "Cool glasses icon palette",
+    "address": "0x0EE08C",
+    "type": "word",
+    "value": "0xEFFF0000"
+  }, {
+    "type": "word",
+    "value": "0xB14AC210"
+  }, {
+    "type": "word",
+    "value": "0xA9EF9CE8"
+  }, {
+    "type": "word",
+    "value": "0x8C42954A"
+  }, {
+    "type": "word",
+    "value": "0x94418421"
+  }, {
+    "type": "word",
+    "value": "0xA946B506"
+  }, {
+    "type": "word",
+    "value": "0xB14A9CE8"
+  }, {
+    "type": "word",
+    "value": "0xC75DA0A5"
+  }, {
+    "comment": "Deez Nutz hat Name",
+    "address": "0x0F45DC",
+    "type": "word",
+    "value": "0x5A454524"
+  }, {
+    "type": "word",
+    "value": "0x54552E00"
+  }, {
+    "type": "word",
+    "value": "0x4148005A"
+  }, {
+    "type": "word",
+    "value": "0x0000FF54"
+  }, {
+    "comment": "Deez Nutz hat Description",
+    "address": "0x0B4834",
+    "type": "word",
+    "value": "0x800DF524"
+  }, {
+    "address": "0x0F45EC",
+    "type": "word",
+    "value": "0x656B614D"
+  }, {
+    "type": "word",
+    "value": "0x68632073"
+  }, {
+    "type": "word",
+    "value": "0x70207461"
+  }, {
+    "type": "word",
+    "value": "0x2074736F"
+  }, {
+    "type": "word",
+    "value": "0x7A656544"
+  }, {
+    "type": "word",
+    "value": "0x74754E20"
+  }, {
+    "type": "word",
+    "value": "0x0000007A"
+  }, {
+    "comment": "Deez Nutz hat icon palette",
+    "address": "0x0B484A",
+    "type": "char",
+    "value": "0xCE"
+  }, {
+    "comment": "Speedrun shoes Name",
+    "address": "0x0F3CA0",
+    "type": "word",
+    "value": "0x45455033"
+  }, {
+    "type": "word",
+    "value": "0x4E555244"
+  }, {
+    "type": "word",
+    "value": "0x4F485300"
+  }, {
+    "type": "word",
+    "value": "0x00FF5345"
+  }, {
+    "comment": "Speedrun shoes Description",
+    "address": "0x0F3C84",
+    "type": "word",
+    "value": "0x66726550"
+  }, {
+    "type": "word",
+    "value": "0x20746365"
+  }, {
+    "type": "word",
+    "value": "0x20726F66"
+  }, {
+    "type": "word",
+    "value": "0x65657073"
+  }, {
+    "type": "word",
+    "value": "0x6E757264"
+  }, {
+    "type": "word",
+    "value": "0x676E696E"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Speedrun shoes Strength",
+    "address": "0x0B500C",
+    "type": "char",
+    "value": "0x00"
+  }, {
+    "comment": "Speedrun shoes Icon data",
+    "address": "0x0B5018",
+    "type": "word",
+    "value": "0x004E00FF"
+  }, {
+    "comment": "Shady lettuce Name",
+    "address": "0x0F2F58",
+    "type": "word",
+    "value": "0x44414833"
+  }, {
+    "type": "word",
+    "value": "0x454C0059"
+  }, {
+    "type": "word",
+    "value": "0x43555454"
+  }, {
+    "type": "word",
+    "value": "0x0000FF45"
+  }, {
+    "comment": "Shady lettuce Description",
+    "address": "0xB21E0",
+    "type": "word",
+    "value": "0x801367A0"
+  }, {
+    "address": "0x158708",
+    "type": "word",
+    "value": "0x6E6F7453"
+  }, {
+    "type": "word",
+    "value": "0x79207365"
+  }, {
+    "type": "word",
+    "value": "0x7372756F"
+  }, {
+    "type": "word",
+    "value": "0x20666C65"
+  }, {
+    "type": "word",
+    "value": "0x73756D81"
+  }, {
+    "type": "word",
+    "value": "0x006E8165"
+  }, {
+    "comment": "Shady lettuce Atk",
+    "address": "0x0B21E4",
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Shady lettuce Icon data",
+    "address": "0x0B2208",
+    "type": "word",
+    "value": "0x00480044"
+  }, {
+    "comment": "Shady lettuce icon palette",
+    "address": "0x0ED45C",
+    "type": "word",
+    "value": "0x84610000"
+  }, {
+    "type": "word",
+    "value": "0x992D8922"
+  }, {
+    "type": "word",
+    "value": "0x9DD49A8D"
+  }, {
+    "type": "word",
+    "value": "0x9A8D8922"
+  }, {
+    "type": "word",
+    "value": "0xA51F91E7"
+  }, {
+    "type": "word",
+    "value": "0x801C8011"
+  }, {
+    "type": "word",
+    "value": "0xA5CE9929"
+  }, {
+    "type": "word",
+    "value": "0xA65ABA73"
+  }, {
+    "comment": "Pacifist sword Name",
+    "address": "0xB244C",
+    "type": "word",
+    "value": "0x800DDF44"
+  }, {
+    "address": "0xF2C7C",
+    "type": "word",
+    "value": "0x49434130"
+  }, {
+    "type": "word",
+    "value": "0x54534946"
+  }, {
+    "type": "word",
+    "value": "0x4F575300"
+  }, {
+    "type": "word",
+    "value": "0x00FF4452"
+  }, {
+    "comment": "Pacifist sword Description",
+    "address": "0xF2C60",
+    "type": "word",
+    "value": "0x73746553"
+  }, {
+    "type": "word",
+    "value": "0x6C694B20"
+  }, {
+    "type": "word",
+    "value": "0x6F63206C"
+  }, {
+    "type": "word",
+    "value": "0x20746E75"
+  }, {
+    "type": "word",
+    "value": "0x82206F74"
+  }, {
+    "type": "word",
+    "value": "0x0000004F"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Pacifist sword Atk",
+    "address": "0xB2454",
+    "type": "short",
+    "value": "0x0005"
+  }, {
+    "comment": "Pacifist sword palette",
+    "address": "0xB245C",
+    "type": "char",
+    "value": "0x02"
+  }, {
+    "comment": "Pacifist sword item category (1-hand)",
+    "address": "0xB245A",
+    "type": "char",
+    "value": "0x04"
+  }, {
+    "comment": "Pacifist sword icon",
+    "address": "0xB2478",
+    "type": "short",
+    "value": "0x0067"
+  }, {
+    "comment": "Pacifist sword icon palette",
+    "address": "0xED5DC",
+    "type": "word",
+    "value": "0x84210000"
+  }, {
+    "type": "word",
+    "value": "0x952F84CA"
+  }, {
+    "type": "word",
+    "value": "0xB55FC273"
+  }, {
+    "type": "word",
+    "value": "0x8C64DF7B"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x80F984B1"
+  }, {
+    "type": "word",
+    "value": "0xB55A84B1"
+  }, {
+    "comment": "Batucard helm Name",
+    "address": "0xB4870",
+    "type": "word",
+    "value": "0x800DF4C4"
+  }, {
+    "address": "0xF458C",
+    "type": "word",
+    "value": "0x55544122"
+  }, {
+    "type": "word",
+    "value": "0x44524143"
+  }, {
+    "type": "word",
+    "value": "0x4C454800"
+  }, {
+    "type": "word",
+    "value": "0x0000FF4D"
+  }, {
+    "comment": "Batucard helm Description",
+    "address": "0xF4574",
+    "type": "word",
+    "value": "0x49206F44"
+  }, {
+    "type": "word",
+    "value": "0x65656E20"
+  }, {
+    "type": "word",
+    "value": "0x6F742064"
+  }, {
+    "type": "word",
+    "value": "0x6C657420"
+  }, {
+    "type": "word",
+    "value": "0x8144816C"
+  }, {
+    "type": "word",
+    "value": "0x00448144"
+  }, {
+    "comment": "Batucard helm icon data",
+    "address": "0xB4888",
+    "type": "word",
+    "value": "0x000F00B5"
+  }, {
+    "comment": "Bowl of milk Name",
+    "address": "0xB2E6C",
+    "type": "word",
+    "value": "0x800DD864"
+  }, {
+    "address": "0xF259C",
+    "type": "word",
+    "value": "0x4C574F22"
+  }, {
+    "type": "word",
+    "value": "0x00464F00"
+  }, {
+    "type": "word",
+    "value": "0x4B4C494D"
+  }, {
+    "type": "word",
+    "value": "0x000000FF"
+  }, {
+    "comment": "Bowl of milk Description",
+    "address": "0xB2E70",
+    "type": "word",
+    "value": "0x801367BC"
+  }, {
+    "address": "0x158724",
+    "type": "word",
+    "value": "0x814E4F44"
+  }, {
+    "type": "word",
+    "value": "0x53205465"
+  }, {
+    "type": "word",
+    "value": "0x4C4C4950"
+  }, {
+    "type": "word",
+    "value": "0x81544920"
+  }, {
+    "type": "word",
+    "value": "0x6D812049"
+  }, {
+    "type": "word",
+    "value": "0x81657375"
+  }, {
+    "type": "word",
+    "value": "0x0000006E"
+  }, {
+    "comment": "Bowl of milk Icon",
+    "address": "0xB2E98",
+    "type": "short",
+    "value": "0x003C"
+  }, {
+    "comment": "Bowl of milk icon palette",
+    "address": "0xEDC8C",
+    "type": "word",
+    "value": "0x88420000"
+  }, {
+    "type": "word",
+    "value": "0xB969D694"
+  }, {
+    "type": "word",
+    "value": "0xEB9DE33A"
+  }, {
+    "type": "word",
+    "value": "0x9884E33A"
+  }, {
+    "type": "word",
+    "value": "0xC1EFB86B"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xB969F3DE"
+  }, {
+    "type": "word",
+    "value": "0xD694E33A"
+  }, {
+    "comment": "Speedrun shoes [Caller]",
+    "address": "0x12C1D8",
+    "type": "word",
+    "value": "0x0804D9BC"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Speedrun shoes [Function]",
+    "address": "0x158658",
+    "type": "word",
+    "value": "0x34040056"
+  }, {
+    "type": "word",
+    "value": "0x0C03F5F0"
+  }, {
+    "type": "word",
+    "value": "0x34050004"
+  }, {
+    "type": "word",
+    "value": "0x34040617"
+  }, {
+    "type": "word",
+    "value": "0x10400002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34040674"
+  }, {
+    "type": "word",
+    "value": "0x0C04D1FE"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x08043F7A"
+  }, {
+    "comment": "Shady lettuce [Function]",
+    "address": "0x3ADFC5C",
+    "type": "word",
+    "value": "0x3402000B"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0xA4223404"
+  }, {
+    "type": "word",
+    "value": "0xA4203406"
+  }, {
+    "type": "word",
+    "value": "0x0805EBBD"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Pacifist sword [Caller]",
+    "address": "0x110304",
+    "type": "word",
+    "value": "0x0804D9CC"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Pacifist sword [Function]",
+    "address": "0x158698",
+    "type": "word",
+    "value": "0x34040054"
+  }, {
+    "type": "word",
+    "value": "0x0C03F5F0"
+  }, {
+    "type": "word",
+    "value": "0x34050000"
+  }, {
+    "type": "word",
+    "value": "0x3C048009"
+  }, {
+    "type": "word",
+    "value": "0x8C847BF4"
+  }, {
+    "type": "word",
+    "value": "0x10400002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x34050148"
+  }, {
+    "type": "word",
+    "value": "0x0803DE05"
+  }, {
+    "comment": "Batucard helm [Caller]",
+    "address": "0x134308",
+    "type": "word",
+    "value": "0x0804D9DC"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Batucard helm [Function]",
+    "address": "0x1586D8",
+    "type": "word",
+    "value": "0x3C108009"
+  }, {
+    "type": "word",
+    "value": "0x86107C08"
+  }, {
+    "type": "word",
+    "value": "0x34110023"
+  }, {
+    "type": "word",
+    "value": "0x16110002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34020001"
+  }, {
+    "type": "word",
+    "value": "0x3C018007"
+  }, {
+    "type": "word",
+    "value": "0xA422342C"
+  }, {
+    "type": "word",
+    "value": "0x08045B9E"
+  }, {
+    "comment": "Bowl of milk [Attack Function]",
+    "address": "0x3A5F600",
+    "type": "word",
+    "value": "0x34140020"
+  }, {
+    "type": "word",
+    "value": "0x3C018013"
+  }, {
+    "type": "word",
+    "value": "0xA43467E0"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x0C05EAF7"
+  }, {
+    "type": "word",
+    "value": "0x02002021"
+  }, {
+    "type": "word",
+    "value": "0x0805EC5E"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Bowl of milk [Caller]",
+    "address": "0x125CF8",
+    "type": "word",
+    "value": "0x0804D9FC"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Bowl of milk [Function]",
+    "address": "0x158758",
+    "type": "word",
+    "value": "0x3C018013"
+  }, {
+    "type": "word",
+    "value": "0x8C2267E0"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10400035"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x2442FFFF"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xAC2267E0"
+  }, {
+    "type": "word",
+    "value": "0x14400030"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34030000"
+  }, {
+    "type": "word",
+    "value": "0x34140080"
+  }, {
+    "type": "word",
+    "value": "0x3C018009"
+  }, {
+    "type": "word",
+    "value": "0x8C227C00"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x14540002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34150004"
+  }, {
+    "type": "word",
+    "value": "0x8C227C04"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x14540002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34150008"
+  }, {
+    "type": "word",
+    "value": "0x12A00021"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34040054"
+  }, {
+    "type": "word",
+    "value": "0x0C03F5F0"
+  }, {
+    "type": "word",
+    "value": "0x34050004"
+  }, {
+    "type": "word",
+    "value": "0x1440000E"
+  }, {
+    "type": "word",
+    "value": "0x3C018009"
+  }, {
+    "type": "word",
+    "value": "0x8C227BA8"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10400018"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x2442FFFF"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xAC227BA8"
+  }, {
+    "type": "word",
+    "value": "0x14400005"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x24427BFC"
+  }, {
+    "type": "word",
+    "value": "0x00551021"
+  }, {
+    "type": "word",
+    "value": "0xAC400000"
+  }, {
+    "type": "word",
+    "value": "0x3405001A"
+  }, {
+    "type": "word",
+    "value": "0x3C048007"
+  }, {
+    "type": "word",
+    "value": "0x8C84C3B8"
+  }, {
+    "type": "word",
+    "value": "0x0C046ABF"
+  }, {
+    "type": "word",
+    "value": "0x00003021"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34050008"
+  }, {
+    "type": "word",
+    "value": "0x3C048009"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA0857BFC"
+  }, {
+    "type": "word",
+    "value": "0x34140020"
+  }, {
+    "type": "word",
+    "value": "0x3C018013"
+  }, {
+    "type": "word",
+    "value": "0xA43467E0"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C028009"
+  }, {
+    "type": "word",
+    "value": "0x8C4273FC"
+  }, {
+    "type": "word",
+    "value": "0x08042986"
+  }]
+}
