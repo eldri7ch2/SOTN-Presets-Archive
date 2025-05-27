@@ -4,7 +4,7 @@
     "name": "Capt. Falcon",
     "description": "Expanded from Bounty Hunter preset, removes Vlads and makes them droppable via third-party app. Nimble Movement",
     "author": "eldri7ch and MottZilla0",
-    "weight": -100
+    "weight": 6006
   },
   "stats": false,
   "startingEquipment": [{

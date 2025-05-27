@@ -4,7 +4,7 @@
     "name": "Assassin",
     "description": "Expanded from Warlock preset, removes Vlads and makes them droppable via third-party app.",
     "author": "Wild Mouse, eldri7ch and MottZilla0",
-    "weight": -100
+    "weight": 6003
   },
   "stats": false,
   "lockLocation": [{

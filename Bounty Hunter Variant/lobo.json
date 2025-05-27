@@ -4,7 +4,7 @@
     "name": "Lobo",
     "description": "Similar to casual but with new stuff, complexity 8, spread locations, no death at entrance. NOW WITH BOUNTIES",
     "author": "Forat Negre, Wecoc, eldri7ch, Mottzilla",
-    "weight": -3250
+    "weight": 6007
   },
   "stats": false,
   "relicLocationsExtension": "spread",

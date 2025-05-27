@@ -4,7 +4,7 @@
     "name": "Gravis",
     "description": "This preset removes luck completely. Pure skill. You always get the drops, and there are no rando Vlads or rings",
     "author": "Forat Negre, Wecoc, eldri7ch",
-    "weight": -500
+    "weight": 6008
   },
 
   "stats": false,
