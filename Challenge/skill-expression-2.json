@@ -25,6 +25,7 @@
   "enemyStatRandoMode": true,
   "shopPriceRandoMode": true,
   "startRoomRandoMode": true,
+  "newGoals": "b",
 
   "complexityGoal": {
     "min": 9,
